@@ -1,5 +1,6 @@
-# virtualenv
-venv
-
 # OS
 .DS_Store
+
+# Roots
+node_modules
+public
