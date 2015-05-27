@@ -1,6 +1,7 @@
 {
   "name": "bigmama",
   "description": "The big mama redesign of all redesigns. Spark SC website overhaul.",
+  "repository": "https://github.com/GoSparkSC/bigmama.git",
   "dependencies": {
     "autoprefixer-stylus": "0.5.x",
     "axis": "0.3.x",
