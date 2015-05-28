@@ -3,11 +3,73 @@
 normalize-css()
 base()
 
-.nav
-  width: 60px; height 400px;
-  position: absolute;
-  top: 0; left: 0;
-  background: black;
+// menu
 
-  img
-    width: 100%;
+$menu-width = 120px;
+$menu-padding-lr = 20px;
+$menu-padding-tb = 40px;
+
+.menu  
+    width: $menu-width;
+    position: fixed;
+    top: 0; bottom: 0; left: 0;
+    background: #111;
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.25);
+    z-index: 99;
+    
+    img
+        width: $menu-width - $menu-padding-lr*2;
+        top: $menu-padding-tb; right: $menu-padding-lr; left: $menu-padding-lr;
+        position: absolute;
+    
+    .nav
+        height: 390px; // approx. to enable verticle centering
+        margin: auto;
+        position: absolute;
+        top: 0; bottom: 0;
+        
+        ul
+            width: 100%;
+            margin: 0; padding: 0;
+            list-style: none;
+            
+            li
+                width: $menu-width - $menu-padding-lr*2;
+                margin: 0; padding: 24px $menu-padding-lr;
+                font-size: 17.5px; font-weight: 400;
+                text-align: center; text-transform: uppercase;
+                
+                &.selected
+                    background: #222;
+
+                a
+                    text-decoration: none;
+                    color: white;
+    .sm
+        width: $menu-width - $menu-padding-lr*2;
+        right: $menu-padding-lr; bottom: $menu-padding-tb; left: $menu-padding-lr;
+        position: absolute;
+        
+        ul
+            width: 100%;
+            margin: 0; padding: 0;
+            list-style: none;
+            
+            li
+                width: 100%;
+                margin: 0; padding: 20px 0;
+
+                a
+                    width: 100%;
+                    text-decoration: none;
+                    
+                    img
+                        width: 50px; height: 50px;
+
+// content
+
+.content
+    padding-left: $menu-width;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: 1;

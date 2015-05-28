@@ -1,7 +1,8 @@
 doctype html
+
 html
 
-  head
+head
     meta(charset='utf8')
     meta(http-equiv='X-UA-Compatible', content='IE=edge, chrome=1')
     meta(name='description', content='Innovators and entrepreneurs at the University of Southern California.')
@@ -11,7 +12,37 @@ html
 
     != css()
 
-  body
+body
+
+    div#menu.menu
+
+        img(src='img/logo.png' alt='Spark SC')
+
+        nav#nav.nav
+            ul
+                li(class='selected')
+                    a(href='#') Home
+                li
+                    a(href='#') About
+                li
+                    a(href='#') What We Do
+                li
+                    a(href='#') Who We Are
+                li
+                    a(href='#') Contact
+
+        section#sm.sm
+            ul
+                li
+                    a(href='#')
+                        img(src='img/sm/facebook.svg' alt='facebook')
+                li
+                    a(href='#')
+                        img(src='img/sm/twitter.svg' alt='twitter')
+                li
+                    a(href='#')
+                        img(src='img/sm/instagram.svg' alt='instagram')
+
     block content
 
     != js()
