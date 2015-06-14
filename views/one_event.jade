@@ -24,7 +24,7 @@ block single_events
 
                     div.col-md-4
                         div.row.goals
-                            p.yellow GOAL:
+                            p.yellow GOAL
                             p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a efficitur augue, at convallis ante. Suspendisse interdum dictum dictum. Donec et massa nibh. Curabitur a vulputate magna.
 
                 div.row
@@ -59,29 +59,35 @@ block single_events
 
                         div.row
                             div.partners
-                                img.logo(src="https://www.facebook.com/images/fb_icon_325x325.png")
-                                img.logo(src="https://www.facebook.com/images/fb_icon_325x325.png")
-                                img.logo(src="https://www.facebook.com/images/fb_icon_325x325.png")
-                                img.logo(src="https://www.facebook.com/images/fb_icon_325x325.png")
+                                img.partner-logo(src="https://www.facebook.com/images/fb_icon_325x325.png")
+                                img.partner-logo(src="https://www.facebook.com/images/fb_icon_325x325.png")
+                                img.partner-logo(src="https://www.facebook.com/images/fb_icon_325x325.png")
+                                img.partner-logo(src="https://www.facebook.com/images/fb_icon_325x325.png")
 
                     div.col-md-1
 
                     div.col-md-4
                         p.yellow PRESS
-                        p LINK
-                        p LINK
+                        div.col-xs-6.col-md-12(style="width:auto")
+                            p LINKLINKLINKLINKLINKLINKLINK
+                        div.col-xs-6.col-md-12(style="width:auto")
+                            p LINKLINKLINKLINKLINKLINKLINK
 
-            div.col-sm-6
-                div.bottom-image(style="background-image:url('http://viterbivoices.usc.edu/wp-content/uploads/2014/12/Closing2.jpg?w=498')")
-            div.col-sm-6
-                div.bottom-image(style="background-image:url('http://viterbivoices.usc.edu/wp-content/uploads/2014/12/Closing2.jpg?w=498')")
+            div.row
+                div.col-sm-6(style="padding:0px")
+                    div.bottom-image(style="background-image:url('https://scontent-lax1-1.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/11150566_646380472162706_1814774578523370787_n.jpg?oh=868a0c045164ad3a9874bd736d83fb75&oe=55FF303E')")
+                div.col-sm-6(style="padding:0px")
+                    div.bottom-image(style="background-image:url('http://viterbivoices.usc.edu/wp-content/uploads/2014/12/Closing2.jpg?w=498')")
 
             div.row(style="background-color:black")
-                img(src='img/logo.svg', style="max-height:50px")
-                div.social-icons
-                    a(href='https://facebook.com/gosparksc' target='_blank')
-                        img.social-icon(src='img/sm/facebook.svg' alt='facebook')
-                    a(href='https://twitter.com/gosparksc' target='_blank')
-                        img.social-icon(src='img/sm/twitter.svg' alt='twitter')
-                    a(href='https://instagram.com/gosparksc' target='_blank')
-                        img.social-icon(src='img/sm/instagram.svg' alt='instagram')
+                div.col-xs-6
+                    div.letterhead
+                        img.sparksc-letterhead(src='img/letterhead.svg')
+                div.col-xs-6
+                    div.social-icons
+                        a(href='https://facebook.com/gosparksc' target='_blank')
+                            img.social-icon(src='img/sm/facebook.svg' alt='facebook')
+                        a(href='https://twitter.com/gosparksc' target='_blank')
+                            img.social-icon(src='img/sm/twitter.svg' alt='twitter')
+                        a(href='https://instagram.com/gosparksc' target='_blank')
+                            img.social-icon(src='img/sm/instagram.svg' alt='instagram')
