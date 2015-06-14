@@ -9,6 +9,9 @@ body
     font-family: $font-stack
     font-size: $font-size
     min-height: $desktop-min-height
+    
+    ::selection
+        background: $highlight-color
 
 /* menu */
 
@@ -21,9 +24,11 @@ $menu-padding-tb = 30px
     min-height: $desktop-min-height
     position: fixed
     top: 0; bottom: 0; left: 0
-    background: #111
+    background: $spark-black
     box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.25)
     z-index: 99
+    
+    noselect()
         
     .menu-icon
         width: 50px; height: 50px
@@ -72,6 +77,9 @@ $menu-padding-tb = 30px
                 a
                     text-decoration: none
                     color: white
+                    
+                :hover
+                    color: $spark-yellow
 
     .sm
         width: $menu-width - $menu-padding-lr*2
@@ -116,5 +124,5 @@ $menu-padding-tb = 30px
     .content
         left: 0        
 
-    .logo, .sm
+    .logo, .sm, .nav
         display: none
