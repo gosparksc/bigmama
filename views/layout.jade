@@ -2,49 +2,48 @@ doctype html
 
 html
 
-head
-    meta(charset='utf8')
-    meta(http-equiv='X-UA-Compatible', content='IE=edge, chrome=1')
-    meta(name='description', content='Innovators and entrepreneurs at the University of Southern California.')
-    meta(name="viewport" content="width=device-width, initial-scale=1")
-    title Spark SC &middot; Student Innovation at USC
-    link(rel='icon' href='img/favicon.ico')
+    head
 
-    block links
+        meta(charset='utf8')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge, chrome=1')
+        meta(name='description', content='Innovators and entrepreneurs at the University of Southern California.')
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+        title Spark SC &middot; Student Innovation at USC
+        link(rel='icon' href='img/favicon.ico')
 
-    != css()
+        != css()
 
-body
+    body
 
-    div#menu.menu
+        div#menu.menu
 
-        img(src='img/logo.svg' alt='Spark SC')
+            img(src='img/logo.svg' alt='Spark SC')
 
-        nav#nav.nav
-            ul
-                li(class='selected')
-                    a(href='#') Home
-                li
-                    a(href='#') About
-                li
-                    a(href='http://localhost:1111/events.html') What We Do
-                li
-                    a(href='#') Who We Are
-                li
-                    a(href='#') Contact
+            nav#nav.nav
+                ul
+                    li(class='selected')
+                        a(href='index.html') Home
+                    li
+                        a(href='#') About
+                    li
+                        a(href='events.html') What We Do
+                    li
+                        a(href='#') Who We Are
+                    li
+                        a(href='#') Contact
 
-        section#sm.sm
-            ul
-                li
-                    a(href='#')
-                        img(src='img/sm/facebook.svg' alt='facebook')
-                li
-                    a(href='#')
-                        img(src='img/sm/twitter.svg' alt='twitter')
-                li
-                    a(href='#')
-                        img(src='img/sm/instagram.svg' alt='instagram')
+            section#sm.sm
+                ul
+                    li
+                        a(href='https://www.facebook.com/gosparksc' target='_blank')
+                            img(src='img/sm/facebook.svg' alt='facebook')
+                    li
+                        a(href='https://twitter.com/gosparksc' target='_blank')
+                            img(src='img/sm/twitter.svg' alt='twitter')
+                    li
+                        a(href='https://instagram.com/gosparksc' target='_blank')
+                            img(src='img/sm/instagram.svg' alt='instagram')
 
-    block content
+        block content
 
-    != js()
+        != js()
