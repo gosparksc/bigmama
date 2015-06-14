@@ -8,43 +8,80 @@ block single_events
 
             div.event-content-container
                 div.row
-                    p EVENT TITLE
-
-                div.row
-                    p event.sparksc.org
+                    p(style="font-size:48px; font-weight:800") EVENT TITLE
+                    p(style="margin-top:-30px") EVENT.SPARKSC.ORG
 
                 div.row
                     div.bar
 
                 div.row
-                    div.col-md-6
-                        p DATE INFO
-                        p ATTENDANCE
+                    div.col-md-7
+                        div.row
+                            p DATE: Month Day, Year
+                            p ATTENDANCE: ### Students, ## Thing, # Thing
 
-                    div.col-md-6
-                        div.goals
-                            p GOAL:
+                    div.col-md-1
+
+                    div.col-md-4
+                        div.row.goals
+                            p.yellow GOAL:
                             p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a efficitur augue, at convallis ante. Suspendisse interdum dictum dictum. Donec et massa nibh. Curabitur a vulputate magna.
 
                 div.row
-                    div.col-md-6
+                    div.col-md-7
                         div.row
-                            p EVENT DESCRIPTION
+                            p(style="font-weight:700; font-style:italic;") EVENT DESCRIPTION
 
-                        div.row
                             div.desciption
                                 p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a efficitur augue, at convallis ante. Suspendisse interdum dictum dictum. Donec et massa nibh. Curabitur a vulputate magna.
                                 p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a efficitur augue, at convallis ante. Suspendisse interdum dictum dictum. Donec et massa nibh. Curabitur a vulputate magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a efficitur augue, at convallis ante. Suspendisse interdum dictum dictum. Donec et massa nibh. Curabitur a vulputate magna.
+                    div.col-md-1
 
-                    div.col-md-6
-                        p THE COMMITTEE
-                        p Lead
-                        div.committee-photos
-                            div.row
-                                div.col-sm-4.member-photo
-                                div.col-sm-4.member-photo
-                                div.col-sm-4.member-photo
-                            div.row
-                                div.col-sm-4.member-photo
-                                div.col-sm-4.member-photo
-                                div.col-sm-4.member-photo
+                    div.col-md-4
+                        div.row
+                            p.yellow THE COMMITTEE
+                            p Lead
+                        div.row
+                            div.committee-photos
+                                div.row
+                                    div.col-xs-3.member-photo
+                                    div.col-xs-3.member-photo
+                                    div.col-xs-3.member-photo
+                                div.row
+                                    div.col-xs-4.member-photo
+                                    div.col-xs-4.member-photo
+                                    div.col-xs-4.member-photo
+
+                div.row
+                    div.col-md-7
+                        div.row
+                            p.yellow Our Partners and Sponsors
+
+                        div.row
+                            div.partners
+                                img.logo(src="https://www.facebook.com/images/fb_icon_325x325.png")
+                                img.logo(src="https://www.facebook.com/images/fb_icon_325x325.png")
+                                img.logo(src="https://www.facebook.com/images/fb_icon_325x325.png")
+                                img.logo(src="https://www.facebook.com/images/fb_icon_325x325.png")
+
+                    div.col-md-1
+
+                    div.col-md-4
+                        p.yellow PRESS
+                        p LINK
+                        p LINK
+
+            div.col-sm-6
+                div.bottom-image(style="background-image:url('http://viterbivoices.usc.edu/wp-content/uploads/2014/12/Closing2.jpg?w=498')")
+            div.col-sm-6
+                div.bottom-image(style="background-image:url('http://viterbivoices.usc.edu/wp-content/uploads/2014/12/Closing2.jpg?w=498')")
+
+            div.row(style="background-color:black")
+                img(src='img/logo.svg', style="max-height:50px")
+                div.social-icons
+                    a(href='https://facebook.com/gosparksc' target='_blank')
+                        img.social-icon(src='img/sm/facebook.svg' alt='facebook')
+                    a(href='https://twitter.com/gosparksc' target='_blank')
+                        img.social-icon(src='img/sm/twitter.svg' alt='twitter')
+                    a(href='https://instagram.com/gosparksc' target='_blank')
+                        img.social-icon(src='img/sm/instagram.svg' alt='instagram')
