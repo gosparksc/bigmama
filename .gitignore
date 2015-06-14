@@ -4,3 +4,6 @@
 # Roots
 node_modules
 public
+
+# Node
+npm-debug.log
