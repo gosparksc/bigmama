@@ -16,7 +16,7 @@ $menu-width = 120px
 $menu-padding-lr = 20px
 $menu-padding-tb = 30px
 
-.menu  
+.menu
     width: $menu-width
     min-height: $desktop-min-height
     position: fixed
@@ -24,7 +24,7 @@ $menu-padding-tb = 30px
     background: #111
     box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.25)
     z-index: 99
-    
+        
     .menu-icon
         width: 50px; height: 50px
         position: relative
@@ -52,17 +52,19 @@ $menu-padding-tb = 30px
         margin: auto
         position: absolute
         top: 0; bottom: 0
-        
+                
         ul
             width: 100%
             margin: 0; padding: 0
             list-style: none
-            
+                        
             li
                 width: $menu-width - $menu-padding-lr*2
                 margin: 0; padding: 24px $menu-padding-lr
                 font-size: 17.5px; font-weight: 600
                 text-align: center; text-transform: uppercase
+                
+                content-box()
                 
                 &.selected
                     background: #222
