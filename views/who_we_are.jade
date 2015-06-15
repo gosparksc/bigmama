@@ -8,51 +8,71 @@ block content
                     p(style="color:white;margin:auto;font-weight:200;font-size:18px") Spark SC is made up of twelve student organizations, whose leaders meet twice a month as the Spark SC Council to collaborate, update and share their vision for USC's entrepreneurial community.
                     div.bar(style="background-color:white")
 
-                div.row(style="font-size:20px;font-style: italic")
-                    p.col-md-2 LAVALAB
-                    p.col-md-2 3D4E
-                    p.col-md-4 DESIGN FOR AMERICA
-                    p.col-md-4 CORPUS COLLOSUM
+                div#orgs.row(style="font-size:20px;font-style: italic; margin-bottom:20px")
+                    p.col-md-2.org.lavalab LAVALAB
+                    p.col-md-2.org.3d4e 3D4E
+                    p.col-md-4.org.dfa DESIGN FOR AMERICA
+                    p.col-md-4.org.corpus CORPUS COLLOSUM
 
-                //- div.row(style="color:white;font-size:28px;white-space:nowrap;width:auto;letter-spacing: 2px")
-                //-     p.col-md-5.col-lg-4 PRODUCT DESIGN
-                //-     p.col-md-4.col-lg-3 3D PRINTING
-                //-     p.col-md-3.col-lg-3 DESIGN
+                div#qualities.row(style="color:white;font-size:28px;white-space:nowrap;width:auto;letter-spacing: 2px")
+                    p.col-md-5.quality.lava PRODUCT DESIGN
+                    p.col-md-4.quality.3d4e 3D PRINTING
+                    p.col-md-3.quality.lava.dfa DESIGN
 
-                //- div.row(style="color:white;font-size:28px;white-space:nowrap;width:auto;letter-spacing: 2px")
-                //-     p.col-sm-6.col-lg-5 STUDENT STARTUPS
-                //-     p.col-lg-3 TECHNOLOGY
+                    p.col-md-5.quality.lava(style="margin-right:20px") STUDENT STARTUPS
+                    p.col-md-4.quality.lava.3d4e TECHNOLOGY
 
-                //- div.row
-                //-     p.col-sm-10.col-lg-6 SOCIAL ENTREPRENEURSHIP
-                //-     p.col-lg-4 ENGINEERING
-                //-     p.col-lg-3 WORKSHOP
-                //-     p.col-lg-4 INSTALLATIONS
-                //-     p.col-lg-4 HACKATHONS
-                div.row(style="color:white;font-size:28px;white-space:nowrap;width:auto;letter-spacing: 2px")
-                    p.col-md-5(style="margin:0;") PRODUCT DESIGN
-                    p.col-md-4(style="margin:0") 3D PRINTING
-                    p.col-md-3(style="margin:0") DESIGN
+                    p.col-md-7.quality.dfa SOCIAL ENTREPRENEURSHIP
+                    p.col-md-4.quality.lava.corpus ENGINEERING
 
-                    p.col-md-5(style="margin:0;margin-right:20px") STUDENT STARTUPS
-                    p.col-md-4(style="margin:0") TECHNOLOGY
+                    p.col-md-3.quality.lava.3d4e.dfa.corpus WORKSHOP
+                    p.col-md-4.quality.corpus INSTALLATIONS
+                    p.col-md-4.quality.lava HACKATHONS
 
-                    p.col-md-7(style="margin:0; margin-right:20px") SOCIAL ENTREPRENEURSHIP
-                    p.col-md-4(style="margin:0") ENGINEERING
+                    //- p.col-md-6.quality GAME DEVELOPMENT
+                    //- p.col-md-5.quality HACK NIGHTS
 
-                    p.col-md-3(style="margin:0;margin-right:10px") WORKSHOP
-                    p.col-md-4(style="margin:0;margin-right:10px") INSTALLATIONS
-                    p.col-md-4(style="margin:0") HACKATHONS
+                    p.col-md-3.quality.lava WEB DEV
+                    p.col-md-3.quality.lava.dfa SPEAKERS
+                    p.col-md-5.quality.lava.3d4e.dfa.corpus PROJECT TEAMS
 
-                    p.col-md-6(style="margin:0;") GAME DEVELOPMENT
-                    p.col-md-5(style="margin:0;") HACK NIGHTS
-                    //- p.col-md-4(style="margin:0") HACKATHONS
-
-                    p.col-md-3(style="margin:0;") WEB DEV
-                    p.col-md-3(style="margin:0;") SPEAKERS
-                    p.col-md-5(style="margin:0") PROJECT TEAMS
-
-                    p.col-md-12(style="margin:0;") STUDENT INNOVATION
+                    p.col-md-12.quality.lava.3d4e.dfa.corpus STUDENT INNOVATION
 
 
         div.the-team
+
+            p(style="font-weight:800;letter-spacing:2px; font-size 18px; margin-top:60px") THE TEAM
+            p(style="margin:auto;font-weight:200;font-size:18px") Spark SC is uniquely structured to make sure we're focusing on projects we're passionate about. Originally a small but mighty group of 6, we expanded into the Spark SC Board. Students apply each semester to be a part of the team and work on Committees that excite them. Applications open at the beginning of each USC semester. Interested? Check out our recruitment page.
+
+            div.team-grid
+                div.col-sm-2.member
+                div.col-sm-2.member
+                div.col-sm-2.member
+                div.col-sm-2.member
+                div.col-sm-2.member
+
+                div.col-sm-2.member
+                div.col-sm-2.member
+                div.col-sm-2.member
+                div.col-sm-2.member
+                div.col-sm-2.member
+
+                div.col-sm-2.member
+                div.col-sm-2.member
+                div.col-sm-2.member
+                div.col-sm-2.member
+                div.col-sm-2.member
+
+                div.col-sm-2.member
+                div.col-sm-2.member
+                div.col-sm-2.member
+                div.col-sm-2.member
+                div.col-sm-2.member
+
+                div.col-sm-2.member
+                div.col-sm-2.member
+                div.col-sm-2.member
+                div.col-sm-2.member
+                div.col-sm-2.member
+
+    script(src="js/bipartide.js")
