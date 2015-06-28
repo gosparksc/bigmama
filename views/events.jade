@@ -3,54 +3,8 @@ extends layout
 block content
     div#content.content
         div.container.events
-            div.row
-                div.col-md-6.gutter
+            for event in site.events
+                div(class= ".col-md-#{event.width}.gutter")
                     div.test
-                        p.event-name STARTUP CAREER FAIR
-                        div.event-image
-
-                div.col-md-3.gutter
-                    div.test
-                        p.event-name COMMUNITY SERVICE
-                        div.event-image
-
-                div.col-md-3.gutter
-                    div.test
-                        p.event-name ARTS GROOVES AND FOODS
-                        div.event-image
-
-            div.row
-                div.col-md-3.gutter
-                    div.test
-                        p.event-name HACK NIGHTS
-                        div.event-image
-
-                div.col-md-3.gutter
-                    div.test
-                        p.event-name MEET-N-MIX
-                        div.event-image
-
-                div.col-md-6.gutter
-                    div.test
-                        p.event-name 1000 PITCHES
-                        div.event-image
-
-            div.row
-                div.col-md-6.gutter
-                    div.test
-                        p.event-name TECHLA INTERNSHIPS
-                        div.event-image
-
-                div.col-md-3.gutter
-                    div.test
-                        p.event-name TECH TOURS
-                        div.event-image
-
-                div.col-md-3.gutter
-                    div.test
-                        a(href='http://localhost:1111/one_event.html') hey
-                        div.event-name LAST THING
-                        div.event-image
-
-        block single_events
-    
+                        p.event-name #{event.name}
+                        div.event.image    
