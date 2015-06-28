@@ -1,36 +1,63 @@
-// .content
-.contact
-	padding-top 260px
-	background-color #febf0f
-	width 100%
-	height 100%
-	
-	p
-		font-weight 500
-		text-align center
-		width 400px
-		margin auto
-		color white
-		
-	.contact-bar
-		width 600px
-		margin auto
-		
-		.contact-form
-			margin-top 20px
-			width 400px
-			display inline-block
-			
-			.contact-input
-				width 400px
-				height 30px
+@import '_settings'
 
-			
-		p
-			margin-left 20px
-			margin-top 10px
-			display inline
-			font-size 24px
-		
-// .contact
-// 	margin-top 260px
+.contact
+  height 100%
+  text-align center
+  background $spark-yellow
+  color white
+.contact-block
+  position relative
+  top -150px
+.icon
+  width 80px
+.talktous
+  margin-bottom 20px
+  text-transform uppercase
+  font-size 24px
+.hello
+  margin-bottom 42px
+  text-transform uppercase
+  font-size 36px
+  letter-spacing 2px
+.hello a
+  text-decoration none
+  color white
+.wantupdates
+  margin-bottom 16px
+  text-transform uppercase
+  font-size 24px
+.contact-email
+  margin-bottom 20px
+  font-size 0
+.contact-email *
+  display inline
+.contact-email .email-form
+  width 340px
+  padding 10px
+  border none
+  vertical-align text-bottom
+  font-size 24px
+  letter-spacing normal
+  color black
+.contact-email .email-submit
+  height 44px
+  margin-left 0px
+  padding 0 22px
+  border 1px solid white
+  vertical-align text-bottom
+  text-transform uppercase
+  font-size 18px
+  background none
+.contact-email .socialmedia
+  width 64px
+  height 64px
+  margin 20px 20px
+
+/* media queries */
+
+@media only screen and (max-width: $mobile-bp-sm)
+    .hello
+      margin-bottom 32px
+      font-size 28px
+    .email
+      width 260px !important
