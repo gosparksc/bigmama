@@ -6,11 +6,15 @@ css_pipeline = require 'css-pipeline'
 dynamic_content = require 'dynamic-content'
 
 module.exports =
-  ignores: ['readme.md', '**/layout.*', '**/_*', '.gitignore', 'ship.*conf']
+  ignores: ['README.md', '**/layout.*', '**/_*', '.gitignore', 'ship.*conf']
+
+  locals:
+    title: 'Spark SC \&middot; Student Innovation at USC',
+    description: 'Innovators and entrepreneurs at the University of Southern California.'
 
   extensions: [
     js_pipeline(files: 'assets/js/*.coffee'),
-    css_pipeline(files: 'assets/css/*.styl'),
+    css_pipeline(files: 'assets/css/*.styl', 'assets/css/lib/*.css'),
     dynamic_content()
   ]
 

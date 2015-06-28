@@ -6,12 +6,15 @@ html
 
         meta(charset='utf8')
         meta(http-equiv='X-UA-Compatible', content='IE=edge, chrome=1')
-        meta(name='description', content='Innovators and entrepreneurs at the University of Southern California.')
+        meta(name='description', content= description)
         meta(name="viewport" content="width=device-width, initial-scale=1")
-        title Spark SC &middot; Student Innovation at USC
+        title !{title}
         link(rel='icon' href='img/favicon.ico')
 
-        != css()
+        link(rel='stylesheet' href='css/master.css')
+        link(rel='stylesheet' href='css/lib/grid.css')
+
+        block stylesheet
 
     body
 
@@ -20,21 +23,20 @@ html
             img.logo(src='img/logo.svg' alt='Spark SC')
 
             div.menu-icon
-                div.hamburger
-                    //-&#9776;
+                div.hamburger &#9776;
 
             nav#nav.nav
                 ul
                     li(class='selected')
                         a(href='index.html') Home
                     li
-                        a(href='#') About
+                        a(href='about.html') About
                     li
                         a(href='events.html') What We Do
                     li
-                        a(href='who_we_are.html') Who We Are
+                        a(href='whoweare.html') Who We Are
                     li
-                        a(href='contact.html#') Contact
+                        a(href='contact.html') Contact
 
             section#sm.sm
                 ul
@@ -48,6 +50,8 @@ html
                         a(href='https://instagram.com/gosparksc' target='_blank')
                             img(src='img/sm/instagram.svg' alt='instagram')
 
-        block content
+        div#content.content
+
+            block content
 
         != js()
