@@ -1,13 +1,26 @@
 extends layout
 
+block stylesheet
+    link(rel='stylesheet' href='css/contact.css')
+
 block content
-    div#content.content
-        div.contact
-            p.contact-icon
-            p(style="font-size:18px") TALK TO US
-            P(style="font-size:32px;padding: 20px") HELLO@SPARKSC.ORG
-            p(style="font-size:24px") Want Updates?
-            div.contact-bar
-                form.contact-form(name="sub", action="/sub", method="post" style="inline-block")
-                    input.contact-input(type="text", name="email")
-                p(stlye="display:inline-block;margin 0") SUBMIT
+    div.contact
+        div.spacer-50
+        div.contact-block
+            img.icon(src='img/location.svg' alt='Talk To Us')
+            div.talktous Talk To Us
+            div.hello
+                a(href='mailto:hello@sparksc.org?Subject=Hello From SparkSC.org') hello@sparksc.org
+            div.wantupdates Want Updates?
+            //- Mailchimp Form
+            div.contact-email
+                form#mc-embedded-subscribe-form.validate(action='//sparksc.us8.list-manage.com/subscribe/post?u=47878de9dedbf41fa376d8845&amp;id=e61e10c909' method='post' name='mc-embedded-subscribe-form' target='_blank' novalidate)
+                    div.mc-field-group
+                        input(type="email" value="" name="EMAIL" class="required email email-form" id="mce-EMAIL" placeholder="EMAIL")
+                    div#mce-responses.clear
+                        div#mce-error-response.response(style="display:none")
+                        div#mce-success-response.response(style="display:none")
+                    div(style="position: absolute; left: -5000px;")
+                        input(type="text" name="b_d98a5191107d20ee669820e76_9f62096558" tabindex="-1" value="")
+                    div.clear
+                        input(type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="button email-submit")
