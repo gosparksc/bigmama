@@ -1,0 +1,13 @@
+extends layout
+
+block content
+    div#content.content
+        div.contact
+            p.contact-icon
+            p(style="font-size:18px") TALK TO US
+            P(style="font-size:32px;padding: 20px") HELLO@SPARKSC.ORG
+            p(style="font-size:24px") Want Updates?
+            div.contact-bar
+                form.contact-form(name="sub", action="/sub", method="post" style="inline-block")
+                    input.contact-input(type="text", name="email")
+                p(stlye="display:inline-block;margin 0") SUBMIT
