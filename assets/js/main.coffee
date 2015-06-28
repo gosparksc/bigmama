@@ -1,1 +1,1 @@
-console.log 'hello there!'
+console.log 'Built with love by the Spark SC Team. <3'

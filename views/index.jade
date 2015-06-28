@@ -1,19 +1,11 @@
 extends layout
 
+block stylesheet
+    link(rel='stylesheet' href='css/index.css')
+
 block content
-    div#content.content
-        div#splash
-            div.row
-                div.col-xs-1.col-md-3
-                    hey
-                div.col-xs-10.col-md-6.index-letterhead
-                    div.index-spark-letterhead
-                        img(src='img/letterhead.svg')
-                div.col-xs-1.col-md-3
-                    hey
-            div.row
-                div.col-xs-1.col-md-6
-                div.col-xs-10.col-md-6
-                    div.mission-block
-                        p #[span(style="color:#febf0f") Our mission] is to inspire a culture of innovation, expose students to their creative potential, and connect makers across diverse communities
-                div.col-xs-1.col-md-0
+    div.splash
+        div.spacer-50
+        img.letterhead(src='img/letterhead.svg' alt="Spark SC")
+        section.mission
+            p #[span.highlight Our mission] is to #[span.box inspire] a culture of innovation, #[span.box expose] students to their creative potential, and #[span.box connect] makers across diverse communities.
