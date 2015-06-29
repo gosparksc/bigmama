@@ -4,11 +4,10 @@ block stylesheet
     link(rel='stylesheet' href='css/events.css')
 
 block content
-    div#content.content
-        div.container.events
-            for event in site.events
-                div(class= "col-md-#{event.width} gutter")
-                    div.test
-                        //- a(href=event._url)
-                        p.event-name #{event.name}
-                        div.event.image
+    div.container.events
+        for event in site.events
+            div(class= "col-md-#{event.width} gutter")
+                div.test
+                    //- a(href=event._url)
+                    p.event-name #{event.name}
+                    div.event.image

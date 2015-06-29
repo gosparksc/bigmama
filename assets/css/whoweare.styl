@@ -1,49 +1,68 @@
-@import url('http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js')
+@import '_settings'
 
-.grey-box
-	padding-top 60px
-	background-color #383938
-	padding-bottom 60px
+.orglist .selected, .topiclist .selected
+	color $spark-yellow
 
-.grey-box
-	p
-		color white    
-	    font-size 24px
-	    font-family "Proxima Nova"
-	    font-weight 700
-	    text-shadow 1.5px 1px black
-	    
-	.bar 
-		margin-top 20px	
-	
-.highlight-content
-	width 80%
-	margin-left 10%
-	
-.the-team
-	width 80%
-	margin-left 10%
-	
-.quality
-	margin:0
-	
-.quality:hover
-	color: #febf0f
+.orgtopicmap
+	padding 90px 6% 70px 6%
+	background #383938
+	color white
+	hr
+		margin 30px 0
+		padding 0
+		border none
+		border-top 1px solid white
 
-.org:hover
-	color: #febf0f
-	
-.team-grid
-	margin-top 40px
+	.description
+		margin 0
+		font-size 18px
+		font-style italic
+		line-height 24px
+
+	.orglist
+		margin 0 0 35px 0
+		padding 0
+		li
+			margin 0 60px 20px 0
+			list-style none
+			display inline-block
+			font-size 22px
+			font-weight 700
+			font-style italic
+			text-transform uppercase
+
+	.topiclist
+		margin 0
+		padding 0
+		li
+			margin 0 40px 20px 0
+			list-style none
+			display inline-block
+			font-size 32px
+			font-weight 700
+			text-transform uppercase
+
+.ourteam
+	padding 90px 6% 70px 6%
+	h2
+		margin 0 0 20px 0
+		padding 0
+		text-transform uppercase
+	.description
+		margin 0
+		font-size 18px
+		line-height 22px
+
+	.photos
+		margin-top 50px
 
 .member
 	height 200px
-	width 200px
-	padding 0px
+	padding 0
 	background-size cover
 	background-repeat no-repeat
 	background-image url("https://scontent-lax1-1.xx.fbcdn.net/hphotos-xat1/t31.0-8/s960x960/11187760_10153167183272626_2695559670606487226_o.jpg")
-	
+
 .member:hover
 	opacity .5
 	background-image url("https://scontent-lax1-1.xx.fbcdn.net/hphotos-xpa1/t31.0-8/s960x960/11174498_10153167183242626_6335201200322445381_o.jpg")
