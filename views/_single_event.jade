@@ -1,102 +1,99 @@
-doctype html
-html
 
-    block stylesheet
-        link(rel='stylesheet', href='/css/master.css')
-        link(rel='stylesheet', href='/css/events.css')
-        link(rel='stylesheet', href='/css/single_event.css')
+block stylesheet
+    link(rel='stylesheet', href='/css/master.css')
+    link(rel='stylesheet', href='/css/events.css')
+    link(rel='stylesheet', href='/css/single_event.css')
 
-    body
-        div.event-container
-            div.col-lg-12.event-inner-container
-                div.row
-                    div.single-event-image(style="background-image:url(#{post.cover_url})")
-                        div(style="position:absolute; width: 100%; height: 500px; text-align:center")
-                            div.col-xs-2.col-sm-3
-                            div.col-xs-8.col-sm-6
-                                img.single-event-logo(src="#{post.logo_url}")
-                            div.col-xs-2.col-sm-3
+div.event-container
+    div.col-lg-12.event-inner-container
+        div.row
+            div.single-event-image(style="background-image:url(#{post.cover_url})")
+                div(style="position:absolute; width: 100%; height: 500px; text-align:center")
+                    div.col-xs-2.col-sm-3
+                    div.col-xs-8.col-sm-6
+                        img.single-event-logo(src="#{post.logo_url}")
+                    div.col-xs-2.col-sm-3
 
-                div.event-content-container
+        div.event-content-container
+            div.row
+                p(style="font-size:48px; font-weight:800") #{post.name}
+                p(style="margin-top:-30px") #{post.url}
+
+            div.row
+                div.bar
+
+            div.row
+                div.col-md-7
                     div.row
-                        p(style="font-size:48px; font-weight:800") #{post.name}
-                        p(style="margin-top:-30px") #{post.url}
+                        p DATE: #{post.date}
+                        p ATTENDACE #{post.attendance}
+
+                div.col-md-1
+
+                div.col-md-4
+                    div.row.goals
+                        p.yellow GOAL
+                        p #{post.goal}
+
+            div.row
+                div.col-md-7
+                    div.row
+                        p(style="font-weight:700; font-style:italic;") EVENT DESCRIPTION
+
+                        for d in post.description
+                            p #{d}
+
+                div.col-md-1
+
+                div.col-md-4
+                    div.row
+                        p.yellow THE COMMITTEE
+                        p Lead
+                    div.row
+                        div.committee-photos
+                            div.row
+                                div.col-xs-3.member-photo
+                                div.col-xs-3.member-photo
+                                div.col-xs-3.member-photo
+                            div.row
+                                div.col-xs-3.member-photo
+                                div.col-xs-3.member-photo
+                                div.col-xs-3.member-photo
+
+            div.row
+                div.col-md-7
+                    div.row
+                        p.yellow Our Partners and Sponsors
 
                     div.row
-                        div.bar
+                        div.partners
 
-                    div.row
-                        div.col-md-7
-                            div.row
-                                p DATE: #{post.date}
-                                p ATTENDACE #{post.attendance}
+                            for url in post.partners
+                                img.partner-logo(src= url)
 
-                        div.col-md-1
+                div.col-md-1
 
-                        div.col-md-4
-                            div.row.goals
-                                p.yellow GOAL
-                                p #{post.goal}
-
-                    div.row
-                        div.col-md-7
-                            div.row
-                                p(style="font-weight:700; font-style:italic;") EVENT DESCRIPTION
-
-                                for d in post.description
-                                    p #{d}
-
-                        div.col-md-1
-
-                        div.col-md-4
-                            div.row
-                                p.yellow THE COMMITTEE
-                                p Lead
-                            div.row
-                                div.committee-photos
-                                    div.row
-                                        div.col-xs-3.member-photo
-                                        div.col-xs-3.member-photo
-                                        div.col-xs-3.member-photo
-                                    div.row
-                                        div.col-xs-3.member-photo
-                                        div.col-xs-3.member-photo
-                                        div.col-xs-3.member-photo
-
-                    div.row
-                        div.col-md-7
-                            div.row
-                                p.yellow Our Partners and Sponsors
-
-                            div.row
-                                div.partners
-
-                                    for url in post.partners
-                                        img.partner-logo(src= url)
-
-                        div.col-md-1
-
-                        div.col-md-4
-                            p.yellow PRESS
-                            for link in post.press
-                                div.col-xs-6.col-md-12(style="width:auto")
-                                    p #{link}
+                div.col-md-4
+                    p.yellow PRESS
+                    for link in post.press
+                        div.col-xs-6.col-md-12(style="width:auto")
+                            p #{link}
 
 
-                div.row
-                    for url in post.bottom_images
-                        div.col-sm-6(style="padding:0px")
-                            div.bottom-image(style='background-image:url(#{url})')
-                
-                div.row(style="background-color:black")
-                    div.col-xs-6
-                        div.letterhead
-                            img.sparksc-letterhead(src='/img/letterhead.svg')
-                    div.col-xs-6
-                        div.social-icons
-                            a(href='https://facebook.com/gosparksc' target='_blank')
-                                img.social-icon(src='/img/sm/facebook.svg' alt='facebook')
-                            a(href='https://twitter.com/gosparksc' target='_blank')
-                                img.social-icon(src='/img/sm/twitter.svg' alt='twitter')
-                            a(href='https://instagram.com/gosparksc' target='_blank')
-                                img.social-icon(src='/img/sm/instagram.svg' alt='instagram')
+        div.row
+            for url in post.bottom_images
+                div.col-sm-6(style="padding:0px")
+                    div.bottom-image(style='background-image:url(#{url})')
+        
+        div.row(style="background-color:black")
+            div.col-xs-6
+                div.letterhead
+                    img.sparksc-letterhead(src='/img/letterhead.svg')
+            div.col-xs-6
+                div.social-icons
+                    a(href='https://facebook.com/gosparksc' target='_blank')
+                        img.social-icon(src='/img/sm/facebook.svg' alt='facebook')
+                    a(href='https://twitter.com/gosparksc' target='_blank')
+                        img.social-icon(src='/img/sm/twitter.svg' alt='twitter')
+                    a(href='https://instagram.com/gosparksc' target='_blank')
+                        img.social-icon(src='/img/sm/instagram.svg' alt='instagram')
