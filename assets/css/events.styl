@@ -1,5 +1,7 @@
+@import '_settings'
+
 .container
-    padding: 0
+    padding 0
 
 .events
     width 100%
@@ -7,46 +9,41 @@
 .gutter
     padding 2px
 
-.test
-    text-align left
-
-    margin 0px
-    height  410px
-
+.event
+    height 410px
+    margin 0
+    position relative
     overflow hidden
 
-    //For testing
-    // border-width: 1px
-    // border-style: solid
-
-.event-image
-
+.image
+    width 100%; height 100%
+    position relative
     backgroud-position center
     background-size cover
     background-repeat no-repeat
-    background-image url("http://stuffpoint.com/cats/image/459576-cats-cat-and-nature-wallpaper.jpg")
-
-    // Add image blur
-    -webkit-filter blur(3px)
-    -moz-filter blur(5px)
-    -o-filter blur(5px)
-    -ms-filter blur(5px)
+    background-image url('//stuffpoint.com/cats/image/459576-cats-cat-and-nature-wallpaper.jpg')
     filter blur(5px)
 
-    // Ensures that border blur is not visible
-    width 110%
-    height  430px
-    margin -10px
-
-.event-name
-    padding 20px
+.name
+    padding 30px 20px
     position absolute
-
-    // Ensure text shows up over image
-    z-index 1
-
     color white
     font-size 24px
-    font-family "Proxima Nova"
     font-weight 700
     text-shadow 1.5px 1px black
+    z-index 1
+
+.event-info
+    position fixed
+    top 0; right 0; bottom 0; left $menu-width
+    background rgba(0,0,0,0.6)
+    z-index 10
+
+.event-page
+    width 100%; height: 2000px
+    position relative
+    background #fff
+    border-top 12px solid rgba(0,0,0,0)
+    border-right 12px solid rgba(0,0,0,0)
+    border-left 12px solid rgba(0,0,0,0)
+    background-clip padding-box

@@ -7,12 +7,13 @@ block content
     div.container.events
         for event in site.events
             div(class= 'col-md-#{event.width} gutter')
-                div.test
+                div.event
                     //- a(href=event._url)
-                    p.event-name #{event.name}
-                    div.event.image
+                    div.name #{event.name}
+                    div.image
+                    
+    div.event-info
+        div#event-page.event-page
 
 block javascript
-     script(src='//cdnjs.cloudflare.com/ajax/libs/page.js/1.6.3/page.min.js')
-     script(src='//cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.3/handlebars.min.js')
-     script(src='js/index.js')
+    script(type='text/javascript' src='js/events.js')

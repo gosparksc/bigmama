@@ -9,7 +9,7 @@ body
     font-family: $font-stack
     font-size: $font-size
     min-height: $desktop-min-height
-    
+
     ::selection
         background: $highlight-color
 
@@ -19,10 +19,6 @@ body
 
 /* menu */
 
-$menu-width = 120px
-$menu-padding-lr = 20px
-$menu-padding-tb = 30px
-
 .menu
     width: $menu-width
     min-height: $desktop-min-height
@@ -31,9 +27,9 @@ $menu-padding-tb = 30px
     background: $spark-black
     box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.25)
     z-index: 99
-    
+
     noselect()
-        
+
     .menu-icon
         width: 50px; height: 50px
         position: relative
@@ -42,46 +38,46 @@ $menu-padding-tb = 30px
         border-radius: 1px
         box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.30)
         display: none
-        
+
         :hover
             cursor: pointer
-        
+
         .hamburger
             color: white
             font-size: 34px
             text-align: center
-    
+
     img
         width: $menu-width - $menu-padding-lr*2
         position: absolute
         top: $menu-padding-tb; right: $menu-padding-lr; left: $menu-padding-lr
-    
+
     .nav
         height: 390px // approx. to enable verticle centering
         margin: auto
         position: absolute
         top: 0; bottom: 0
-                
+
         ul
             width: 100%
             margin: 0; padding: 0
             list-style: none
-                        
+
             li
                 width: $menu-width - $menu-padding-lr*2
                 margin: 0; padding: 24px $menu-padding-lr
                 font-size: 17.5px; font-weight: 600
                 text-align: center; text-transform: uppercase
-                
+
                 content-box()
-                
+
                 &.selected
                     background: #222
 
                 a
                     text-decoration: none
                     color: white
-                    
+
                 :hover
                     color: $spark-yellow
 
@@ -89,12 +85,12 @@ $menu-padding-tb = 30px
         width: $menu-width - $menu-padding-lr*2
         right: $menu-padding-lr; bottom: $menu-padding-tb; left: $menu-padding-lr
         position: absolute
-            
+
         ul
             width: 100%
             margin: 0; padding: 0
             list-style: none
-            
+
             li
                 width: 100%
                 margin: 0; padding: 0
@@ -102,7 +98,7 @@ $menu-padding-tb = 30px
 
                 a
                     text-decoration: none
-                    
+
                     img
                         width: 38px; height: 38px
                         top: 0; left: 0
@@ -116,18 +112,18 @@ $menu-padding-tb = 30px
     position absolute
     top: 0; right: 0; bottom: 0; left: $menu-width
     z-index 1
-    
+
 /* media queries */
 
 @media only screen and (max-width: $mobile-bp-lg)
     .menu
         width: 0
-        
+
         .menu-icon
             display: block
-        
+
     .content
-        left: 0        
+        left: 0
 
     .logo, .sm, .nav
         display: none
