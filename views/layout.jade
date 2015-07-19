@@ -9,10 +9,10 @@ html
         meta(name='description', content= description)
         meta(name="viewport" content="width=device-width, initial-scale=1")
         title !{title}
-        link(rel='icon' href='img/favicon.ico')
+        link(rel='icon' href='/img/favicon.ico')
 
-        link(rel='stylesheet' href='css/master.css')
-        link(rel='stylesheet' href='css/lib/grid.css')
+        link(rel='stylesheet' href='/css/master.css')
+        link(rel='stylesheet' href='/css/lib/grid.css')
 
         block stylesheet
 
@@ -20,7 +20,7 @@ html
 
         div#menu.menu
 
-            img.logo(src='img/logo.svg' alt='Spark SC')
+            img.logo(src='/img/logo.svg' alt='Spark SC')
 
             div.menu-icon
                 div.hamburger &#9776;
@@ -28,27 +28,27 @@ html
             nav#nav.nav
                 ul
                     li(class='selected')
-                        a(href='index.html') Home
+                        a(href='/index.html') Home
                     li
-                        a(href='about.html') About
+                        a(href='/about.html') About
                     li
-                        a(href='events.html') What We Do
+                        a(href='/events.html') What We Do
                     li
-                        a(href='whoweare.html') Who We Are
+                        a(href='/whoweare.html') Who We Are
                     li
-                        a(href='contact.html') Contact
+                        a(href='/contact.html') Contact
 
             section#sm.sm
                 ul
                     li
                         a(href='https://www.facebook.com/gosparksc' target='_blank')
-                            img(src='img/sm/facebook.svg' alt='facebook')
+                            img(src='/img/sm/facebook.svg' alt='facebook')
                     li
                         a(href='https://twitter.com/gosparksc' target='_blank')
-                            img(src='img/sm/twitter.svg' alt='twitter')
+                            img(src='/img/sm/twitter.svg' alt='twitter')
                     li
                         a(href='https://instagram.com/gosparksc' target='_blank')
-                            img(src='img/sm/instagram.svg' alt='instagram')
+                            img(src='/img/sm/instagram.svg' alt='instagram')
 
         div#content.content
 
@@ -57,11 +57,11 @@ html
         script(src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js')
         block javascript
 
-        script(type='text/javascript').
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-            ga('create', 'UA-48870049-1', 'sparksc.org');
-            ga('send', 'pageview');
+        //- script(type='text/javascript').
+        //-     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        //-         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        //-             m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        //-     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        //- 
+        //-     ga('create', 'UA-48870049-1', 'sparksc.org');
+        //-     ga('send', 'pageview');

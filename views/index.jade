@@ -1,13 +1,13 @@
 extends layout
 
 block stylesheet
-    link(rel='stylesheet' href='css/index.css')
+    link(rel='stylesheet' href='/css/index.css')
 
 block content
     section.splash
-        video(autoplay loop muted poster='img/background.jpg' class='bgvid')
-            source(src='video/spark.mp4' type='video/mp4')
+        video(autoplay loop muted poster='/img/background.jpg' class='bgvid')
+            source(src='/video/spark.mp4' type='video/mp4')
         div.spacer-50
-        img.letterhead(src='img/letterhead.png' alt="Spark SC")
+        img.letterhead(src='/img/letterhead.png' alt="Spark SC")
         section.mission
             p #[span.highlight Our mission] is to #[span.box inspire] a culture of innovation, #[span.box expose] students to their creative potential, and #[span.box connect] makers across diverse communities.
