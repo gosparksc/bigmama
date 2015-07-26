@@ -1,63 +1,39 @@
-$(".orglist li").each( function(index) {
+var orglist = ".orglist";
+var topiclist = ".topiclist";
+connectLists(orglist, topiclist);
 
-	thisLi = this
+function connectLists(first, second) {
 
-	$(this).hover(function() {
-		$(this).addClass('selected');
-	}, function() {
-		$(this).removeClass('selected');
-	})
+	// For each list item in the first set
+	$(first + " li").each(function(index) {
 
-	var thisClass = this.className.split(' ')[0];
-	//console.log(thisClass);
-	$((".topiclist li")).each(function(index) {
-		if($(this).hasClass(thisClass)) {
+		// Light up firstTag on-hover, revert off-hover
+		var firstTag = this;
+		addRemoveOnHover(this, this, 'selected');		
 
-			var thisTopic = this;
+		var firstClassID = this.className.split(' ')[0];
+		// For each list item in second set
+		$((second + " li")).each(function(index) {
 
-			$(thisLi).hover(function() {
+			// Light up secondTag on-hover, revert off-hover
+			addRemoveOnHover(this, this, 'selected');
+			// If list item from second set contains class of firstTag, 
+			// set bipartide hover behavior, for both
+			if($(this).hasClass(firstClassID)) {
+				var secondTag = this;
+				addRemoveOnHover(firstTag, secondTag, 'selected');
+				addRemoveOnHover(secondTag, firstTag, 'selected');
+			}
+		});
 
-				$(thisTopic).addClass('selected');
-
-			}, function() {
-
-				$(thisTopic).removeClass('selected');
-
-			});
-
-		}
 	});
 
-});
+}
 
-$(".topiclist li").each( function(index) {
-
-	thisLi = this
-
-	$(this).hover(function() {
-		$(this).addClass('selected');
+function addRemoveOnHover(first, second, className) {
+	$(first).hover(function() {
+		$(second).addClass(className);
 	}, function() {
-		$(this).removeClass('selected');
-	})
-
-	var thisClass = this.className.split(' ')[0];
-	//console.log(thisClass);
-	$((".orglist li")).each(function(index) {
-		if($(this).hasClass(thisClass)) {
-
-			var thisTopic = this;
-
-			$(thisLi).hover(function() {
-
-				$(thisTopic).addClass('selected');
-
-			}, function() {
-
-				$(thisTopic).removeClass('selected');
-
-			});
-
-		}
+		$(second).removeClass(className);
 	});
-
-});
+}
