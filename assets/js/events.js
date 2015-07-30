@@ -2,11 +2,11 @@ $.ajax({
   url: "http://localhost:1111/fragments/1000-pitches.html",
   dataType: "html",
   success: function(response) {
-    $('.event-info').css("display", "block");
 
+    $('#event-container').html(response);
     // Load fragment into event page div and get container height
-    var event_page = $('#event-page').html(response);
-    var height = $('.container').height();
+    var event_page = $('#event-page');
+    var height = $('.event-info').height();
 
     // Move event page to bottom of page
     event_page.offset({
