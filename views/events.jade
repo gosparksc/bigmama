@@ -8,9 +8,9 @@ block content
         for event in site.events
             div(class= 'col-md-#{event.width} gutter')
                 div.event
-                    //- a(href=event._url)
-                    div.name #{event.name}
-                    div.image
+                    a(href='/events/1000-pitches.html')
+                        div.name #{event.name}
+                        div.image
                     
     div.event-info
         div#event-page.event-page
