@@ -8,7 +8,7 @@ block content
         for event in site.events
             div(class= 'col-md-#{event.width} gutter')
                 div.event(id = "#{event._url}")
-                    //- a(href=event._url)
+                    a(href=event._url)
                     div.name #{event.name}
                     div.image
                         div.image-inner
@@ -17,6 +17,7 @@ block content
         div#event-page.event-page
             div.event-page-close
                 a(href='/events.html') &#10006;
+                //- div.inner &#10006;
             block event-page-content
 
 block javascript
