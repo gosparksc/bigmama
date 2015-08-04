@@ -1,5 +1,7 @@
 @import '_settings'
 
+$event-height = 400px
+
 .container
     padding 0
 
@@ -10,7 +12,7 @@
     padding 2px
 
 .event
-    height 410px
+    height $event-height
     margin 0
     position relative
     overflow hidden
@@ -18,19 +20,25 @@
 .image
     width 100%; height 100%
     position relative
-    backgroud-position center
-    background-size cover
-    background-repeat no-repeat
-    background-image url('//stuffpoint.com/cats/image/459576-cats-cat-and-nature-wallpaper.jpg')
     filter blur(5px)
+    overflow hidden
+    .image-inner
+        width 110%; height $event-height + 20px
+        margin-top -10px; margin-left -5%
+        backgroud-position center
+        background-size cover
+        background-repeat no-repeat
+        background-image url('//stuffpoint.com/cats/image/459576-cats-cat-and-nature-wallpaper.jpg')
 
 .name
     padding 30px 20px
     position absolute
     color white
-    font-size 24px
+    font-size 28px
     font-weight 700
-    text-shadow 1.5px 1px black
+    text-shadow 2px 2px 4px rgba(0,0,0,0.5)
+    text-transform uppercase
+    letter-spacing 2px
     z-index 1
 
 .event-info
