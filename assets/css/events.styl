@@ -1,6 +1,7 @@
 @import '_settings'
 
 $event-height = 375px
+$event-height-mbl = 325px
 
 .nav-whatwedo
     background #222
@@ -86,6 +87,10 @@ $event-height = 375px
 
 
 @media only screen and (max-width: $mobile-bp-lg)
+    .event
+        height $event-height-mbl
+    .image-inner
+        height $event-height-mbl + 20px
     .event-info
         left 0
     .name

@@ -38,6 +38,7 @@ body
         border-radius: 1px
         box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.30)
         display: none
+        z-index 99
 
         :hover
             cursor: pointer
@@ -53,7 +54,7 @@ body
         top: $menu-padding-tb; right: $menu-padding-lr; left: $menu-padding-lr
 
     .nav
-        height: 390px // approx. to enable verticle centering
+        height: 375px // approx. to enable verticle centering
         margin: auto
         position: absolute
         top: 0; bottom: 0
@@ -65,7 +66,7 @@ body
 
             li
                 width: $menu-width - $menu-padding-lr*2
-                margin: 0; padding: 24px $menu-padding-lr
+                margin: 0; padding: 24px $menu-padding-lr 20px $menu-padding-lr
                 font-size: 17px; font-weight: 600
                 text-align: center; text-transform: uppercase
 
@@ -117,18 +118,29 @@ body
 
 @media only screen and (max-width: $mobile-bp-lg)
     .menu
-        width 100%; height 100px
+        width 100%
         min-height 0
         position absolute
+        background none
+        box-shadow none
 
         .menu-icon
-            display: block
+            display block
 
-    .nav, .nav
-        display: none
+    .nav
+        width 100%; height 100px
+        margin 0 !important
+        padding 20px
+        top 0; left 0
+        ul
+            width 100%
+            background blue
+            li
+                width 100%
 
     .content
-        left: 0
+        left 0
+        min-height 420px
 
     .logo, .sm
         display: none
