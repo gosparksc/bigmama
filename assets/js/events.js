@@ -1,3 +1,6 @@
+var x_html = "<div class='event-page-close'><div class='inner'>✖</div></div>";
+// var x_html = $('.event-page').html();
+
 $(".event").each(function() {
     $(this).click(function() {
         var event_name = $(this).attr('id').split("/")[2];
@@ -48,7 +51,7 @@ $(window).on('popstate', function(e) {
         if(_html.length > 0) {
             window.sessionStorage.fragment = _html;
         }
-        $('#event-page').html("");
+        $('#event-page').html(x_html);
 
     // Set event information of "forward"
     } else if(location_split.length == 5) {
@@ -73,6 +76,6 @@ $(window).on('popstate', function(e) {
 });
 
 // Used to avoid ajax request on 'x'
-$(".event-page-close").click( function() {
-    $('#event-page').html("");
-});
+// $(".event-page-close").click( function() {
+//     $('#event-page').html(x_html);
+// });

@@ -11,8 +11,8 @@ block content
                     a(href=event._url)
                     div.name #{event.name}
                     div.image
-                        div.image-inner
-                    
+                        div.image-inner(style="background-image:url(#{event.card_url})")
+
     div.event-info
         div#event-page.event-page
             div.event-page-close
