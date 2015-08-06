@@ -65,8 +65,11 @@ div.event-container
                     div.row
                         div.partners
 
-                            for url in post.partners
-                                img.partner-logo(src= url).col-sm-6
+                            for partner in post.partners
+                                //- div url.link
+                                a(href=partner.link)
+                                //- img.partner-logo(src=partner.source).col-sm-6
+                                img.partner-logo(height=partner.height width=partner.width src=partner.source).col-sm-6
 
                 div.col-md-1
 
