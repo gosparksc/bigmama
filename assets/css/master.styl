@@ -58,7 +58,7 @@ body
         top: $menu-padding-tb; right: $menu-padding-lr; left: $menu-padding-lr
 
     .nav
-        height: 370px // approx. to enable verticle centering
+        height: 290px // approx. to enable verticle centering
         margin: auto
         position: absolute
         top: 0; bottom: 0
@@ -121,29 +121,35 @@ body
 /* media queries */
 
 @media only screen and (max-width: $mobile-bp-lg)
+    body
+        min-height $mobile-min-height
+
     .menu
         width 100%
         min-height 0
         position fixed
         top 0; right 0; bottom 0; left 0
-        background $spark-black-transparent
+        background none
         box-shadow none
 
         .menu-icon
             display block
-            background none
-            box-shadow none
+            // background none
+            // box-shadow none
 
             .hamburger
 
-                &:before
-                    content '\00D7'
-                    font-size 54px
-                    font-weight bold
+                // &:before
+                //     content '\00D7'
+                //     font-size 54px
+                //     font-weight bold
 
         .nav
-            width 100%; height $menu-item-height-mobile * 5
+            display none /* TOGGLE */
+            width 100%; height $menu-item-height-mobile * 4
             padding 0
+            background $spark-black-transparent
+
             ul
                 width 100%; height 100%
 
@@ -156,7 +162,7 @@ body
 
     .content
         left 0
-        min-height 420px
+        min-height $mobile-min-height
 
     .logo, .sm
         display: none
