@@ -18,12 +18,12 @@ html
 
     body
 
+        div#menu-icon.menu-icon
+            div.hamburger
+
         div#menu.menu
 
             img.logo(src='/img/logo.svg' alt='Spark SC')
-
-            div.menu-icon
-                div.hamburger
 
             nav#nav.nav
                 ul
@@ -55,6 +55,7 @@ html
             block content
 
         script(src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js')
+        script(type='text/javascript' src='/js/main.js')
         block javascript
 
         //- script(type='text/javascript').

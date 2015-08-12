@@ -19,6 +19,28 @@ body
 
 /* menu */
 
+.menu-icon
+    width: 50px; height: 50px
+    position: relative
+    top: 20px; left: 20px
+    background: $spark-yellow
+    border-radius: 1px
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.30)
+    display: none
+    z-index 100
+
+    :hover
+        cursor: pointer
+
+    .hamburger
+        &:before
+            content '\2630'
+            position absolute
+            top 0; right 0; bottom 0; left 0
+            color: white
+            font-size: 34px
+            text-align: center
+
 .menu
     width: $menu-width
     min-height: $desktop-min-height
@@ -29,28 +51,6 @@ body
     z-index: 99
 
     noselect()
-
-    .menu-icon
-        width: 50px; height: 50px
-        position: relative
-        top: 20px; left: 20px
-        background: $spark-yellow
-        border-radius: 1px
-        box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.30)
-        display: none
-        z-index 99
-
-        :hover
-            cursor: pointer
-
-        .hamburger
-            &:before
-                content '\2630'
-                position absolute
-                top 0; right 0; bottom 0; left 0
-                color: white
-                font-size: 34px
-                text-align: center
 
     img
         width: $menu-width - $menu-padding-lr*2
@@ -124,33 +124,30 @@ body
     body
         min-height $mobile-min-height
 
+    .menu-icon
+        display block
+        // background none
+        // box-shadow none
+
+        .hamburger
+
+            // &:before
+            //     content '\00D7'
+            //     font-size 54px
+            //     font-weight bold
+
     .menu
         width 100%
         min-height 0
         position fixed
         top 0; right 0; bottom 0; left 0
-        background none
+        background $spark-black-transparent
         box-shadow none
-        pointer-events none
-
-        .menu-icon
-            display block
-            pointer-events auto
-            // background none
-            // box-shadow none
-
-            .hamburger
-
-                // &:before
-                //     content '\00D7'
-                //     font-size 54px
-                //     font-weight bold
+        display none /* TOGGLE */
 
         .nav
-            display none /* TOGGLE */
             width 100%; height $menu-item-height-mobile * 4
             padding 0
-            background $spark-black-transparent
 
             ul
                 width 100%; height 100%
