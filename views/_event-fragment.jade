@@ -22,7 +22,7 @@ div.event-container
             div.row
                 div.col-md-7
                     div.row
-                        p DATE: #{post.date}
+                        p(style="font-weight:700; font-style:italic;") DATE: #{post.date}
                         p #{post.attendance}
 
                 div.col-md-1
@@ -48,28 +48,19 @@ div.event-container
                         p Lead
                     div.row
                         div.committee-photos
-                            div.row
-                                div.col-xs-3.member-photo
-                                div.col-xs-3.member-photo
-                                div.col-xs-3.member-photo
-                            div.row
-                                div.col-xs-3.member-photo
-                                div.col-xs-3.member-photo
-                                div.col-xs-3.member-photo
+                            for member in post.members
+                                div.col-xs-3.member-photo(style="background-image: #{member.source};")
 
-            div.row
+            div.row(style = "padding-bottom: 40px")
                 div.col-md-7
                     div.row
                         p.yellow Our Partners and Sponsors
 
                     div.row
                         div.partners
-
                             for partner in post.partners
-                                //- div url.link
                                 a(href=partner.link)
-                                //- img.partner-logo(src=partner.source).col-sm-6
-                                img.partner-logo(height=partner.height width=partner.width src=partner.source).col-sm-6
+                                    img.partner-logo(id="#{partner.name}" src=partner.source)
 
                 div.col-md-1
 
