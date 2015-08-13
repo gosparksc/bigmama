@@ -59,13 +59,61 @@
 	.photos
 		margin-top 50px
 
-.member
-	height 200px
-	padding 0
-	background-size cover
-	background-repeat no-repeat
-	background-image url("https://scontent-lax1-1.xx.fbcdn.net/hphotos-xat1/t31.0-8/s960x960/11187760_10153167183272626_2695559670606487226_o.jpg")
+.single-member
+	// Positioning
+	position relative
+	display inline-block
+	height 180px
+	width 180px 
 
-.member:hover
-	opacity .5
-	background-image url("https://scontent-lax1-1.xx.fbcdn.net/hphotos-xpa1/t31.0-8/s960x960/11174498_10153167183242626_6335201200322445381_o.jpg")
+	.bottom-member
+		// Positioning
+		position absolute
+		height 180px
+		width 180px
+		margin 1px
+
+		// Appearance	
+		background-size cover
+		background-repeat no-repeat
+	
+	.single-member-info
+		// Positioning
+		position absolute
+		height 180px
+		width 180px
+		margin 1px
+
+		// Font
+		text-align center
+		color white
+		font-size 24px
+		font-weight 800
+
+		// Appearance
+		visibility hidden
+		background-size cover
+		background-repeat no-repeat
+
+		.silly-member
+			position absolute
+			top 0
+			left 0
+			// height 180px
+			// width 180px
+			margin 1px
+
+			background-size cover
+			background-repeat no-repeat
+
+		.member-color
+			position absolute
+			top 0
+			left 0
+			height 180px
+			width 180px
+			margin 1px
+
+			color black
+			opacity 1
+	

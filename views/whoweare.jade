@@ -1,3 +1,154 @@
+---
+members:
+- name: "Neel"
+  source: "/img/members/neel.jpg"
+  silly: "/img/members/neel-silly.jpg"
+  committees:
+  - "1000 Pitches"
+
+- name: "Megan"
+  source: "/img/members/megan.jpg"
+  committees:
+  - "Branding"
+
+- name: "Adena"
+  source: "/img/members/Adena.jpg"
+  committees:
+  - "1000 Pitches"
+  - "Startup Career Fair"
+  - "TechLA Internships"
+  - "USC Hackers"
+
+- name: "Stephen"
+  source: "/img/members/stephen.jpg"
+  committees:
+  - "1000 Pitches"
+  - "Startup Career Fair"
+  - "TechLA Internships"
+  - "USC Hackers"
+
+- name: "Calvin"
+  source: "/img/members/calvin.jpg"
+  committees:
+  - "1000 Pitches"
+  - "Startup Career Fair"
+  - "TechLA Internships"
+  - "USC Hackers"
+
+- name: "Michael"
+  source: "/img/members/michael.jpg"
+  committees:
+  - "Marketing"
+
+- name: "Eric"
+  source: "/img/members/eric.jpg"
+  committees:
+  - "Arts Grooves and Foods"
+  - "Blog"
+
+- name: "Katherine"
+  source: "/img/members/kat.jpg"
+  committees:
+  - "1000 Pitches"
+  - "Arts Grooves and Foods"
+
+- name: "Saadhya"
+  source: "/img/members/saad.jpg"
+  committees:
+  - "1000 Pitches"
+  - "Marketing"
+  - "Recruitment"
+
+- name: "Marc"
+  source: "/img/members/marc.jpg"
+  committees:
+  - "Tech Tours"
+
+- name: "Soham"
+  source: "/img/members/soham.jpg"
+  committees:
+  - "Arts Grooves and Foods"
+  - "Dev Team"
+  - "Community Service"
+
+- name: "Trajan"
+  source: "/img/members/trajan.jpg"
+  committees:
+  - "1000 Pitches"
+  - "Tech Tours"
+  - "Arts Grooves and Foods"
+
+- name: "Irfan"
+  source: "/img/members/irfan.jpg"
+  committees:
+  - "USC Hackers"
+  - "TechLA Internships"
+
+- name: "Tiffany"
+  source: "/img/members/tiff.jpg"
+  committees:
+  - "Arts Grooves and Foods"
+  - "Marketing"
+
+- name: "Maddie"
+  source: "/img/members/maddie.jpg"
+  committees:
+  - "1000 Pitches"
+  - "Community Service"
+  - "TechLA Internships"
+  - "USC Hackers"
+  - "Dev Team"
+
+- name: "Ben"
+  source: "/img/members/ben.jpg"
+  committees:
+  - "1000 Pitches"
+  - "Tech Tours"
+
+- name: "Pooja"
+  source: "/img/members/pooja.jpg"
+  committees:
+  - "1000 Pitches"
+  - "Branding"
+
+- name: "Grant"
+  source: "/img/members/grant.jpg"
+  committees:
+  - "Startup Career Fair"
+  - "USC Hackers"
+  - "Branding"
+
+- name: "Cherrie"
+  source: "/img/members/cherrie.jpg"
+  committees:
+  -  "Dev Team"
+  - "Recruitment"
+
+- name: "Rikki"
+  source: "/img/members/rikki.jpg"
+  committees:
+  - "Marketing"
+  - "Startup Career Fair"
+
+- name: "Jesse"
+  source: "/img/members/jesse.jpg"
+  committees:
+  - "Dev Team"
+  - "USC Hackers"
+
+- name: "Brian"
+  source: "/img/members/brian.jpg"
+  committees:
+  - "TechLA Internships"
+  - "USC Hackers"
+  - "Dev Team"
+
+- name: "Matias"
+  source: "/img/members/matias.jpg"
+  committees:
+  - "TechLA Internships"
+  - "USC Hackers"
+---
 extends layout
 
 block stylesheet
@@ -22,9 +173,6 @@ block content
             li.engineering.lava.corpus.dfa.3d4e Engineering
             li.workshops.lava.dfa.3d4e Workshops
             li.installations.corpus.dfa Installations
-            //- li Hackathons
-            //- li Game Development
-            //- li Hack Nights
             li.webdev.lava Web Dev
             li.speakers.lava.dfa.3d4e Speakers
             li.teams.lava.corpus.dfa.3d4e Project Teams
@@ -34,30 +182,16 @@ block content
         h2 The Team
         p.description Spark SC is uniquely structured to make sure we're focusing on projects we're passionate about. Originally a small but mighty group of 6, we expanded into the Spark SC Board. Students apply each semester to be a part of the team and work on Committees that excite them. Applications open at the beginning of each USC semester. Interested? Check out our recruitment page.
 
-        div.container.photos
-            div.col-sm-2.member
-            div.col-sm-2.member
-            div.col-sm-2.member
-            div.col-sm-2.member
-            div.col-sm-2.member
-            div.col-sm-2.member
-            div.col-sm-2.member
-            div.col-sm-2.member
-            div.col-sm-2.member
-            div.col-sm-2.member
-            div.col-sm-2.member
-            div.col-sm-2.member
-            div.col-sm-2.member
-            div.col-sm-2.member
-            div.col-sm-2.member
-            div.col-sm-2.member
-            div.col-sm-2.member
-            div.col-sm-2.member
-            div.col-sm-2.member
-            div.col-sm-2.member
-            div.col-sm-2.member
-            div.col-sm-2.member
-            div.col-sm-2.member
+        div.photos
+          for member in post.members
+              div.single-member(id="#{member.name}")
+                  div.bottom-member
+                  div.single-member-info
+                      div.member-color
+                      p(style="margin-top: 80px") #{member.name}
+                      //- for committee in member.committees
+                      //-     p(style="z-index: 10;") #{committee}
+                      //- div.silly-member
 
 block javascript
     script(type='text/javascript' src='/js/whoweare.js')

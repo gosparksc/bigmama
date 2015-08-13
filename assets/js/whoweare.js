@@ -37,3 +37,30 @@ function addRemoveOnHover(first, second, className) {
 		$(second).removeClass(className);
 	});
 }
+
+
+// Put silly photo on top on hover
+$('.single-member').hover(function() {
+	// On hover
+	children = $(this).children()
+	children[1].style.visibility = 'visible';
+	children[0].style.visibility = 'hidden';
+
+}, function() {
+	// On un-hover
+	children = $(this).children()
+	children[0].style.visibility = 'visible';
+	children[1].style.visibility = 'hidden';
+
+});
+
+$(document).ready(function() {
+	// Set background images after document is ready
+    $('.single-member').each(function() {
+    	console.log($(this).attr('id').toLowerCase());
+    	children = $(this).children();
+    	children[0].style.backgroundImage = "url(/img/members/" + $(this).attr('id').toLowerCase() + ".jpg";
+    	children[1].style.backgroundImage = "url(/img/members/" + $(this).attr('id').toLowerCase() + "-silly.jpg";
+    });
+});
+
