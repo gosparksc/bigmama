@@ -45,26 +45,26 @@ div.event-container
                 div.col-md-4
                     div.row
                         p.yellow THE COMMITTEE
-                        p Lead
+                        p(style="margin-left: 15px") Lead
                     div.row
                         div.committee-photos
                             for member in post.members
                                 div.col-xs-3.member-photo(style="background-image: url(#{member.source});")
 
             div.row(style = "padding-bottom: 40px")
-                div.col-md-7
-                    div.row
-                        p.yellow Our Partners and Sponsors
+                //- div.col-md-7
+                div.row
+                    p.yellow Our Partners and Sponsors
 
-                    div.row
-                        div.partners
-                            for partner in post.partners
-                                a(href=partner.link)
-                                    img.partner-logo(id="#{partner.name}" src=partner.source)
+                div.row
+                    div.partners
+                        for partner in post.partners
+                            a(href=partner.link)
+                                img.partner-logo(id="#{partner.name}" src=partner.source)
 
-                div.col-md-1
+                //- div.col-md-1
 
-                div.col-md-4
+                //- div.col-md-4
                     p.yellow PRESS
                     for link in post.press
                         div.col-xs-6.col-md-12(style="width:auto")
