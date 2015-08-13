@@ -1,4 +1,4 @@
-var x_html = "<div class='event-page-close'><div class='inner'>✖</div></div>";
+var x_html = "<div class='event-page-close'><a class='inner'>✖</a></div>";
 // var x_html = $('.event-page').html();
 
 $(".event").each(function() {
