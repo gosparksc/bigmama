@@ -5,9 +5,13 @@ block stylesheet
 
 block content
     section.splash
+        img#gif(src="/video/spark_opt.gif" class='bgvid' style="display:none")
         video(autoplay loop muted poster='/img/background.jpg' class='bgvid')
             source(src='/video/spark.mp4' type='video/mp4')
         div.spacer-50
         img.letterhead(src='/img/letterhead.png' alt="Spark SC")
         section.mission
             p #[span.highlight Our mission] is to #[span.box inspire] a culture of innovation, #[span.box expose] students to their creative potential, and #[span.box connect] makers across diverse communities.
+
+block javascript
+    script(type='text/javascript' src='/js/index.js')

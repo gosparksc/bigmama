@@ -8,8 +8,8 @@ block content
         for event in site.events
             div(class= 'col-md-#{event.width} gutter')
                 div.event(id = "#{event._url}")
-                    a(href=event._url)
                     div.name #{event.name}
+                    p #{event.one_liner}
                     div.image
                         div.image-inner(style="background-image:url(#{event.card_url})")
 

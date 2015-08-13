@@ -34,6 +34,18 @@ $(".event").each(function() {
 
     });
 
+    // Set up fade-in and fade-out for one-liner descriptions
+    $(this).hover(function() {
+        p = $(this).children('p')[0];
+        $(p).css("opacity", '1');
+        // $(p).animate({
+            // opacity: 1
+        // }, 25);
+    }, function() {
+        p = $(this).children('p')[0];
+        $(p).css("opacity", '0');
+    });
+
 });
 
 // Handles forwards and backwards on this page
