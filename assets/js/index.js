@@ -1,13 +1,10 @@
-var img = new Image();
-src = '/video/spark.gif';
-img.src=src;
+src = '/video/opt.gif';
 setInterval(function(){
-    t=new Date().getTime();
-    $("#gif").attr("src", src + "?" + t);
-}, 7500);
+    $("#gif").attr("src", "");
+    $("#gif").attr("src", src);
+}, 4700);
 
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-    console.log("HEY");
     $('#gif').css('display', 'block');
     $('video').css('display', 'none');
 }
