@@ -5,7 +5,7 @@ $(".event").each(function() {
     $(this).click(function() {
         var event_name = $(this).attr('id').split("/")[2];
         $.ajax({
-            url: "http://localhost:1111/fragments/"+event_name,
+            url: '/fragments/'+event_name+'.html',
             dataType: "html",
             success: function(response) {
                 // Load fragment into event page div and get container height
