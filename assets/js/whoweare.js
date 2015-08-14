@@ -57,7 +57,7 @@ $('.single-member').hover(function() {
 $(document).ready(function() {
 	// Set background images after document is ready
     $('.single-member').each(function() {
-    	console.log($(this).attr('id').toLowerCase());
+    	// console.log($(this).attr('id').toLowerCase());
     	children = $(this).children();
     	children[0].style.backgroundImage = "url(/img/members/" + $(this).attr('id').toLowerCase() + ".jpg";
     	children[1].style.backgroundImage = "url(/img/members/" + $(this).attr('id').toLowerCase() + "-silly.jpg";
