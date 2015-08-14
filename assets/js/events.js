@@ -25,7 +25,7 @@ $(".event").each(function() {
                     top: 0
                 }, 800, function() {
                     // Change browser history after animation completes
-                    window.history.pushState({page: window.location.href}, 'events/'+event_name.split(".")[0], '/events/'+event_name.split(".")[0]);
+                    window.history.pushState({page: window.location.href}, 'events/'+event_name.split(".")[0]+'.html', '/events/'+event_name.split(".")[0]+'.html');
                 });
                 
             }
@@ -73,7 +73,7 @@ $(window).on('popstate', function(e) {
         } else {
             event_name = location_split[4];
            $.ajax({
-                url: "http://localhost:1111/fragments/"+event_name,
+                url: "/fragments/"+event_name,
                 dataType: "html",
                 success: function(response) {
                 // Load fragment into event page div and get container height
