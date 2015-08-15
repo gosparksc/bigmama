@@ -17,6 +17,7 @@ function connectLists(first, second) {
 
 			// Light up secondTag on-hover, revert off-hover
 			addRemoveOnHover(this, this, 'selected');
+			
 			// If list item from second set contains class of firstTag, 
 			// set bipartide hover behavior, for both
 			if($(this).hasClass(firstClassID)) {
@@ -38,22 +39,6 @@ function addRemoveOnHover(first, second, className) {
 	});
 }
 
-
-// Put silly photo on top on hover
-$('.single-member').hover(function() {
-	// On hover
-	children = $(this).children()
-	children[1].style.visibility = 'visible';
-	children[0].style.visibility = 'hidden';
-
-}, function() {
-	// On un-hover
-	children = $(this).children()
-	children[0].style.visibility = 'visible';
-	children[1].style.visibility = 'hidden';
-
-});
-
 $(document).ready(function() {
 	// Set background images after document is ready
     $('.single-member').each(function() {
@@ -63,4 +48,3 @@ $(document).ready(function() {
     	children[1].style.backgroundImage = "url(/img/members/" + $(this).attr('id').toLowerCase() + "-silly.jpg";
     });
 });
-

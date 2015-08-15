@@ -189,10 +189,9 @@ block content
 
         div.photos
           for member in post.members
-              div.single-member(id="#{member.name}")
-                  div.bottom-member
-                  div.single-member-info
-                      div.member-color
+              div.single-member.tile(id="#{member.name}")
+                  div.bottom-member.tile
+                  div.single-member-info.tile
                       p(style="margin-top: 80px") #{member.name}
                       //- for committee in member.committees
                       //-     p(style="z-index: 10;") #{committee}

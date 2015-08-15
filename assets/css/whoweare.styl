@@ -59,18 +59,22 @@
 	.photos
 		margin-top 50px
 
+.tile
+	height 180px
+	width 180px
+
 .single-member
 	// Positioning
 	position relative
 	display inline-block
-	height 180px
-	width 180px 
+
+	&:hover
+		> div
+			visibility visible
 
 	.bottom-member
 		// Positioning
 		position absolute
-		height 180px
-		width 180px
 		margin 1px
 
 		// Appearance	
@@ -80,8 +84,6 @@
 	.single-member-info
 		// Positioning
 		position absolute
-		height 180px
-		width 180px
 		margin 1px
 
 		// Font
@@ -94,26 +96,3 @@
 		visibility hidden
 		background-size cover
 		background-repeat no-repeat
-
-		.silly-member
-			position absolute
-			top 0
-			left 0
-			// height 180px
-			// width 180px
-			margin 1px
-
-			background-size cover
-			background-repeat no-repeat
-
-		.member-color
-			position absolute
-			top 0
-			left 0
-			height 180px
-			width 180px
-			margin 1px
-
-			color black
-			opacity 1
-	
