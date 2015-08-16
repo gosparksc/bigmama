@@ -4,95 +4,113 @@
     background #222
 
 .orglist .selected, .topiclist .selected
-	color $spark-yellow
+    color $spark-yellow
+
+.highlight
+    color $spark-yellow
+    font-weight 700
+
+.orgtopicmap, .ourteam
+    padding 95px 6% 70px 6%
 
 .orgtopicmap
-	padding 90px 6% 70px 6%
-	background #383938
-	color white
-	hr
-		margin 30px 0
-		padding 0
-		border none
-		border-top 1px solid white
+    background #383938
+    color white
+    hr
+        margin 30px 0 35px 0; padding 0
+        border none
+        border-top 1px solid white
 
-	.description
-		margin 0
-		font-size 18px
-		font-style italic
-		line-height 24px
+    .description
+        margin 0
+        font-size 17px
+        font-style italic
+        line-height 25px
 
-	.orglist
-		margin 0 0 35px 0
-		padding 0
-		li
-			margin 0 60px 20px 0
-			list-style none
-			display inline-block
-			font-size 22px
-			font-weight 700
-			font-style italic
-			text-transform uppercase
+    .orglist, .topiclist
+        margin 0; padding 0
 
-	.topiclist
-		margin 0
-		padding 0
-		li
-			margin 0 40px 20px 0
-			list-style none
-			display inline-block
-			font-size 32px
-			font-weight 700
-			text-transform uppercase
+        li
+            list-style none
+            display inline-block
+            font-weight 700
+            text-transform uppercase
+
+            a
+                color inherit
+                text-decoration none
+
+            &:last-child
+                margin-right 0
+
+    .orglist
+        margin-bottom 30px
+
+        li
+            margin 0 50px 20px 0
+            font-size 22px
+            font-style italic
+
+    .topiclist
+        li
+            margin 0 35px 20px 0
+            font-size 30px
 
 .ourteam
-	padding 90px 6% 70px 6%
-	h2
-		margin 0 0 20px 0
-		padding 0
-		text-transform uppercase
-	.description
-		margin 0
-		font-size 18px
-		line-height 22px
+    h2
+        margin 0 0 25px 0; padding 0
+        text-transform uppercase
 
-	.photos
-		margin-top 50px
+    .description
+        margin 0
+        font-size 17px
+        line-height 25px
 
-.tile
-	height 180px
-	width 180px
+    .photos
+        width 100%
+        margin-top 50px
+        text-align center
 
 .single-member
-	// Positioning
-	position relative
-	display inline-block
+    width 180px; height 180px
+    display inline-block
+    position relative
 
-	&:hover
-		> div
-			visibility visible
+    &:hover
+        > div
+            visibility visible
 
-	.bottom-member
-		// Positioning
-		position absolute
-		margin 1px
+    .bottom-member
+        // Positioning
+        position absolute
+        margin 1px
 
-		// Appearance	
-		background-size cover
-		background-repeat no-repeat
-	
-	.single-member-info
-		// Positioning
-		position absolute
-		margin 1px
+        // Appearance
+        background-size cover
+        background-repeat no-repeat
 
-		// Font
-		text-align center
-		color white
-		font-size 24px
-		font-weight 800
+    .single-member-info
+        // Positioning
+        position absolute
+        margin 1px
 
-		// Appearance
-		visibility hidden
-		background-size cover
-		background-repeat no-repeat
+        // Font
+        text-align center
+        color white
+        font-size 24px
+        font-weight 800
+
+        // Appearance
+        visibility hidden
+        background-size cover
+        background-repeat no-repeat
+
+@media only screen and (max-width: $mobile-bp-sm)
+    .orgtopicmap
+        .orglist
+            li
+                margin 0 20px 20px 0
+                font-size 20px
+        .topiclist
+            li
+                font-size 26px
