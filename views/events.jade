@@ -9,7 +9,7 @@ block content
             div(class= 'col-md-#{event.width} gutter')
                 div.event(id = "#{event._url}")
                     div.name #{event.name}
-                    p #{event.one_liner}
+                    div.oneliner #{event.one_liner}
                     div.image
                         div.image-inner(style="background-image:url(#{event.card_url})")
 

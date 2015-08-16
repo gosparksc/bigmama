@@ -27,24 +27,24 @@ $(".event").each(function() {
                     // Change browser history after animation completes
                     window.history.pushState({page: window.location.href}, 'events/'+event_name.split(".")[0]+'.html', '/events/'+event_name.split(".")[0]+'.html');
                 });
-                
+
             }
 
         });
 
     });
 
-    // Set up fade-in and fade-out for one-liner descriptions
-    $(this).hover(function() {
-        p = $(this).children('p')[0];
-        $(p).css("opacity", '1');
-        // $(p).animate({
-            // opacity: 1
-        // }, 25);
-    }, function() {
-        p = $(this).children('p')[0];
-        $(p).css("opacity", '0');
-    });
+    // // Set up fade-in and fade-out for one-liner descriptions
+    // $(this).hover(function() {
+    //     p = $(this).children('p')[0];
+    //     $(p).css("opacity", '1');
+    //     // $(p).animate({
+    //         // opacity: 1
+    //     // }, 25);
+    // }, function() {
+    //     p = $(this).children('p')[0];
+    //     $(p).css("opacity", '0');
+    // });
 
 });
 
@@ -77,7 +77,7 @@ $(window).on('popstate', function(e) {
                 dataType: "html",
                 success: function(response) {
                 // Load fragment into event page div and get container height
-                    var event_page = $('#event-page').append(response); 
+                    var event_page = $('#event-page').append(response);
                 }
             });
 
