@@ -1,16 +1,19 @@
 ---
 members:
 - name: "Neel"
+  lower: "neel"
   source: "/img/members/neel.jpg"
   committees:
   - "1000 Pitches"
 
 - name: "Megan"
+  lower: "megan"
   source: "/img/members/megan.jpg"
   committees:
   - "Branding"
 
 - name: "Adena"
+  lower: "adena"
   source: "/img/members/adena.jpg"
   committees:
   - "1000 Pitches"
@@ -19,6 +22,7 @@ members:
   - "USC Hackers"
 
 - name: "Stephen"
+  lower: "stephen"
   source: "/img/members/stephen.jpg"
   committees:
   - "1000 Pitches"
@@ -27,6 +31,7 @@ members:
   - "USC Hackers"
 
 - name: "Calvin"
+  lower: "calvin"
   source: "/img/members/calvin.jpg"
   committees:
   - "1000 Pitches"
@@ -35,23 +40,27 @@ members:
   - "USC Hackers"
 
 - name: "Michael"
+  lower: "michael"
   source: "/img/members/michael.jpg"
   committees:
   - "Marketing"
 
 - name: "Eric"
+  lower: "eric"
   source: "/img/members/eric.jpg"
   committees:
   - "Arts Grooves and Foods"
   - "Blog"
 
 - name: "Katherine"
+  lower: "katherine"
   source: "/img/members/katherine.jpg"
   committees:
   - "1000 Pitches"
   - "Arts Grooves and Foods"
 
 - name: "Saadhya"
+  lower: "saadhya"
   source: "/img/members/saadhya.jpg"
   committees:
   - "1000 Pitches"
@@ -59,11 +68,13 @@ members:
   - "Recruitment"
 
 - name: "Marc"
+  lower: "marc"
   source: "/img/members/marc.jpg"
   committees:
   - "Tech Tours"
 
 - name: "Soham"
+  lower: "soham"
   source: "/img/members/soham.jpg"
   committees:
   - "Arts Grooves and Foods"
@@ -71,6 +82,7 @@ members:
   - "Community Service"
 
 - name: "Trajan"
+  lower: "trajan"
   source: "/img/members/trajan.jpg"
   committees:
   - "1000 Pitches"
@@ -78,18 +90,21 @@ members:
   - "Arts Grooves and Foods"
 
 - name: "Irfan"
+  lower: "irfan"
   source: "/img/members/irfan.jpg"
   committees:
   - "USC Hackers"
   - "TechLA Internships"
 
 - name: "Tiffany"
+  lower: "tiffany"
   source: "/img/members/tiff.jpg"
   committees:
   - "Arts Grooves and Foods"
   - "Marketing"
 
 - name: "Maddie"
+  lower: "maddie"
   source: "/img/members/maddie.jpg"
   committees:
   - "1000 Pitches"
@@ -99,18 +114,21 @@ members:
   - "Dev Team"
 
 - name: "Ben"
+  lower: "ben"
   source: "/img/members/ben.jpg"
   committees:
   - "1000 Pitches"
   - "Tech Tours"
 
 - name: "Pooja"
+  lower: "pooja"
   source: "/img/members/pooja.jpg"
   committees:
   - "1000 Pitches"
   - "Branding"
 
 - name: "Grant"
+  lower: "grant"
   source: "/img/members/grant.jpg"
   committees:
   - "Startup Career Fair"
@@ -118,30 +136,35 @@ members:
   - "Branding"
 
 - name: "Josh"
+  lower: "josh"
   source: "/img/members/Josh.jpg"
   committees:
   - "Blog"
   - "Branding"
 
 - name: "Cherrie"
+  lower: "cherrie"
   source: "/img/members/cherrie.jpg"
   committees:
   -  "Dev Team"
   - "Recruitment"
 
 - name: "Rikki"
+  lower: "rikki"
   source: "/img/members/rikki.jpg"
   committees:
   - "Marketing"
   - "Startup Career Fair"
 
 - name: "Jesse"
+  lower: "jesse"
   source: "/img/members/jesse.jpg"
   committees:
   - "Dev Team"
   - "USC Hackers"
 
 - name: "Brian"
+  lower: "brian"
   source: "/img/members/brian.jpg"
   committees:
   - "TechLA Internships"
@@ -149,6 +172,7 @@ members:
   - "Dev Team"
 
 - name: "Matias"
+  lower: "matias"
   source: "/img/members/matias.jpg"
   committees:
   - "TechLA Internships"
@@ -190,8 +214,8 @@ block content
         div.photos
           for member in post.members
               div.single-member.tile(id="#{member.name}")
-                  div.bottom-member.tile
-                  div.single-member-info.tile
+                  div.bottom-member.tile(style='background-image:url(/img/members/#{member.lower}.jpg)')
+                  div.single-member-info.tile(style='background-image:url(/img/members/#{member.lower}-silly.jpg)')
                       p(style="margin-top: 80px") #{member.name}
                       //- for committee in member.committees
                       //-     p(style="z-index: 10;") #{committee}
