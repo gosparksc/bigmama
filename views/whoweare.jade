@@ -185,7 +185,7 @@ block stylesheet
 
 block content
     section.orgtopicmap
-        p.description Spark SC is made up of #[span.highlight twelve student organizations], whose leaders meet twice a month as the #[span.highlight Spark SC Council] to collaborate, update and share their vision for USC's entrepreneurial community.
+        p.description Spark SC is made up of #[span.highlight five student organizations], whose leaders meet twice a month as the #[span.highlight Spark SC Council] to collaborate, update and share their vision for USC's entrepreneurial community.
         hr
         ul.orglist
             li.lava.product.design.startups.technology.workshops.engineering.webdev.speakers.teams.innovation
@@ -217,13 +217,10 @@ block content
 
         div.photos
           for member in post.members
-              div.single-member.tile(id="#{member.name}")
-                  div.bottom-member.tile(style='background-image:url(/img/members/#{member.lower}.jpg)')
-                  div.single-member-info.tile(style='background-image:url(/img/members/#{member.lower}-silly.jpg)')
-                      p(style="margin-top: 80px") #{member.name}
-                      //- for committee in member.committees
-                      //-     p(style="z-index: 10;") #{committee}
-                      //- div.silly-member
+              div.single-member(id="#{member.name}")
+                  div.photo(style='background-image:url(/img/members/#{member.lower}.jpg)')
+                  div.info(style='background-image:url(/img/members/#{member.lower}-silly.jpg)')
+                      div #{member.name}
 
 block javascript
     script(type='text/javascript' src='/js/whoweare.js')
