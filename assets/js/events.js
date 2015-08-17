@@ -1,4 +1,4 @@
-var x_html = "<div class='event-page-close'><a class='inner'>✖</a></div>";
+var x_html = "<div class='event-page-close'><a href='/events' class='inner'>✖</a></div>";
 var isMobile = {
     Android: function() {
         return navigator.userAgent.match(/Android/i);
@@ -61,8 +61,8 @@ $(".event").each(function() {
 
 });
 
+// Handles forwards and backwards on this page
 if( !isMobile.any() ) {
-    // Handles forwards and backwards on this page
     $(window).on('popstate', function(e) {
 
         var location = e.originalEvent.currentTarget.location.href;
