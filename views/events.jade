@@ -3,6 +3,9 @@ extends layout
 block stylesheet
     link(rel='stylesheet' href='/css/events.css')
 
+block yamls
+    != yaml()
+
 block content
     div.container.events
         for event in site.events.all().sort(function(a, b){var x = a['order']; var y = b['order']; return ((x < y) ? -1 : ((x > y) ? 1 : 0));})

@@ -45,7 +45,7 @@ $(".event").each(function() {
                     });
 
                     // Animate the event page back to the top
-                    event_page.animate({
+                    event_page.delay(200).animate({
                         top: 0
                     }, 800, function() {
                         // Change browser history after animation completes
@@ -59,6 +59,14 @@ $(".event").each(function() {
 
     });
 
+});
+
+// On escape go back to events
+$(document).keyup(function(e) {
+    if (e.which == 27) {
+        $('#event-page').html(x_html);
+        window.history.pushState({page: window.location.href}, 'events' + '.html', '/events' + '.html');
+    }
 });
 
 // Handles forwards and backwards on this page
