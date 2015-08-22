@@ -16,7 +16,7 @@ module.exports =
   extensions: [
     js_pipeline(files: 'assets/js/*.coffee'),
     css_pipeline(files: 'assets/css/*.styl', 'assets/css/lib/*.css'),
-    roots_yaml(source: 'data'),
+    roots_yaml(),
     dynamic_content(),
   ]
 
