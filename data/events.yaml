@@ -1,5 +1,7 @@
 pitches:
+  order: 0
   name: "1000 Pitches"
+  _url: "/events/1000-pitches.html"
   width: 6
   card_url: "/img/events/1kp/1kp_card.jpg"
   cover_url: "/img/events/1kp/1kp_cover3.jpg"
@@ -74,6 +76,492 @@ pitches:
   bottom_images:
   - "/img/events/1kp/1kp_4.jpg"
   - "/img/events/1kp/1kp_card3.jpg"
+
+  press:
+   - "LINKLINKLINKLINK"
+   - "LINKLINKLINKLINK"
+  _content: false
+
+agf:
+  order: 1
+  _url: "/events/arts-grooves-foods.html"
+  name: "Arts Grooves & Foods"
+  width: 3
+  card_url: "/img/events/agf/agf_card.jpg"
+  cover_url: "/img/events/agf/agf_11.jpg"
+  logo_url: "/img/logos/agf_logo.png"
+  date: "March 12, 2015"
+  attendance: "400 Students, 80 Booths, 1 Festival"
+  goal: "Arts, Grooves, & Foods is a celebration of student innovation in art, music, and food seeking to expand the perceived definition of entrepreneurship"
+  one_liner: "An art, music, and cullinary festival that celebrates entrepreneurs living off of their creative talents."
+  description:
+   - "Arts, Grooves, & Foods is a music festival juxtaposed with a student talent exposition buzzing with an electric excitement."
+   - "The initiative was born from an urge to inform the masses that entrepreneurship is more than starting companies and the desire to unite the talented students of USC’s diverse disciplines. Seemingly disparate goals? Not upon further investigation."
+   - "By seeking out individuals working on creative and exciting projects in fields not traditionally linked to entrepreneurship, showcasing their brilliant work, and connecting the underlying entrepreneurial dots for participants and attendees alike, we were able to expose students of Viterbi, Annenberg, Dornsife, Roski, and others to the inspiring work of their Trojan peers and spread the message that the heart of entrepreneurship lies in creativity and self empowerment rather than LLCs and funding sprees."
+   - "Arts, Grooves, & Foods is an event, but more than that, it is a movement for which we foresee burgeoning growth and far reaching impact."
+
+  partners:
+   - name: "iovine"
+     source: "/img/schools/iovine/iovine_2.png"
+     link: "http://iovine-young.usc.edu/"
+
+  members:
+   - name: Eric
+     source: "/img/members/eric.jpg"
+
+   - name: Soham
+     source: "/img/members/soham.jpg"
+
+   - name: Saadhya 
+     source: "/img/members/saadhya.jpg"
+
+   - name: Katherine
+     source: "/img/members/katherine.jpg"
+
+   - name: Tiffany
+     source: "/img/members/tiffany.jpg"
+
+   - name: Trajan
+     source: "/img/members/trajan.jpg"
+
+   - name: Ben
+     source: "/img/members/ben.jpg"
+
+   - name: Pooja
+
+     source: "/img/members/pooja.jpg"
+
+   - name: Adena
+     source: "/img/members/adena.jpg"
+
+  bottom_images:
+   - "/img/events/agf/agf_15.jpg"
+   - "/img/events/agf/agf_12.jpg"
+  press:
+   - "LINKLINKLINKLINK"
+   - "LINKLINKLINKLINK"
+  _content: false
+
+impact:
+  order: 2
+  _url: "/events/community-service.html"
+  name: "Community Service"
+  width: 3
+  card_url: "/img/events/serv/serv_card.jpg"
+  cover_url: "/img/events/serv/serv_1.jpg"
+  logo_url: "/img/logos/spark_letterhead.png"
+  date: "All year long"
+  attendance: ""
+  goal: "To support and inspire our surrounding community through service-oriented projects and initiatives within the lens of entrepreneurship."
+  one_liner: "Our set of initiatives aimed at supporting USC's surrounding community"
+  description:
+   - "Against the backdrop of student entrepreneurship, creativity, and technology, Spark SC seeks to create impact beyond the USC campus. Each semester, Spark engages in various community-oriented projects, initiatives, and events within our goals of cultivating and inspiring entrepreneurship. From empowering girls in engineering to collaborating with local school programs, we continue to develop projects of different levels of social impact." 
+   - "We strive to address communities and diverse opportunities and would love to hear about various ways we can offer our time, leadership, and hands. If you or your organization would like to build something together, please contact hello@sparksc.org with “Community Service Opportunity” in the email subject."
+
+  partners:
+   - name: "hybrid"
+     source: "/img/schools/hybridhighschool.png"
+     link: " http://www.ednovate.org/about-usc/"
+   
+  members:
+   - name: "Megan"
+     source: "/img/members/megan.jpg"
+
+   - name: "Maddie"
+     source: "/img/members/maddie.jpg"
+
+   - name: "Pooja" 
+     source: "/img/members/pooja.jpg"
+
+   - name: "Saadhya"
+     source: "/img/members/saadhya.jpg"
+
+   - name: "Rikki"
+     source: "/img/members/rikki.jpg"
+
+  bottom_images:
+   - "/img/events/serv/serv_2.jpg"
+   - "/img/events/serv/serv_6.jpg"
+
+  press:
+   - "LINKLINKLINKLINK"
+   - "LINKLINKLINKLINK"
+  _content: false
+
+fair:
+  order: 3
+  _url: "/events/spark-fair.html"
+  name: "Spark Fair"
+  width: 3
+  card_url: "/img/events/mnm/mnm_1.jpg"
+  cover_url: "/img/events/mnm/mnm_2.jpg"
+  logo_url: "/img/logos/spark_letterhead.png"
+  date: "August 17, 2015"
+  attendance: "300 Students. 5 Orgs. 1 Community."
+  goal: "At the beginning of each semester, the Spark Fair showcases Spark SC’s member organizations to provide clear and meaningful introductions to students interested in joining."
+  one_liner: "A chance for students to casually meet the leaders of USC's leading entrepreneurial organizations."
+  description:
+   - "The Spark Fair is a large-scale event at the beginning of each semester that showcases Spark SC’s member organizations and encourages students to join the Spark SC community." 
+   - "The Spark Fair allows students to learn more about organizations in the tech, entrepreneurship, and design scene on campus.The event has the feel of a small involvement fair, with the added benefit of music, food, and more interaction between organization leaders and potential members. Students who attend are encouraged to mingle with like-minded individuals who may be future club-mates. "
+
+  partners:
+   - name: "lava"
+     source: "/img/logos/lava.png"
+     link: "http://usclavalab.org/"
+
+   - name: "dfa"
+     source: "/img/logos/dfa.png"
+     link: "http://www.designforamericausc.com/"
+
+   - name: "coca"
+     source: "/img/logos/coca.png"
+     link: "https://www.facebook.com/usccorpuscallosum"
+
+   - name: "3d4e"
+     source: "/img/logos/3D4E.png"
+     link: "http://www.usc3d4e.com/"
+
+  members:
+   - name: "Adena"
+     source: "/img/members/adena.jpg"
+
+   - name: "Cherrie"
+     source: "/img/members/cherrie.jpg"
+
+   - name: "Saadhya"
+     source: "/img/members/saadhya.jpg"
+
+   - name: "Katherine"
+     source: "/img/members/katherine.jpg"
+
+   - name: "Michael"
+     source: "/img/members/michael.jpg"
+
+   - name: "Calvin" 
+     source: "/img/members/calvin.jpg"
+
+   - name: "Megan"
+     source: "/img/members/megan.jpg"
+
+   - name: "Stephen"
+     source: "/img/members/stephen.jpg"
+
+   - name: "Neel"
+     source: "/img/members/neel.jpg"
+
+  bottom_images:
+   - "/img/events/mnm/mnm_card2.jpg"
+   - "/img/events/mnm/mnm_card1.jpg"
+
+  press:
+   - "LINKLINKLINKLINK"
+   - "LINKLINKLINKLINK"
+  _content: false
+
+safari:
+  order: 4
+  _url: "/events/tech-tours.html"
+  name: "Tech Tours"
+  width: 3
+  card_url: "/img/events/tours/tours_card.jpg"
+  cover_url: "/img/events/tours/tours_3.jpg"
+  logo_url: "/img/logos/spark_letterhead.png"
+  date: "All year round"
+  attendance: "25 Students. 20 Companies. 5 Tours."
+  goal: "Tech Tours give Trojans the opportunity to tour the companies that shape the Los Angeles tech movement, ranging from small startups to well known corporations."
+  one_liner: "We organize monthly trips to local companies we think are awesome for our members."
+  description:
+   - "It’s difficult to get a feel for what it’s like to work at a tech company, so we’d rather show than tell. Tech Tours take USC students all over Los Angeles to tour the buildings, campuses, and basements that make up the LA tech scene." 
+   - "Our 'tech tourists' get to see companies’ working environments, learn about their initiatives, and meet individuals who love and influence their missions. On a given Tech Tour, we will load up a few cars in the morning and see about 3 companies throughout the course of the day. Viewing multiple companies per trip lets us compare cultures and projects and helps us to better paint the picture of LA tech as a whole."
+
+  partners:
+   - name: "google"
+     source: "/img/companies/google.png"
+     link: "https://google.com/"
+     
+   - name: "surfair"
+     source: "/img/companies/surfair.png"
+     link: "http://www.surfair.com/"
+
+   - name: "tastemade"
+     source: "/img/companies/tastemade_crop.png"
+     link: "https://www.tastemade.com/"
+
+   - name: "chownow"
+     source: "/img/companies/chownow_letter.png"
+     link: "https://www.chownow.com/"
+
+   - name: "gobbler"
+     source: "/img/companies/gobbler.png"
+     link: "http://gobbler.com/"
+
+   - name: "gem"
+     source: "/img/companies/gem.png"
+     link: "https://gem.co/"
+
+   - name: "riot"
+     source: "/img/companies/riot.png"
+     link: "http://www.riotgames.com/"
+
+   - name: "honestco"
+     source: "/img/companies/honestco.png"
+     link: "https://www.honest.com/"
+
+   - name: "roaminghunger"
+     source: "/img/companies/roaminghunger.png"
+     link: "http://roaminghunger.com/"
+
+  members:
+   - name: "Marc"
+     source: "/img/members/marc.jpg"
+
+   - name: "Ben"
+     source: "/img/members/ben.jpg"
+
+   - name: "Trajan" 
+     source: "/img/members/trajan.jpg"
+
+   - name: "Matias" 
+     source: "/img/members/matias.jpg"
+
+  bottom_images:
+   - "/img/events/tours/tours_2.jpg"
+   - "/img/events/tours/tours_4.jpg"
+
+  press:
+   - "LINKLINKLINKLINK"
+   - "LINKLINKLINKLINK"
+
+  _content: false
+
+scf:
+  order: 5
+  _url: "/events/startup-career-fair.html"
+  name: "Startup Career Fair"
+  width: 6
+  card_url: "/img/events/scf/scf_card.jpg"
+  cover_url: "/img/events/scf/scf_1.jpg"
+  logo_url: "/img/logos/scf_blue.png"
+  date: "February 19, 2015"
+  attendance: "800 Students. 25 Companies. 1 Drone."
+  goal: "The Startup Career Fair connects Los Angeles based startup companies to Trojans looking for internships and full time positions in engineering, design and business."
+  one_liner: "Helping connect USC's top talent to LA's fastest growing companies."
+  description:
+   - "The startup scene in Los Angeles is burgeoning. One of our goals at Spark SC is to help fuel this growth. By connecting top LA startup companies to USC’s pool of talented engineers, designers and business students, we believe we can make a positive impact on LA innovation. "
+   - "The Startup Career Fair, organized exclusively by Spark SC, invites over 25 LA based startup companies to the USC campus to network with potential intern and full time hires. All day, the Quad is lined with companies hiring for a myriad of positions. This past spring, 800 students packed into the quad to speak to recruiters and find more information about their company culture and positions. "
+   - "Spark SC sees a shift in students’ preference from working at large corporations to working at startups. We view this positively because we believe that the quick-to-prototype nature of startups provides a beneficial learning experience for Trojans."
+
+  partners:
+   - name: "tinder"
+     source: "/img/companies/tinder.png"
+     link: "https://tndr.co/"
+
+   - name: "whisper"
+     source: "/img/companies/whisper.png"
+     link: "https://whisper.sh/"
+
+   - name: "omaze"
+     source: "/img/companies/omaze.png"
+     link: "https://omaze.com/"
+
+   - name: "rubicon"
+     source: "/img/companies/rubicon.png"
+     link: "http://rubiconproject.com/"
+
+   - name: "tigertext"
+     source: "/img/companies/tigertext.png"
+     link: "http://www.tigertext.com/"
+
+   - name: "curb"
+     source: "/img/companies/curb.png"
+     link: "http://gocurb.com/"
+
+   - name: "washop"
+     source: "/img/companies/washio.png"
+     link: "http://www.getwashio.com/"
+
+   - name: "spylight"
+     source: "/img/companies/spylight.png"
+     link: "http://www.spylight.com/"
+
+   - name: "flipagram"
+     source: "/img/companies/flipagram.png"
+     link: "https://flipagram.com/"
+
+   - name: "honk"
+     source: "/img/companies/honk.png"
+     link: "http://www.honkforhelp.com/"
+
+   - name: "fastpay"
+     source: "/img/companies/fastpay.png"
+     link: "http://gofastpay.com/"
+
+   - name: "zefr"
+     source: "/img/companies/zefr.png"
+     link: "http://zefr.com/"
+
+   - name: "crosscampus"
+     source: "/img/companies/crosscampus.png"
+     link: "http://www.crosscamp.us/"
+
+   - name: "kaarma"
+     source: "/img/companies/kaarma.png"
+     link: "http://mykaarma.com/"
+
+   - name: "gem"
+     source: "/img/companies/gem.png"
+     link: "https://gem.co/"
+
+   - name: "lootsie"
+     source: "/img/companies/lootsie.png"
+     link: "http://www.lootsie.com/"
+   
+   - name: "vixlet"
+     source: "/img/companies/vixlet.png"
+     link: "http://www.vixlet.com/"
+
+   - name: "codewars"
+     source: "/img/companies/codewars.png"
+     link: "http://www.codewars.com/"
+
+   - name: "blackstone"
+     source: "/img/logos/blp.png"
+     link: "http://usc.thelaunchpad.org/"
+
+   - name: "mayorsoffices"
+     source: "/img/logos/mayorsoffice.png"
+     link: "http://www.lamayor.org/"
+
+   - name: "greif"
+     source: "/img/schools/greif.png"
+     link: "https://www.marshall.usc.edu/faculty/centers/greif"
+
+  members:
+   - name: Calvin 
+     source: "/img/members/calvin.jpg"
+
+   - name: Adena
+     source: "/img/members/adena.jpg"
+
+   - name: Stephen
+     source: "/img/members/stephen.jpg"
+
+   - name: Michael
+     source: "/img/members/michael.jpg"
+
+   - name: Grant
+     source: "/img/members/grant.jpg"
+
+   - name: Matias
+     source: "/img/members/matias.jpg"
+
+   - name: Megan
+     source: "/img/members/megan.jpg"
+
+  bottom_images:
+   - "/img/events/scf/scf_2.jpg"
+   - "/img/events/scf/scf_11.jpg"
+
+  press:
+   - "LINKLINKLINKLINK"
+   - "LINKLINKLINKLINK"
+  _content: false
+
+techla:
+  order: 6
+  _url: "/events/techla.html"
+  name: "TechLA Internships"
+  width: 6
+  card_url: "/img/events/techla/techla_2.jpg"
+  cover_url: "/img/events/techla/techla_1.jpg"
+  logo_url: "/img/logos/techla_logo.png"
+  date: "All year round"
+  attendance: "2500 Students. 300 Companies. 1 Platform."
+  goal: "TechLA Internships is a platform managed Spark SC that allows students to  browse and apply to LA tech companies."
+  one_liner: "We host an internship platform that helps students find jobs with small companies in the Greater Los Angeles area."
+  description:
+   - "TechLA is an online platform that showcases innovative tech companies in Los Angeles hiring for internship and full time positions in various fields. LA job seekers can create a profile with a resume, and apply to select companies by filtering through specific positions, LA regions, and/or company types." 
+   - "With TechLA, Spark SC is trying to achieve more than just happy employees and employers. Our goal is to match companies whose initiatives contribute to Los Angeles as a growing center for innovation to individuals who are passionate about technology and its effect on the area. Currently, the TechLA platform has 2500 students and 300 companies!"
+
+  partners:
+   - name: "upfront"
+     source: "/img/companies/upfront.png"
+     link: "http://upfront.com/"
+   
+  members:
+   - name: "Stephen"
+     source: "/img/members/stephen.jpg"
+
+   - name: "Calvin"
+     source: "/img/members/calvin.jpg"
+
+   - name: "Maddie" 
+     source: "/img/members/maddie.jpg"
+
+   - name: "Irfan"
+     source: "/img/members/irfan.jpg"
+
+   - name: "Brian"
+     source: "/img/members/brian.jpg"
+
+   - name: "Matias"
+     source: "/img/members/matias.jpg"
+
+  bottom_images:
+   - "/img/events/techla/techla_1.png"
+   - "/img/events/techla/techla_3.png"
+
+  press:
+   - "LINKLINKLINKLINK"
+   - "LINKLINKLINKLINK"
+  _content: false
+
+usch:
+  order: 7
+  _url: "/events/usc-hackers.html"
+  name: "USC Hackers"
+  width: 6
+  card_url: "/img/events/usch/usch_card.jpg"
+  cover_url: "/img/events/usch/usch_12.jpg"
+  logo_url: "/img/logos/usch_wide_logo.png"
+  date: "All year round."
+  attendance: "400 Shirts. 8 Hackathons. 1 Community."
+  goal: "USC Hackers is an organized community of developers that encourages partnership and mentorship surrounding tech, hacking and prototyping."
+  one_liner: "Our initiative to inspire students to explore technology outside of the classroom."
+  description:
+   - "The hacker community at USC first formed in early 2014 with the creation of Hack Nights. Hack Nights were a place where anyone could come and work on projects with free drinks and pizza. They provided a coworking space where hackers could meet up, hear about eachothers ideas and start on new projects together."
+   - "Now, we have adopted a new idea of a USC Hackers community, where hack nights and shared projects are an implication of the community we are trying to form, rather than an end result. We kick off the year with a USC Hackers Orientation event, where freshman learning computer science, or anyone else who is new to developing can mingle, view projects made at past hackathons, and hear about the hacker events, workshops and mentorship opportunities.Then, throughout the year, members of the community are encouraged to attend hackathons and other tech events together and rep the USC Hacker’s swag! We are proud to be trojan hackers and so excited to get building together!"
+
+  partners:
+   - name: "Microsoft"
+     source: "/img/companies/microsoft.png"
+     link: "https://microsoft.com/"
+   
+  members:
+   - name: "Irfan"
+     source: "/img/members/irfan.jpg"
+
+   - name: "Calvin"
+     source: "/img/members/calvin.jpg"
+
+   - name: "Adena"
+     source: "/img/members/adena.jpg"
+
+   - name: "Maddie" 
+     source: "/img/members/maddie.jpg"
+
+   - name: "Brian"
+     source: "/img/members/brian.jpg"
+
+   - name: "Jesse"
+     source: "/img/members/jesse.jpg"
+
+   - name: "Stephen" 
+     source: "/img/members/stephen.jpg"
+   
+  bottom_images:
+   - "/img/events/usch/usch_11.jpg"
+   - "/img/events/usch/usch_4.jpg"
 
   press:
    - "LINKLINKLINKLINK"

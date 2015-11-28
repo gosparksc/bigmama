@@ -7,13 +7,22 @@ block content
     div.container.events
         //- for thing in data.test.events
         //-     div #{thing}
-        for event in site.events.all().sort(function(a, b){var x = a['order']; var y = b['order']; return ((x < y) ? -1 : ((x > y) ? 1 : 0));})
-            div(class= 'col-md-#{event.width} gutter')
+
+        for event in Object.keys(data["events"]).sort(function(a, b){var x = data.events[a]["order"]; var y = data.events[b]['order']; return ((x < y) ? -1 : ((x > y) ? 1 : 0));})
+            div(class= 'col-md-#{data.events[event].width} gutter')
+                div.event(id = "#{data.events[event]._url}")
+                    div.name #{data.events[event].name}
+                    div.oneliner #{data.events[event].one_liner}
+                    div.image
+                        div.image-inner(style="background-image:url(#{data.events[event].card_url})")
+
+            //- div(class= 'col-md-#{event.width} gutter')
                 div.event(id = "#{event._url}")
                     div.name #{event.name}
                     div.oneliner #{event.one_liner}
                     div.image
                         div.image-inner(style="background-image:url(#{event.card_url})")
+        //- for event in data["events"]
 
     div.event-info
         div#event-page.event-page

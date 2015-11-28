@@ -4,14 +4,14 @@ block stylesheet
 div.event-container
     div.col-lg-12.event-inner-container
         div.row
-            div #{data["events"]["pitches"]["name"]}
-            div.single-event-image(style="background-image:url(#{post.cover_url})")
-            img.single-event-logo(src="#{post.logo_url}")
+            //- div #{data.events[locals.post.id].name}
+            div.single-event-image(style="background-image:url(#{data.events[locals.post.id].cover_url})")
+            img.single-event-logo(src="#{data.events[locals.post.id].logo_url}")
 
         div.event-content-container
             div.row
-                p(style="font-size:48px; font-weight:800") #{post.name}
-                p(style="margin-top:-30px") #{post.url}
+                p(style="font-size:48px; font-weight:800") #{data.events[locals.post.id].name}
+                p(style="margin-top:-30px") #{data.events[locals.post.id].url}
 
             div.row
                 div.bar
@@ -19,22 +19,22 @@ div.event-container
             div.row
                 div.col-md-7
                     div.row
-                        p(style="font-weight:700; font-style:italic;") DATE: #{post.date}
-                        p #{post.attendance}
+                        p(style="font-weight:700; font-style:italic;") DATE: #{data.events[locals.post.id].date}
+                        p #{data.events[locals.post.id].attendance}
 
                 div.col-md-1
 
                 div.col-md-4
                     div.row.goals
                         p.yellow GOAL
-                        p #{post.goal}
+                        p #{data.events[locals.post.id].goal}
 
             div.row
                 div.col-md-7
                     div.row
                         p(style="font-weight:700; font-style:italic;") EVENT DESCRIPTION
 
-                        for d in post.description
+                        for d in data.events[locals.post.id].description
                             p #{d}
 
                 div.col-md-1
@@ -45,7 +45,7 @@ div.event-container
                         p(style="margin-left: 15px") Lead
                     div.row
                         div.committee-photos
-                            for member in post.members
+                            for member in data.events[locals.post.id].members
                                 div.col-xs-3.member-photo(style="background-image: url(#{member.source});")
 
             div.row(style = "padding-bottom: 40px")
@@ -55,7 +55,7 @@ div.event-container
 
                 div.row
                     div.partners
-                        for partner in post.partners
+                        for partner in data.events[locals.post.id].partners
                             a(href=partner.link)
                                 img.partner-logo(id="#{partner.name}" src=partner.source)
 
@@ -63,13 +63,13 @@ div.event-container
 
                 //- div.col-md-4
                     p.yellow PRESS
-                    for link in post.press
+                    for link in data.events[locals.post.id].press
                         div.col-xs-6.col-md-12(style="width:auto")
                             p #{link}
 
 
         div.row
-            for url in post.bottom_images
+            for url in data.events[locals.post.id].bottom_images
                 div.col-sm-6(style="padding:0px")
                     div.bottom-image(style='background-image:url(#{url})')
         
