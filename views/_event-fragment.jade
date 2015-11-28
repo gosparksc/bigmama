@@ -4,7 +4,6 @@ block stylesheet
 div.event-container
     div.col-lg-12.event-inner-container
         div.row
-            //- div #{data.events[locals.post.id].name}
             div.single-event-image(style="background-image:url(#{data.events[locals.post.id].cover_url})")
             img.single-event-logo(src="#{data.events[locals.post.id].logo_url}")
 
@@ -85,3 +84,11 @@ div.event-container
                         img.social-icon(src='/img/sm/twitter.svg' alt='twitter')
                     a(href='https://instagram.com/gosparksc' target='_blank')
                         img.social-icon(src='/img/sm/instagram.svg' alt='instagram')
+
+block javascript
+    script(src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js')
+    script(type='text/javascript').
+        $(".event-page-close").click( function() {
+            $('#event-page').html(x_html);
+            window.history.pushState({page: window.location.href}, 'events' + '.html', '/events' + '.html');
+        });

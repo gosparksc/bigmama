@@ -1,4 +1,4 @@
-var x_html = "<div class='event-page-close'><a href='/events' class='inner'>✖</a></div>";
+var x_html = "<div class='event-page-close'><div class='inner'>&#10006</div></div>";
 var isMobile = {
     Android: function() {
         return navigator.userAgent.match(/Android/i);
@@ -19,7 +19,6 @@ var isMobile = {
         return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
     }
 };
-// var x_html = $('.event-page').html();
 
 $(".event").each(function() {
     $(this).click(function() {
@@ -56,6 +55,13 @@ $(".event").each(function() {
 
             });
         }
+
+        // Used to avoid ajax request on 'x'
+        $(".event-page-close").click( function() {
+            $('#event-page').html(x_html);
+            window.history.pushState({page: window.location.href}, 'events' + '.html', '/events' + '.html');
+        });
+
 
     });
 
@@ -109,8 +115,3 @@ if( !isMobile.any() ) {
 
     });
 }
-
-// Used to avoid ajax request on 'x'
-// $(".event-page-close").click( function() {
-//     $('#event-page').html(x_html);
-// });

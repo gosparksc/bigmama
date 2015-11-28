@@ -1,0 +1,201 @@
+neel:
+  upper: "Neel"
+  lower: "neel"
+  source: "/img/members/neel.jpg"
+  committees:
+  - "1000 Pitches"
+
+megan:
+  upper: "Megan"
+  lower: "megan"
+  source: "/img/members/megan.jpg"
+  committees:
+  - "Branding"
+
+adena:
+  upper: "Adena"
+  lower: "adena"
+  source: "/img/members/adena.jpg"
+  committees:
+  - "1000 Pitches"
+  - "Startup Career Fair"
+  - "TechLA Internships"
+  - "USC Hackers"
+
+stephen:
+  upper: "Stephen"
+  lower: "stephen"
+  source: "/img/members/stephen.jpg"
+  committees:
+  - "1000 Pitches"
+  - "Startup Career Fair"
+  - "TechLA Internships"
+  - "USC Hackers"
+
+calvin:
+  upper: "Calvin"
+  lower: "calvin"
+  source: "/img/members/calvin.jpg"
+  committees:
+  - "1000 Pitches"
+  - "Startup Career Fair"
+  - "TechLA Internships"
+  - "USC Hackers"
+
+michael:
+  upper: "Michael"
+  lower: "michael"
+  source: "/img/members/michael.jpg"
+  committees:
+  - "Marketing"
+
+eric:
+  upper: "Eric"
+  lower: "eric"
+  source: "/img/members/eric.jpg"
+  committees:
+  - "Arts Grooves and Foods"
+  - "Blog"
+
+katherine:
+  upper: "Katherine"
+  lower: "katherine"
+  source: "/img/members/katherine.jpg"
+  committees:
+  - "1000 Pitches"
+  - "Arts Grooves and Foods"
+
+saadhya:
+  upper: "Saadhya"
+  lower: "saadhya"
+  source: "/img/members/saadhya.jpg"
+  committees:
+  - "1000 Pitches"
+  - "Marketing"
+  - "Recruitment"
+
+marc:
+  upper: "Marc"
+  lower: "marc"
+  source: "/img/members/marc.jpg"
+  committees:
+  - "Tech Tours"
+
+soham:
+  upper: "Soham"
+  lower: "soham"
+  source: "/img/members/soham.jpg"
+  committees:
+  - "Arts Grooves and Foods"
+  - "Dev Team"
+  - "Community Service"
+
+trajan:
+  upper: "Trajan"
+  lower: "trajan"
+  source: "/img/members/trajan.jpg"
+  committees:
+  - "1000 Pitches"
+  - "Tech Tours"
+  - "Arts Grooves and Foods"
+
+irfan:
+  upper: "Irfan"
+  lower: "irfan"
+  source: "/img/members/irfan.jpg"
+  committees:
+  - "USC Hackers"
+  - "TechLA Internships"
+
+tiffany:
+  upper: "Tiffany"
+  lower: "tiffany"
+  source: "/img/members/tiff.jpg"
+  committees:
+  - "Arts Grooves and Foods"
+  - "Marketing"
+
+maddie:
+  upper: "Maddie"
+  lower: "maddie"
+  source: "/img/members/maddie.jpg"
+  committees:
+  - "1000 Pitches"
+  - "Community Service"
+  - "TechLA Internships"
+  - "USC Hackers"
+  - "Dev Team"
+
+ben:
+  upper:: "Ben"
+  lower: "ben"
+  source: "/img/members/ben.jpg"
+  committees:
+  - "1000 Pitches"
+  - "Tech Tours"
+
+pooja:
+  upper: "Pooja"
+  lower: "pooja"
+  source: "/img/members/pooja.jpg"
+  committees:
+  - "1000 Pitches"
+  - "Branding"
+
+grant:
+  upper: "Grant"
+  lower: "grant"
+  source: "/img/members/grant.jpg"
+  committees:
+  - "Startup Career Fair"
+  - "USC Hackers"
+  - "Branding"
+
+josh:
+  upper: "Josh"
+  lower: "josh"
+  source: "/img/members/Josh.jpg"
+  committees:
+  - "Blog"
+  - "Branding"
+
+cherrie:
+  upper: "Cherrie"
+  lower: "cherrie"
+  source: "/img/members/cherrie.jpg"
+  committees:
+  -  "Dev Team"
+  - "Recruitment"
+
+rikki:
+  upper: "Rikki"
+  lower: "rikki"
+  source: "/img/members/rikki.jpg"
+  committees:
+  - "Marketing"
+  - "Startup Career Fair"
+
+jesse:
+  upper: "Jesse"
+  lower: "jesse"
+  source: "/img/members/jesse.jpg"
+  committees:
+  - "Dev Team"
+  - "USC Hackers"
+
+brian:
+  upper:: "Brian"
+  lower: "brian"
+  source: "/img/members/brian.jpg"
+  committees:
+  - "TechLA Internships"
+  - "USC Hackers"
+  - "Dev Team"
+
+matias:
+  upper: "Matias"
+  lower: "matias"
+  source: "/img/members/matias.jpg"
+  committees:
+  - "TechLA Internships"
+  - "USC Hackers"
