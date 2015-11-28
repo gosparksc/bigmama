@@ -10,6 +10,7 @@
     "dynamic-content": "0.3.x",
     "jade": "1.x",
     "js-pipeline": "0.2.x",
+    "jstransformer-marked": "^1.0.1",
     "marked": "0.3.x",
     "roots-yaml": "0.0.4",
     "rupture": "0.6.x",

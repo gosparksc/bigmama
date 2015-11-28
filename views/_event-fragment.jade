@@ -4,6 +4,7 @@ block stylesheet
 div.event-container
     div.col-lg-12.event-inner-container
         div.row
+            div #{data["events"]["pitches"]["name"]}
             div.single-event-image(style="background-image:url(#{post.cover_url})")
             img.single-event-logo(src="#{post.logo_url}")
 
