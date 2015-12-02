@@ -1,0 +1,252 @@
+upfront:
+    name: "upfrontventures"
+    source: "/img/companies/upfront.png"
+    link: "https://upfront.com"
+
+kluge:
+    name: "kluge"
+    source: "/img/companies/kluge.png"
+    link: "http://klugeinteractive.com/"
+
+gena:
+    name: "gena"
+    source: "/img/companies/generalassembly.png"
+    link: "https://generalassemb.ly/"
+
+iovine:
+    name: "iovine"
+    source: "/img/schools/iovine/iovine_2.png"
+    link: "http://iovine-young.usc.edu/"
+
+lloyd:
+    name: "lloydgreif"
+    source: "/img/schools/greif.png"
+
+blp:
+    name: "blackstone"
+    source: "/img/logos/blp.png"
+
+raytheon:
+    name: "raytheon"
+    source: "/img/companies/raytheon.jpg"
+    link: "https://raytheon.com"
+
+riot:
+    name: "riotgames"
+    source: "/img/companies/riotgames.png"
+    link: "https://riotgames.com"
+
+daqri:
+    name: "daqri"
+    source: "/img/companies/daqri.png"
+    link: "https://daqri.com"
+
+cb:
+    name: "citrusbyte"
+    source: "/img/companies/citrusbyte.png"
+    link: "https://citrusbyte.com/"
+
+microsoft:
+    name: "microsoft"
+    source: "/img/companies/microsoft.png"
+    link: "https://microsoft.com"
+
+halcyon:
+    name: "halcyon"
+    source: "/img/companies/halcyon_black.png"
+    link: "https://halcyoninnovation.com"
+
+hybrid:
+    name: "hybrid"
+    source: "/img/schools/hybridhighschool.png"
+    link: " http://www.ednovate.org/about-usc/"
+
+lava:
+    name: "lavalab"
+    source: "/img/logos/lava.png"
+    link: "http://usclavalab.org/"
+
+dfa:
+    name: "dfa"
+    source: "/img/logos/dfa.png"
+    link: "http://www.designforamericausc.com/"
+
+coca:
+    name: "coca"
+    source: "/img/logos/coca.png"
+    link: "https://www.facebook.com/usccorpuscallosum"
+
+3d4e:
+    name: "3d4e"
+    source: "/img/logos/3D4E.png"
+    link: "http://www.usc3d4e.com/"
+
+google:
+    name: "google"
+    source: "/img/companies/google.png"
+    link: "https://google.com"
+
+surfair:
+    name: "surfair"
+    source: "/img/companies/surfair.png"
+    link: "http://www.surfair.com/"
+
+tastemade:
+    name: "tastemade"
+    source: "/img/companies/tastemade_crop.png"
+    link: "https://www.tastemade.com/"
+
+chownow:
+    name: "chownow"
+    source: "/img/companies/chownow_letter.png"
+    link: "https://www.chownow.com/"
+
+gobbler:
+    name: "gobler"
+    source: "/img/companies/gobbler.png"
+    link: "http://gobbler.com/"
+
+honestco:
+    name: "honestcompany"
+    source: "/img/companies/honestco.png"
+    link: "https://www.honest.com/"
+
+roaminghunger:
+    name: "roaminghunger"
+    source: "/img/companies/roaminghunger.png"
+    link: "http://roaminghunger.com/"
+
+tinder:
+    name: "tinder"
+    source: "/img/companies/tinder.png"
+    link: "https://tndr.co/"
+
+whisper:
+    name: "whisper"
+    source: "/img/companies/whisper.png"
+    link: "https://whisper.sh/"
+
+omaze:
+    name: "omaze"
+    source: "/img/companies/omaze.png"
+    link: "https://omaze.com/"
+
+rubicon:
+    name: "rubicon"
+    source: "/img/companies/rubicon.png"
+    link: "http://rubiconproject.com/"
+
+tigertext:
+    name: "tigertext"
+    source: "/img/companies/tigertext.png"
+    link: "http://www.tigertext.com/"
+
+curb:
+    name: "curb"
+    source: "/img/companies/curb.png"
+    link: "http://gocurb.com/"
+
+washio:
+    name: "washio"
+    source: "/img/companies/washio.png"
+    link: "http://www.getwashio.com/"
+
+spylight:
+    name: "spylight"
+    source: "/img/companies/spylight.png"
+    link: "http://www.spylight.com/"
+
+flipagram:
+    name: "flipagram"
+    source: "/img/companies/flipagram.png"
+    link: "https://flipagram.com/"
+
+honk:
+    name: "honk"
+    source: "/img/companies/honk.png"
+    link: "http://www.honkforhelp.com/"
+
+gem:
+    name: "gem"
+    source: "/img/companies/gem.png"
+    link: "http://www.gem.com/"
+
+fastpay:
+    name: "fastpay"
+    source: "/img/companies/fastpay.png"
+    link: "http://gofastpay.com/"
+
+zefr:
+    name: "zefr"
+    source: "/img/companies/zefr.png"
+    link: "http://zefr.com/"
+
+crosscampus:
+    name: "crosscampus"
+    source: "/img/companies/crosscampus.png"
+    link: "http://www.crosscamp.us/"
+
+kaarma:
+    name: "kaarma"
+    source: "/img/companies/kaarma.png"
+    link: "http://mykaarma.com/"
+
+lootsie:
+    name: "lootsie"
+    source: "/img/companies/lootsie.png"
+    link: "http://www.lootsie.com/"
+
+vixlet:
+    name: "vixlet"
+    source: "/img/companies/vixlet.png"
+    link: "http://www.vixlet.com/"
+
+codewars:
+    name: "codewars"
+    source: "/img/companies/codewars.png"
+    link: "http://www.codewars.com/"
+
+mayor:
+    name: "mayorsoffices"
+    source: "/img/logos/mayorsoffice.png"
+    link: "http://www.lamayor.org/"
+
+colab:
+    name: "colab"
+    source: "/img/companies/colab.png"
+    link: "http://colab.la"
+
+hawkemedia:
+    name: "hawkemedia"
+    source: "/img/companies/hawkemedia.png"
+    link: "http://hawkemedia.com"
+
+jaunt:
+    name: "jauntvr"
+    source: "/img/companies/jaunt.jpg"
+    link: "http://www.jauntvr.com/"
+
+ring:
+    name: "ring"
+    source: "/img/companies/ring.png"
+    link: "https://ring.com"
+
+snapchat:
+    name: "snapchat"
+    source: "/img/companies/snapchat.png"
+    link: "http://snapchat.com"
+
+soothe:
+    name: "soothe"
+    source: "/img/companies/soothe.png"
+    link: soothe.com
+
+styku:
+    name: "styku"
+    source: "/img/companies/styku.png"
+    link: styku.com
+
+stackcommerce:
+    name: "stackcommerce"
+    source: "/img/companies/stackcommerce.svg"
+    link: "https://stackcommerce.com/"

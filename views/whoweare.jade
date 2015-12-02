@@ -36,11 +36,11 @@ block content
         p.description Spark SC is uniquely structured to make sure we're focusing on projects we're passionate about. Originally a small but mighty group of 6, we expanded into the Spark SC Board. Students apply each semester to be a part of the team and work on Committees that excite them. Applications open at the beginning of each USC semester. Interested? Check out <a href="http://sparksc.org/apply/" class="highlight"> our recruitment page</a>.
 
         div.photos
-          for member in data["members"]
-              div.single-member(id="#{member.lower}")
-                  div.photo(style='background-image:url(/img/members/#{member.lower}.jpg)')
-                  div.info(style='background-image:url(/img/members/#{member.lower}-silly.jpg)')
-                      div #{member.name}
+          for member, index in data["members"]
+            div.single-member(id="#{member.lower}")
+                div.photo(style='background-image:url(/img/members/#{member.lower}.jpg)')
+                div.info(style='background-image:url(/img/members/#{member.lower}-silly.jpg)')
+                    div #{member.upper}
 
 block javascript
     script(type='text/javascript' src='/js/whoweare.js')

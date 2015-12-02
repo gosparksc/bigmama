@@ -15,63 +15,40 @@ pitches:
    - "The competition kicks off with an exciting opening ceremony to explain the game and showcase a few live examples. While we encourage students to pitch from home using our website, we also host Pitch Booths about two days a week throughout the course of the competition! Students can stop by these booths to submit pitches for treats and receive our (quite popular) 1000 Pitches TShirt! When the competition ends, we host a closing ceremony, where winning pitches are revealed and $1000 checks are distributed."
    - "Spark SC believes amazing ideas are out there –– scribbled on post-its, typed up on Notes, or tucked away in minds. 1000 Pitches invites us to throw away our preconceptions of who can be an “innovator” and adopt the belief that everyone has a thousand dollar pitch."
    - "Send us a note at hello@sparksc.org to find out how your organization can sponsor!"
-   
+
   partners:
-   - name: "cornerstone"
-     source: "/img/companies/cornerstone.png"
-     link: "http://www.cornerstoneondemand.com"
-
-   - name: "20mm"
-     source: "/img/companies/20mm.png"
-     link: "http://www.20mm.org"
-
-   - name: "openx"
-     source: "/img/companies/openx.png"
-     link: "http://www.openx.com"
-
-   - name: "crosscampus"
-     source: "/img/companies/crosscampus.png"
-     link: "http://www.crosscamp.us/"
-
-   - name: "flex"
-     source: "/img/companies/flex.jpg"
-     link: "http://www.flextronics.com/"
-
-   - name: "kluge"
-     source: "/img/companies/kluge.png"
-     link: "http://klugeinteractive.com/"
-
-   - name: "generalassembly"
-     source: "/img/companies/generalassembly.png"
-     link: "https://generalassemb.ly/"
+   - id: "upfront"
+   - id: "lloyd"
+   - id: "riot"
+   - id: "daqri"
+   - id: "iovine"
+   - id: "halcyon"
+   - id: "raytheon"
+   - id: "cb"
+   - id: "blp"
+   - id: "microsoft"
 
   members:
-   - name: "Maddie"
-     source: "/img/members/maddie.jpg"
-
    - name: "Ben"
      source: "/img/members/ben.jpg"
 
    - name: "Pooja"
      source: "/img/members/pooja.jpg"
 
-   - name: "Adena"
-     source: "/img/members/adena.jpg"
-
-   - name: "Michael"
-     source: "/img/members/michael.jpg"
-
-   - name: "Calvin" 
-     source: "/img/members/calvin.jpg"
-
    - name: "Rikki"
      source: "/img/members/rikki.jpg"
 
-   - name: "Neel"
-     source: "/img/members/neel.jpg"
+   - name: "Saadhya"
+     source: "/img/members/saadhya.jpg"
 
    - name: "Trajan"
      source: "/img/members/trajan.jpg"
+
+   - name: "Nathan"
+     source: "/img/members/nathan.jpg"
+
+   - name: "Andrew"
+     source: "/img/members/andrew.jpg"
 
   bottom_images:
   - "/img/events/1kp/1kp_4.jpg"
@@ -101,9 +78,7 @@ agf:
    - "Arts, Grooves, & Foods is an event, but more than that, it is a movement for which we foresee burgeoning growth and far reaching impact."
 
   partners:
-   - name: "iovine"
-     source: "/img/schools/iovine/iovine_2.png"
-     link: "http://iovine-young.usc.edu/"
+   - id: "iovine"
 
   members:
    - name: Eric
@@ -118,9 +93,6 @@ agf:
    - name: Katherine
      source: "/img/members/katherine.jpg"
 
-   - name: Tiffany
-     source: "/img/members/tiffany.jpg"
-
    - name: Trajan
      source: "/img/members/trajan.jpg"
 
@@ -128,11 +100,7 @@ agf:
      source: "/img/members/ben.jpg"
 
    - name: Pooja
-
      source: "/img/members/pooja.jpg"
-
-   - name: Adena
-     source: "/img/members/adena.jpg"
 
   bottom_images:
    - "/img/events/agf/agf_15.jpg"
@@ -159,10 +127,8 @@ impact:
    - "We strive to address communities and diverse opportunities and would love to hear about various ways we can offer our time, leadership, and hands. If you or your organization would like to build something together, please contact hello@sparksc.org with “Community Service Opportunity” in the email subject."
 
   partners:
-   - name: "hybrid"
-     source: "/img/schools/hybridhighschool.png"
-     link: " http://www.ednovate.org/about-usc/"
-   
+   - id: "hybrid"
+
   members:
    - name: "Megan"
      source: "/img/members/megan.jpg"
@@ -170,14 +136,14 @@ impact:
    - name: "Maddie"
      source: "/img/members/maddie.jpg"
 
-   - name: "Pooja" 
-     source: "/img/members/pooja.jpg"
+   - name: "Deepika" 
+     source: "/img/members/deepika.jpg"
 
-   - name: "Saadhya"
-     source: "/img/members/saadhya.jpg"
+   - name: "Arush"
+     source: "/img/members/arush.jpg"
 
-   - name: "Rikki"
-     source: "/img/members/rikki.jpg"
+   - name: "Nicholyn"
+     source: "/img/members/nicholyn.jpg"
 
   bottom_images:
    - "/img/events/serv/serv_2.jpg"
@@ -205,21 +171,10 @@ fair:
    - "The Spark Fair allows students to learn more about organizations in the tech, entrepreneurship, and design scene on campus.The event has the feel of a small involvement fair, with the added benefit of music, food, and more interaction between organization leaders and potential members. Students who attend are encouraged to mingle with like-minded individuals who may be future club-mates. "
 
   partners:
-   - name: "lava"
-     source: "/img/logos/lava.png"
-     link: "http://usclavalab.org/"
-
-   - name: "dfa"
-     source: "/img/logos/dfa.png"
-     link: "http://www.designforamericausc.com/"
-
-   - name: "coca"
-     source: "/img/logos/coca.png"
-     link: "https://www.facebook.com/usccorpuscallosum"
-
-   - name: "3d4e"
-     source: "/img/logos/3D4E.png"
-     link: "http://www.usc3d4e.com/"
+   - id: lava
+   - id: dfa
+   - id: coca
+   - id: 3d4e
 
   members:
    - name: "Adena"
@@ -275,54 +230,29 @@ safari:
    - "Our 'tech tourists' get to see companies’ working environments, learn about their initiatives, and meet individuals who love and influence their missions. On a given Tech Tour, we will load up a few cars in the morning and see about 3 companies throughout the course of the day. Viewing multiple companies per trip lets us compare cultures and projects and helps us to better paint the picture of LA tech as a whole."
 
   partners:
-   - name: "google"
-     source: "/img/companies/google.png"
-     link: "https://google.com/"
-     
-   - name: "surfair"
-     source: "/img/companies/surfair.png"
-     link: "http://www.surfair.com/"
-
-   - name: "tastemade"
-     source: "/img/companies/tastemade_crop.png"
-     link: "https://www.tastemade.com/"
-
-   - name: "chownow"
-     source: "/img/companies/chownow_letter.png"
-     link: "https://www.chownow.com/"
-
-   - name: "gobbler"
-     source: "/img/companies/gobbler.png"
-     link: "http://gobbler.com/"
-
-   - name: "gem"
-     source: "/img/companies/gem.png"
-     link: "https://gem.co/"
-
-   - name: "riot"
-     source: "/img/companies/riot.png"
-     link: "http://www.riotgames.com/"
-
-   - name: "honestco"
-     source: "/img/companies/honestco.png"
-     link: "https://www.honest.com/"
-
-   - name: "roaminghunger"
-     source: "/img/companies/roaminghunger.png"
-     link: "http://roaminghunger.com/"
+   - id: "google"
+   - id: "surfair"
+   - id: "tastemade"
+   - id: "chownow"
+   - id: "gobbler"
+   - id: "gem"
+   - id: "riot"
+   - id: "honestco"
+   - id: "roaminghunger"
 
   members:
+
+   - name: "Trajan" 
+     source: "/img/members/trajan.jpg"
+
    - name: "Marc"
      source: "/img/members/marc.jpg"
 
    - name: "Ben"
      source: "/img/members/ben.jpg"
 
-   - name: "Trajan" 
-     source: "/img/members/trajan.jpg"
-
-   - name: "Matias" 
-     source: "/img/members/matias.jpg"
+   - name: "Nathan" 
+     source: "/img/members/nathan.jpg"
 
   bottom_images:
    - "/img/events/tours/tours_2.jpg"
@@ -352,111 +282,49 @@ scf:
    - "Spark SC sees a shift in students’ preference from working at large corporations to working at startups. We view this positively because we believe that the quick-to-prototype nature of startups provides a beneficial learning experience for Trojans."
 
   partners:
-   - name: "tinder"
-     source: "/img/companies/tinder.png"
-     link: "https://tndr.co/"
-
-   - name: "whisper"
-     source: "/img/companies/whisper.png"
-     link: "https://whisper.sh/"
-
-   - name: "omaze"
-     source: "/img/companies/omaze.png"
-     link: "https://omaze.com/"
-
-   - name: "rubicon"
-     source: "/img/companies/rubicon.png"
-     link: "http://rubiconproject.com/"
-
-   - name: "tigertext"
-     source: "/img/companies/tigertext.png"
-     link: "http://www.tigertext.com/"
-
-   - name: "curb"
-     source: "/img/companies/curb.png"
-     link: "http://gocurb.com/"
-
-   - name: "washop"
-     source: "/img/companies/washio.png"
-     link: "http://www.getwashio.com/"
-
-   - name: "spylight"
-     source: "/img/companies/spylight.png"
-     link: "http://www.spylight.com/"
-
-   - name: "flipagram"
-     source: "/img/companies/flipagram.png"
-     link: "https://flipagram.com/"
-
-   - name: "honk"
-     source: "/img/companies/honk.png"
-     link: "http://www.honkforhelp.com/"
-
-   - name: "fastpay"
-     source: "/img/companies/fastpay.png"
-     link: "http://gofastpay.com/"
-
-   - name: "zefr"
-     source: "/img/companies/zefr.png"
-     link: "http://zefr.com/"
-
-   - name: "crosscampus"
-     source: "/img/companies/crosscampus.png"
-     link: "http://www.crosscamp.us/"
-
-   - name: "kaarma"
-     source: "/img/companies/kaarma.png"
-     link: "http://mykaarma.com/"
-
-   - name: "gem"
-     source: "/img/companies/gem.png"
-     link: "https://gem.co/"
-
-   - name: "lootsie"
-     source: "/img/companies/lootsie.png"
-     link: "http://www.lootsie.com/"
-   
-   - name: "vixlet"
-     source: "/img/companies/vixlet.png"
-     link: "http://www.vixlet.com/"
-
-   - name: "codewars"
-     source: "/img/companies/codewars.png"
-     link: "http://www.codewars.com/"
-
-   - name: "blackstone"
-     source: "/img/logos/blp.png"
-     link: "http://usc.thelaunchpad.org/"
-
-   - name: "mayorsoffices"
-     source: "/img/logos/mayorsoffice.png"
-     link: "http://www.lamayor.org/"
-
-   - name: "greif"
-     source: "/img/schools/greif.png"
-     link: "https://www.marshall.usc.edu/faculty/centers/greif"
+   - id: "snapchat"
+   - id: "daqri"
+   - id: "tinder"
+   - id: "styku"
+   - id: "fastpay"
+   - id: "zefr"
+   - id: "omaze"
+   - id: "rubicon"
+   - id: "tigertext"
+   - id: "colab"
+   - id: "soothe"
+   - id: "whisper"
+   - id: "stackcommerce"
+   - id: "washio"
+   - id: "crosscampus"
+   - id: "hawkemedia"
+   - id: "lloyd"
+   - id: "mayor"
 
   members:
+   - name: Cherrie 
+     source: "/img/members/cherrie.jpg"
+
+   - name: Nicholyn 
+     source: "/img/members/nicholyn.jpg"
+
+   - name: Will 
+     source: "/img/members/will.jpg"
+
+   - name: Matias
+     source: "/img/members/matias.jpg"
+
+   - name: Zechariah
+     source: "/img/members/zechariah.jpg"
+
+   - name: Marc
+     source: "/img/members/marc.jpg"
+
    - name: Calvin 
      source: "/img/members/calvin.jpg"
 
    - name: Adena
      source: "/img/members/adena.jpg"
-
-   - name: Stephen
-     source: "/img/members/stephen.jpg"
-
-   - name: Michael
-     source: "/img/members/michael.jpg"
-
-   - name: Grant
-     source: "/img/members/grant.jpg"
-
-   - name: Matias
-     source: "/img/members/matias.jpg"
-
-   - name: Megan
-     source: "/img/members/megan.jpg"
 
   bottom_images:
    - "/img/events/scf/scf_2.jpg"
@@ -484,28 +352,29 @@ techla:
    - "With TechLA, Spark SC is trying to achieve more than just happy employees and employers. Our goal is to match companies whose initiatives contribute to Los Angeles as a growing center for innovation to individuals who are passionate about technology and its effect on the area. Currently, the TechLA platform has 2500 students and 300 companies!"
 
   partners:
-   - name: "upfront"
-     source: "/img/companies/upfront.png"
-     link: "http://upfront.com/"
-   
+   - id: "upfront"
+
   members:
    - name: "Stephen"
      source: "/img/members/stephen.jpg"
 
-   - name: "Calvin"
-     source: "/img/members/calvin.jpg"
+   - name: "Soham"
+     source: "/img/members/soham.jpg"
 
-   - name: "Maddie" 
-     source: "/img/members/maddie.jpg"
-
-   - name: "Irfan"
-     source: "/img/members/irfan.jpg"
-
-   - name: "Brian"
-     source: "/img/members/brian.jpg"
+   - name: "Ben" 
+     source: "/img/members/bens.jpg"
 
    - name: "Matias"
      source: "/img/members/matias.jpg"
+
+   - name: "Rachit"
+     source: "/img/members/rachit.jpg"
+
+   - name: "Nicholyn"
+     source: "/img/members/nicholyn.jpg"
+
+   - name: "William"
+     source: "/img/members/will.jpg"
 
   bottom_images:
    - "/img/events/techla/techla_1.png"
@@ -533,10 +402,8 @@ usch:
    - "Now, we have adopted a new idea of a USC Hackers community, where hack nights and shared projects are an implication of the community we are trying to form, rather than an end result. We kick off the year with a USC Hackers Orientation event, where freshman learning computer science, or anyone else who is new to developing can mingle, view projects made at past hackathons, and hear about the hacker events, workshops and mentorship opportunities.Then, throughout the year, members of the community are encouraged to attend hackathons and other tech events together and rep the USC Hacker’s swag! We are proud to be trojan hackers and so excited to get building together!"
 
   partners:
-   - name: "Microsoft"
-     source: "/img/companies/microsoft.png"
-     link: "https://microsoft.com/"
-   
+   - id: "microsoft"
+
   members:
    - name: "Irfan"
      source: "/img/members/irfan.jpg"
@@ -558,7 +425,19 @@ usch:
 
    - name: "Stephen" 
      source: "/img/members/stephen.jpg"
-   
+
+   - name: "Riley" 
+     source: "/img/members/riley.jpg"
+
+   - name: "Grant" 
+     source: "/img/members/grant.jpg"
+
+   - name: "Hannah" 
+     source: "/img/members/hannah.jpg"
+
+   - name: "Arush" 
+     source: "/img/members/arush.jpg"
+
   bottom_images:
    - "/img/events/usch/usch_11.jpg"
    - "/img/events/usch/usch_4.jpg"

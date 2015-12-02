@@ -55,8 +55,9 @@ div.event-container
                 div.row
                     div.partners
                         for partner in data.events[locals.post.id].partners
-                            a(href=partner.link)
-                                img.partner-logo(id="#{partner.name}" src=partner.source)
+                            if partner.id
+                                a(href="#{data.partners[partner.id].link}")
+                                    img.partner-logo(class="#{data.partners[partner.id].name}" id="#{data.partners[partner.id].name}" src="#{data.partners[partner.id].source}")
 
                 //- div.col-md-1
 

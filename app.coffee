@@ -16,8 +16,8 @@ module.exports =
   extensions: [
     js_pipeline(files: 'assets/js/*.coffee'),
     css_pipeline(files: 'assets/css/*.styl', 'assets/css/lib/*.css'),
-    dynamic_content(),
-    roots_yaml()
+    roots_yaml(),
+    dynamic_content()
   ]
 
   stylus:

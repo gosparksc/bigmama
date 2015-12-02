@@ -55,7 +55,7 @@ eric:
   source: "/img/members/eric.jpg"
   committees:
   - "Arts Grooves and Foods"
-  - "Blog"
+  - "Apollo"
 
 katherine:
   upper: "Katherine"
@@ -107,14 +107,6 @@ irfan:
   - "USC Hackers"
   - "TechLA Internships"
 
-tiffany:
-  upper: "Tiffany"
-  lower: "tiffany"
-  source: "/img/members/tiff.jpg"
-  committees:
-  - "Arts Grooves and Foods"
-  - "Marketing"
-
 maddie:
   upper: "Maddie"
   lower: "maddie"
@@ -127,7 +119,7 @@ maddie:
   - "Dev Team"
 
 ben:
-  upper:: "Ben"
+  upper: "Ben"
   lower: "ben"
   source: "/img/members/ben.jpg"
   committees:
@@ -156,7 +148,7 @@ josh:
   lower: "josh"
   source: "/img/members/Josh.jpg"
   committees:
-  - "Blog"
+  - "Apollo"
   - "Branding"
 
 cherrie:
@@ -184,9 +176,18 @@ jesse:
   - "USC Hackers"
 
 brian:
-  upper:: "Brian"
+  upper: "Brian"
   lower: "brian"
   source: "/img/members/brian.jpg"
+  committees:
+  - "TechLA Internships"
+  - "USC Hackers"
+  - "Dev Team"
+
+zec:
+  upper: "Zechariah"
+  lower: "zechariah"
+  source: "/img/members/zechariah.jpg"
   committees:
   - "TechLA Internships"
   - "USC Hackers"
@@ -199,3 +200,102 @@ matias:
   committees:
   - "TechLA Internships"
   - "USC Hackers"
+
+arush:
+  upper: "Arush"
+  lower: "arush"
+  source: "/img/members/arush.jpg"
+  committees:
+  - "Community Service"
+  - "USC Hackers"
+  - "Dev Team"
+
+will:
+  upper: "Will"
+  lower: "will"
+  source: "/img/members/will.jpg"
+  committees:
+  - "USC Hackers"
+  - "Dev Team"
+
+sam:
+  upper: "Sam"
+  lower: "sam"
+  source: "/img/members/sam.jpg"
+  committees:
+  - "Media"
+  - "Design Workshops"
+
+andrew:
+  upper: "Andrew"
+  lower: "andrew"
+  source: "/img/members/andrew.jpg"
+  committees:
+  - "Branding"
+  - "1000 Pitches"
+
+rachit:
+  upper: "Rachit"
+  lower: "rachit"
+  source: "/img/members/rachit.jpg"
+  committees:
+  - "USC Hackers"
+  - "TechLA Internship"
+  - "Dev Team"
+
+hannah:
+  upper: "Hannah"
+  lower: "hannah"
+  source: "/img/members/hannah.jpg"
+  committees:
+  - "USC Hackers"
+  - "Design Workshops"
+
+bens:
+  upper: "Ben"
+  lower: "bens"
+  source: "/img/members/bens.jpg"
+  committees:
+  - "Branding"
+  - "TechLA Internships"
+
+nicholyn:
+  upper: "Nicholyn"
+  lower: "nicholyn"
+  source: "/img/members/nicholyn.jpg"
+  committees:
+  - "Community Service"
+  - "TechLA Internships"
+  - "Startup Career Fair"
+
+joseph:
+  upper: "Joseph"
+  lower: "joseph"
+  source: "/img/members/joseph.jpg"
+  committees:
+  - "Media"
+  - "Apollo"
+
+riley:
+  upper: "Riley"
+  lower: "riley"
+  source: "/img/members/riley.jpg"
+  committees:
+  - "Dev Team"
+  - "USC Hackers"
+
+nathan:
+  upper: "Nathan"
+  lower: "nathan"
+  source: "/img/members/nathan.jpg"
+  committees:
+  - "1000 Pitches"
+  - "Safari"
+
+deepika:
+  upper: "Deepika"
+  lower: "deepika"
+  source: "/img/members/deepika.jpg"
+  committees:
+  - "Community Service"
+  - "Apollo"
