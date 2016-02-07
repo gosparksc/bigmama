@@ -87,7 +87,7 @@ agf:
    - name: Soham
      source: "/img/members/soham.jpg"
 
-   - name: Saadhya 
+   - name: Saadhya
      source: "/img/members/saadhya.jpg"
 
    - name: Katherine
@@ -121,9 +121,9 @@ impact:
   date: "All year long"
   attendance: ""
   goal: "To support and inspire our surrounding community through service-oriented projects and initiatives within the lens of entrepreneurship."
-  one_liner: "Our set of initiatives aimed at supporting USC's surrounding community"
+  one_liner: "Supporting USC's surrounding community."
   description:
-   - "Against the backdrop of student entrepreneurship, creativity, and technology, Spark SC seeks to create impact beyond the USC campus. Each semester, Spark engages in various community-oriented projects, initiatives, and events within our goals of cultivating and inspiring entrepreneurship. From empowering girls in engineering to collaborating with local school programs, we continue to develop projects of different levels of social impact." 
+   - "Against the backdrop of student entrepreneurship, creativity, and technology, Spark SC seeks to create impact beyond the USC campus. Each semester, Spark engages in various community-oriented projects, initiatives, and events within our goals of cultivating and inspiring entrepreneurship. From empowering girls in engineering to collaborating with local school programs, we continue to develop projects of different levels of social impact."
    - "We strive to address communities and diverse opportunities and would love to hear about various ways we can offer our time, leadership, and hands. If you or your organization would like to build something together, please contact hello@sparksc.org with “Community Service Opportunity” in the email subject."
 
   partners:
@@ -136,7 +136,7 @@ impact:
    - name: "Maddie"
      source: "/img/members/maddie.jpg"
 
-   - name: "Deepika" 
+   - name: "Deepika"
      source: "/img/members/deepika.jpg"
 
    - name: "Arush"
@@ -167,7 +167,7 @@ fair:
   goal: "At the beginning of each semester, the Spark Fair showcases Spark SC’s member organizations to provide clear and meaningful introductions to students interested in joining."
   one_liner: "A chance for students to casually meet the leaders of USC's leading entrepreneurial organizations."
   description:
-   - "The Spark Fair is a large-scale event at the beginning of each semester that showcases Spark SC’s member organizations and encourages students to join the Spark SC community." 
+   - "The Spark Fair is a large-scale event at the beginning of each semester that showcases Spark SC’s member organizations and encourages students to join the Spark SC community."
    - "The Spark Fair allows students to learn more about organizations in the tech, entrepreneurship, and design scene on campus.The event has the feel of a small involvement fair, with the added benefit of music, food, and more interaction between organization leaders and potential members. Students who attend are encouraged to mingle with like-minded individuals who may be future club-mates. "
 
   partners:
@@ -192,7 +192,7 @@ fair:
    - name: "Michael"
      source: "/img/members/michael.jpg"
 
-   - name: "Calvin" 
+   - name: "Calvin"
      source: "/img/members/calvin.jpg"
 
    - name: "Megan"
@@ -226,7 +226,7 @@ safari:
   goal: "Tech Tours give Trojans the opportunity to tour the companies that shape the Los Angeles tech movement, ranging from small startups to well known corporations."
   one_liner: "We organize monthly trips to local companies we think are awesome for our members."
   description:
-   - "It’s difficult to get a feel for what it’s like to work at a tech company, so we’d rather show than tell. Tech Tours take USC students all over Los Angeles to tour the buildings, campuses, and basements that make up the LA tech scene." 
+   - "It’s difficult to get a feel for what it’s like to work at a tech company, so we’d rather show than tell. Tech Tours take USC students all over Los Angeles to tour the buildings, campuses, and basements that make up the LA tech scene."
    - "Our 'tech tourists' get to see companies’ working environments, learn about their initiatives, and meet individuals who love and influence their missions. On a given Tech Tour, we will load up a few cars in the morning and see about 3 companies throughout the course of the day. Viewing multiple companies per trip lets us compare cultures and projects and helps us to better paint the picture of LA tech as a whole."
 
   partners:
@@ -242,7 +242,7 @@ safari:
 
   members:
 
-   - name: "Trajan" 
+   - name: "Trajan"
      source: "/img/members/trajan.jpg"
 
    - name: "Marc"
@@ -251,7 +251,7 @@ safari:
    - name: "Ben"
      source: "/img/members/ben.jpg"
 
-   - name: "Nathan" 
+   - name: "Nathan"
      source: "/img/members/nathan.jpg"
 
   bottom_images:
@@ -302,13 +302,13 @@ scf:
    - id: "mayor"
 
   members:
-   - name: Cherrie 
+   - name: Cherrie
      source: "/img/members/cherrie.jpg"
 
-   - name: Nicholyn 
+   - name: Nicholyn
      source: "/img/members/nicholyn.jpg"
 
-   - name: Will 
+   - name: Will
      source: "/img/members/will.jpg"
 
    - name: Matias
@@ -320,7 +320,7 @@ scf:
    - name: Marc
      source: "/img/members/marc.jpg"
 
-   - name: Calvin 
+   - name: Calvin
      source: "/img/members/calvin.jpg"
 
    - name: Adena
@@ -348,7 +348,7 @@ techla:
   goal: "TechLA Internships is a platform managed Spark SC that allows students to  browse and apply to LA tech companies."
   one_liner: "We host an internship platform that helps students find jobs with small companies in the Greater Los Angeles area."
   description:
-   - "TechLA is an online platform that showcases innovative tech companies in Los Angeles hiring for internship and full time positions in various fields. LA job seekers can create a profile with a resume, and apply to select companies by filtering through specific positions, LA regions, and/or company types." 
+   - "TechLA is an online platform that showcases innovative tech companies in Los Angeles hiring for internship and full time positions in various fields. LA job seekers can create a profile with a resume, and apply to select companies by filtering through specific positions, LA regions, and/or company types."
    - "With TechLA, Spark SC is trying to achieve more than just happy employees and employers. Our goal is to match companies whose initiatives contribute to Los Angeles as a growing center for innovation to individuals who are passionate about technology and its effect on the area. Currently, the TechLA platform has 2500 students and 300 companies!"
 
   partners:
@@ -361,7 +361,7 @@ techla:
    - name: "Soham"
      source: "/img/members/soham.jpg"
 
-   - name: "Ben" 
+   - name: "Ben"
      source: "/img/members/bens.jpg"
 
    - name: "Matias"
@@ -392,11 +392,11 @@ usch:
   width: 6
   card_url: "/img/events/usch/usch_card.jpg"
   cover_url: "/img/events/usch/usch_12.jpg"
-  logo_url: "/img/logos/usch_wide_logo.png"
+  logo_url: "/img/logos/usch_logo_wide.png"
   date: "All year round."
   attendance: "400 Shirts. 8 Hackathons. 1 Community."
   goal: "USC Hackers is an organized community of developers that encourages partnership and mentorship surrounding tech, hacking and prototyping."
-  one_liner: "Our initiative to inspire students to explore technology outside of the classroom."
+  one_liner: "Inspiring students to explore technology outside of the classroom."
   description:
    - "The hacker community at USC first formed in early 2014 with the creation of Hack Nights. Hack Nights were a place where anyone could come and work on projects with free drinks and pizza. They provided a coworking space where hackers could meet up, hear about eachothers ideas and start on new projects together."
    - "Now, we have adopted a new idea of a USC Hackers community, where hack nights and shared projects are an implication of the community we are trying to form, rather than an end result. We kick off the year with a USC Hackers Orientation event, where freshman learning computer science, or anyone else who is new to developing can mingle, view projects made at past hackathons, and hear about the hacker events, workshops and mentorship opportunities.Then, throughout the year, members of the community are encouraged to attend hackathons and other tech events together and rep the USC Hacker’s swag! We are proud to be trojan hackers and so excited to get building together!"
@@ -414,7 +414,7 @@ usch:
    - name: "Adena"
      source: "/img/members/adena.jpg"
 
-   - name: "Maddie" 
+   - name: "Maddie"
      source: "/img/members/maddie.jpg"
 
    - name: "Brian"
@@ -423,19 +423,19 @@ usch:
    - name: "Jesse"
      source: "/img/members/jesse.jpg"
 
-   - name: "Stephen" 
+   - name: "Stephen"
      source: "/img/members/stephen.jpg"
 
-   - name: "Riley" 
+   - name: "Riley"
      source: "/img/members/riley.jpg"
 
-   - name: "Grant" 
+   - name: "Grant"
      source: "/img/members/grant.jpg"
 
-   - name: "Hannah" 
+   - name: "Hannah"
      source: "/img/members/hannah.jpg"
 
-   - name: "Arush" 
+   - name: "Arush"
      source: "/img/members/arush.jpg"
 
   bottom_images:
