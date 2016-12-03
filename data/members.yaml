@@ -263,3 +263,43 @@ deepika:
   committees:
   - "Community Service"
   - "Apollo"
+
+rachel:
+  lower: "rachel"
+  source: "/img/members/rachel.jpg"
+
+priscilla:
+  lower: "priscilla"
+  source: "/img/members/priscilla.jpg"
+
+aditya:
+  lower: "aditya"
+  source: "/img/members/aditya.jpg"
+
+daniel:
+  lower: "daniel"
+  source: "/img/members/daniel.jpg"
+
+landon:
+  lower: "landon"
+  source: "/img/members/landon.jpg"
+
+suveena:
+  lower: "suveena"
+  source: "/img/members/suveena.jpg"
+
+ankur:
+  lower: "ankur"
+  source: "/img/members/ankur.jpg"
+
+xavier:
+  lower: "xavier"
+  source: "/img/members/xavier.jpg"
+
+sandie:
+  lower: "sandie"
+  source: "/img/members/sandie.jpg"
+
+jenny:
+  lower: "jenny"
+  source: "/img/members/jenny.jpg"
