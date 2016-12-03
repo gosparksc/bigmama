@@ -11,9 +11,9 @@ block content
 
         div.photos
           for member, index in data["members"]
-            div.single-member(id="#{member.lower}")
-                div.photo(style='background-image:url(/img/members/#{member.lower}.jpg)')
-                div.info(style='background-image:url(/img/members/#{member.lower}-silly.jpg)')
+            div.single-member(id="#{member.id}")
+                div.photo(style='background-image:url(/img/members/#{member.id}.jpg)')
+                div.info(style='background-image:url(/img/members/#{member.id}-silly.jpg)')
                     div #{member.lower}
 
     section.ouralumni

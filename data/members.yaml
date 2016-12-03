@@ -1,11 +1,13 @@
 neel:
   lower: "neel"
+  id: "neel"
   source: "/img/members/neel.jpg"
   committees:
   - "1000 Pitches"
 
 adena:
   lower: "adena"
+  id: "adena"
   source: "/img/members/adena.jpg"
   committees:
   - "1000 Pitches"
@@ -15,6 +17,7 @@ adena:
 
 stephen:
   lower: "stephen"
+  id: "stephen"
   source: "/img/members/stephen.jpg"
   committees:
   - "1000 Pitches"
@@ -24,6 +27,7 @@ stephen:
 
 calvin:
   lower: "calvin"
+  id: "calvin"
   source: "/img/members/calvin.jpg"
   committees:
   - "1000 Pitches"
@@ -33,12 +37,14 @@ calvin:
 
 michael:
   lower: "michael"
+  id: "michael"
   source: "/img/members/michael.jpg"
   committees:
   - "Marketing"
 
 katherine:
   lower: "katherine"
+  id: "katherine"
   source: "/img/members/katherine.jpg"
   committees:
   - "1000 Pitches"
@@ -46,6 +52,7 @@ katherine:
 
 saadhya:
   lower: "saadhya"
+  id: "saadhya"
   source: "/img/members/saadhya.jpg"
   committees:
   - "1000 Pitches"
@@ -54,12 +61,14 @@ saadhya:
 
 marc:
   lower: "marc"
+  id: "marc"
   source: "/img/members/marc.jpg"
   committees:
   - "Tech Tours"
 
 trajan:
   lower: "trajan"
+  id: "trajan"
   source: "/img/members/trajan.jpg"
   committees:
   - "1000 Pitches"
@@ -68,6 +77,7 @@ trajan:
 
 irfan:
   lower: "irfan"
+  id: "irfan"
   source: "/img/members/irfan.jpg"
   committees:
   - "USC Hackers"
@@ -75,6 +85,7 @@ irfan:
 
 maddie:
   lower: "maddie"
+  id: "maddie"
   source: "/img/members/maddie.jpg"
   committees:
   - "1000 Pitches"
@@ -83,15 +94,17 @@ maddie:
   - "USC Hackers"
   - "Dev Team"
 
-ben:
+benc:
   lower: "ben"
-  source: "/img/members/ben.jpg"
+  id: "benc"
+  source: "/img/members/benc.jpg"
   committees:
   - "1000 Pitches"
   - "Tech Tours"
 
 pooja:
   lower: "pooja"
+  id: "pooja"
   source: "/img/members/pooja.jpg"
   committees:
   - "1000 Pitches"
@@ -99,6 +112,7 @@ pooja:
 
 grant:
   lower: "grant"
+  id: "grant"
   source: "/img/members/grant.jpg"
   committees:
   - "Startup Career Fair"
@@ -107,6 +121,7 @@ grant:
 
 josh:
   lower: "josh"
+  id: "josh"
   source: "/img/members/Josh.jpg"
   committees:
   - "Apollo"
@@ -114,6 +129,7 @@ josh:
 
 cherrie:
   lower: "cherrie"
+  id: "cherrie"
   source: "/img/members/cherrie.jpg"
   committees:
   -  "Dev Team"
@@ -121,6 +137,7 @@ cherrie:
 
 rikki:
   lower: "rikki"
+  id: "rikki"
   source: "/img/members/rikki.jpg"
   committees:
   - "Marketing"
@@ -128,6 +145,7 @@ rikki:
 
 brian:
   lower: "brian"
+  id: "brian"
   source: "/img/members/brian.jpg"
   committees:
   - "TechLA Internships"
@@ -136,6 +154,7 @@ brian:
 
 zec:
   lower: "zechariah"
+  id: "zechariah"
   source: "/img/members/zechariah.jpg"
   committees:
   - "TechLA Internships"
@@ -144,6 +163,7 @@ zec:
 
 matias:
   lower: "matias"
+  id: "matias"
   source: "/img/members/matias.jpg"
   committees:
   - "TechLA Internships"
@@ -151,6 +171,7 @@ matias:
 
 arush:
   lower: "arush"
+  id: "arush"
   source: "/img/members/arush.jpg"
   committees:
   - "Community Service"
@@ -159,6 +180,7 @@ arush:
 
 will:
   lower: "will"
+  id: "will"
   source: "/img/members/will.jpg"
   committees:
   - "USC Hackers"
@@ -166,6 +188,7 @@ will:
 
 sam:
   lower: "sam"
+  id: "sam"
   source: "/img/members/sam.jpg"
   committees:
   - "Media"
@@ -173,6 +196,7 @@ sam:
 
 andrew:
   lower: "andrew"
+  id: "andrew"
   source: "/img/members/andrew.jpg"
   committees:
   - "Branding"
@@ -180,6 +204,7 @@ andrew:
 
 rachit:
   lower: "rachit"
+  id: "rachit"
   source: "/img/members/rachit.jpg"
   committees:
   - "USC Hackers"
@@ -188,13 +213,15 @@ rachit:
 
 hannah:
   lower: "hannah"
+  id: "hannah"
   source: "/img/members/hannah.jpg"
   committees:
   - "USC Hackers"
   - "Design Workshops"
 
 bens:
-  lower: "bens"
+  lower: "ben"
+  id: "bens"
   source: "/img/members/bens.jpg"
   committees:
   - "Branding"
@@ -202,6 +229,7 @@ bens:
 
 riley:
   lower: "riley"
+  id: "riley"
   source: "/img/members/riley.jpg"
   committees:
   - "Dev Team"
@@ -209,6 +237,7 @@ riley:
 
 nathan:
   lower: "nathan"
+  id: "nathan"
   source: "/img/members/nathan.jpg"
   committees:
   - "1000 Pitches"
@@ -216,6 +245,7 @@ nathan:
 
 deepika:
   lower: "deepika"
+  id: "deepika"
   source: "/img/members/deepika.jpg"
   committees:
   - "Community Service"
@@ -223,40 +253,50 @@ deepika:
 
 rachel:
   lower: "rachel"
+  id: "rachel"
   source: "/img/members/rachel.jpg"
 
 priscilla:
   lower: "priscilla"
+  id: "priscilla"
   source: "/img/members/priscilla.jpg"
 
 aditya:
   lower: "aditya"
+  id: "aditya"
   source: "/img/members/aditya.jpg"
 
 daniel:
   lower: "daniel"
+  id: "daniel"
   source: "/img/members/daniel.jpg"
 
 landon:
   lower: "landon"
+  id: "landon"
   source: "/img/members/landon.jpg"
 
 suveena:
   lower: "suveena"
+  id: "suveena"
   source: "/img/members/suveena.jpg"
 
 ankur:
   lower: "ankur"
+  id: "ankur"
   source: "/img/members/ankur.jpg"
 
 xavier:
   lower: "xavier"
+  id: "xavier"
   source: "/img/members/xavier.jpg"
 
 sandie:
   lower: "sandie"
+  id: "sandie"
   source: "/img/members/sandie.jpg"
 
 jenny:
   lower: "jenny"
+  id: "jenny"
   source: "/img/members/jenny.jpg"
