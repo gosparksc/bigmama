@@ -4,12 +4,6 @@ neel:
   committees:
   - "1000 Pitches"
 
-megan:
-  lower: "megan"
-  source: "/img/members/megan.jpg"
-  committees:
-  - "Branding"
-
 adena:
   lower: "adena"
   source: "/img/members/adena.jpg"
@@ -43,13 +37,6 @@ michael:
   committees:
   - "Marketing"
 
-eric:
-  lower: "eric"
-  source: "/img/members/eric.jpg"
-  committees:
-  - "Arts Grooves and Foods"
-  - "Apollo"
-
 katherine:
   lower: "katherine"
   source: "/img/members/katherine.jpg"
@@ -70,14 +57,6 @@ marc:
   source: "/img/members/marc.jpg"
   committees:
   - "Tech Tours"
-
-soham:
-  lower: "soham"
-  source: "/img/members/soham.jpg"
-  committees:
-  - "Arts Grooves and Foods"
-  - "Dev Team"
-  - "Community Service"
 
 trajan:
   lower: "trajan"
@@ -146,13 +125,6 @@ rikki:
   committees:
   - "Marketing"
   - "Startup Career Fair"
-
-jesse:
-  lower: "jesse"
-  source: "/img/members/jesse.jpg"
-  committees:
-  - "Dev Team"
-  - "USC Hackers"
 
 brian:
   lower: "brian"
@@ -227,14 +199,6 @@ bens:
   committees:
   - "Branding"
   - "TechLA Internships"
-
-nicholyn:
-  lower: "nicholyn"
-  source: "/img/members/nicholyn.jpg"
-  committees:
-  - "Community Service"
-  - "TechLA Internships"
-  - "Startup Career Fair"
 
 joseph:
   lower: "joseph"

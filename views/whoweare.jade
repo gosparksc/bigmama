@@ -16,5 +16,16 @@ block content
                 div.info(style='background-image:url(/img/members/#{member.lower}-silly.jpg)')
                     div #{member.lower}
 
+    section.ourteam
+        h2 Alumni
+        p.description Our wonderful Spark SC alumni!
+
+        div.photos
+        for alum, index in data["alumni"]
+            div.single-member(id="#{alum.lower}")
+                div.photo(style='background-image:url(/img/alumni/#{alum.lower}.jpg)')
+                div.info(style='background-image:url(/img/alumni/#{alum.lower}-silly.jpg)')
+                    div #{alum.lower}
+
 block javascript
     script(type='text/javascript' src='/js/whoweare.js')
