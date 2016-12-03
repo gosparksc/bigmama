@@ -200,13 +200,6 @@ bens:
   - "Branding"
   - "TechLA Internships"
 
-joseph:
-  lower: "joseph"
-  source: "/img/members/joseph.jpg"
-  committees:
-  - "Media"
-  - "Apollo"
-
 riley:
   lower: "riley"
   source: "/img/members/riley.jpg"
