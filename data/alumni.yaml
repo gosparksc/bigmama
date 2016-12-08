@@ -6,6 +6,10 @@ eric:
   lower: "eric"
   source: "/img/alumni/eric.jpg"
 
+tiffany:
+  lower: "tiffany"
+  source: "/img/alumni/tiffany.jpg"
+
 soham:
   lower: "soham"
   source: "/img/alumni/soham.jpg"
