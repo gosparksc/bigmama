@@ -29,26 +29,20 @@ pitches:
    - id: "microsoft"
 
   members:
-   - name: "Ben"
-     source: "/img/members/ben.jpg"
-
-   - name: "Pooja"
-     source: "/img/members/pooja.jpg"
-
-   - name: "Rikki"
-     source: "/img/members/rikki.jpg"
-
-   - name: "Saadhya"
-     source: "/img/members/saadhya.jpg"
-
-   - name: "Trajan"
-     source: "/img/members/trajan.jpg"
-
    - name: "Nathan"
      source: "/img/members/nathan.jpg"
 
    - name: "Andrew"
      source: "/img/members/andrew.jpg"
+
+   - name: "Rachel"
+     source: "/img/members/rachel.jpg"
+
+   - name: "Suveena"
+     source: "/img/members/suveena.jpg"
+
+   - name: "Landon"
+     source: "/img/members/landon.jpg"
 
   bottom_images:
   - "/img/events/1kp/1kp_4.jpg"
@@ -81,26 +75,26 @@ agf:
    - id: "iovine"
 
   members:
-   - name: Eric
-     source: "/img/members/eric.jpg"
+   - name: Suveena
+     source: "/img/members/suveena.jpg"
 
-   - name: Soham
-     source: "/img/members/soham.jpg"
+   - name: Grant
+     source: "/img/members/grant.jpg"
 
-   - name: Saadhya
-     source: "/img/members/saadhya.jpg"
+   - name: Melisa
+     source: "/img/members/neel.jpg"
 
-   - name: Katherine
-     source: "/img/members/katherine.jpg"
+   - name: Natalie
+     source: "/img/members/neel.jpg"
 
-   - name: Trajan
-     source: "/img/members/trajan.jpg"
+   - name: Ananya
+     source: "/img/members/neel.jpg"
 
-   - name: Ben
-     source: "/img/members/ben.jpg"
+   - name: Jules
+     source: "/img/members/neel.jpg"
 
-   - name: Pooja
-     source: "/img/members/pooja.jpg"
+   - name: Martin
+     source: "/img/members/neel.jpg"
 
   bottom_images:
    - "/img/events/agf/agf_15.jpg"
@@ -110,10 +104,10 @@ agf:
    - "LINKLINKLINKLINK"
   _content: false
 
-impact:
+launch:
   order: 2
-  _url: "/events/community-service.html"
-  name: "Community Service"
+  _url: "/events/project-launch.html"
+  name: "Project Launch"
   width: 3
   card_url: "/img/events/serv/serv_card.jpg"
   cover_url: "/img/events/serv/serv_1.jpg"
@@ -130,34 +124,96 @@ impact:
    - id: "hybrid"
 
   members:
-   - name: "Megan"
-     source: "/img/members/megan.jpg"
+   - name: "Aditya"
+     source: "/img/members/aditya.jpg"
 
-   - name: "Maddie"
-     source: "/img/members/maddie.jpg"
-
-   - name: "Deepika"
-     source: "/img/members/deepika.jpg"
+   - name: "Priscilla"
+     source: "/img/members/priscilla.jpg"
 
    - name: "Arush"
      source: "/img/members/arush.jpg"
 
-   - name: "Nicholyn"
-     source: "/img/members/nicholyn.jpg"
+   - name: "Sandie"
+     source: "/img/members/sandie.jpg"
+
+   - name: "Jenny"
+     source: "/img/members/jenny.jpg"
+
+   - name: "Rachel"
+     source: "/img/members/rachel.jpg"
+
+   - name: "William"
+     source: "/img/members/will.jpg"
+
+   - name: "Kayla"
+     source: "/img/members/neel.jpg"
 
   bottom_images:
-   - "/img/events/serv/serv_2.jpg"
-   - "/img/events/serv/serv_6.jpg"
+   - "/img/events/launch/launch1.jpg"
+   - "/img/events/launch/launch2.jpg"
 
   press:
    - "LINKLINKLINKLINK"
    - "LINKLINKLINKLINK"
   _content: false
 
-fair:
+# impact:
+#   order: 2
+#   _url: "/events/community-service.html"
+#   name: "Community Service"
+#   width: 3
+#   card_url: "/img/events/serv/serv_card.jpg"
+#   cover_url: "/img/events/serv/serv_1.jpg"
+#   logo_url: "/img/logos/spark_letterhead.png"
+#   date: "All year long"
+#   attendance: ""
+#   goal: "To support and inspire our surrounding community through service-oriented projects and initiatives within the lens of entrepreneurship."
+#   one_liner: "Supporting USC's surrounding community."
+#   description:
+#    - "Against the backdrop of student entrepreneurship, creativity, and technology, Spark SC seeks to create impact beyond the USC campus. Each semester, Spark engages in various community-oriented projects, initiatives, and events within our goals of cultivating and inspiring entrepreneurship. From empowering girls in engineering to collaborating with local school programs, we continue to develop projects of different levels of social impact."
+#    - "We strive to address communities and diverse opportunities and would love to hear about various ways we can offer our time, leadership, and hands. If you or your organization would like to build something together, please contact hello@sparksc.org with “Community Service Opportunity” in the email subject."
+
+#   partners:
+#    - id: "hybrid"
+
+#   members:
+#    - name: "Aditya"
+#      source: "/img/members/aditya.jpg"
+
+#    - name: "Priscilla"
+#      source: "/img/members/priscilla.jpg"
+
+#    - name: "Arush"
+#      source: "/img/members/arush.jpg"
+
+#    - name: "Sandie"
+#      source: "/img/members/sandie.jpg"
+
+#    - name: "Jenny"
+#      source: "/img/members/jenny.jpg"
+
+#    - name: "Rachel"
+#      source: "/img/members/rachel.jpg"
+
+#    - name: "William"
+#      source: "/img/members/william.jpg"
+
+#    - name: "Kayla"
+#      source: "/img/members/neel.jpg"
+
+#   bottom_images:
+#    - "/img/events/serv/serv_2.jpg"
+#    - "/img/events/serv/serv_6.jpg"
+
+#   press:
+#    - "LINKLINKLINKLINK"
+#    - "LINKLINKLINKLINK"
+#   _content: false
+
+podcast:
   order: 3
-  _url: "/events/spark-fair.html"
-  name: "Spark Fair"
+  _url: "/events/podcast.html"
+  name: "Podcast"
   width: 3
   card_url: "/img/events/mnm/mnm_1.jpg"
   cover_url: "/img/events/mnm/mnm_2.jpg"
@@ -177,31 +233,22 @@ fair:
    - id: 3d4e
 
   members:
-   - name: "Adena"
-     source: "/img/members/adena.jpg"
+   - name: "Josh"
+     source: "/img/members/josh.jpg"
 
-   - name: "Cherrie"
-     source: "/img/members/cherrie.jpg"
+   - name: "Sandie"
+     source: "/img/members/sandie.jpg"
 
-   - name: "Saadhya"
-     source: "/img/members/saadhya.jpg"
+   - name: "Marc"
+     source: "/img/members/marc.jpg"
 
-   - name: "Katherine"
-     source: "/img/members/katherine.jpg"
+   - name: "Teresa"
+     source: "/img/members/neel.jpg"
 
-   - name: "Michael"
-     source: "/img/members/michael.jpg"
+   - name: "Kayla"
+     source: "/img/members/neel.jpg"
 
-   - name: "Calvin"
-     source: "/img/members/calvin.jpg"
-
-   - name: "Megan"
-     source: "/img/members/megan.jpg"
-
-   - name: "Stephen"
-     source: "/img/members/stephen.jpg"
-
-   - name: "Neel"
+   - name: "Ian"
      source: "/img/members/neel.jpg"
 
   bottom_images:
@@ -231,6 +278,14 @@ safari:
 
   partners:
    - id: "google"
+   - id: "daqri"
+   - id: "buzzfeed"
+   - id: "google-e"
+   - id: "khan"
+   - id: "maker"
+   - id: "planet"
+   - id: "salesforce"
+   - id: "science"
    - id: "surfair"
    - id: "tastemade"
    - id: "chownow"
@@ -244,15 +299,6 @@ safari:
 
    - name: "Trajan"
      source: "/img/members/trajan.jpg"
-
-   - name: "Marc"
-     source: "/img/members/marc.jpg"
-
-   - name: "Ben"
-     source: "/img/members/ben.jpg"
-
-   - name: "Nathan"
-     source: "/img/members/nathan.jpg"
 
   bottom_images:
    - "/img/events/tours/tours_2.jpg"
@@ -302,29 +348,29 @@ scf:
    - id: "mayor"
 
   members:
-   - name: Cherrie
-     source: "/img/members/cherrie.jpg"
+   - name: Daniel
+     source: "/img/members/daniel.jpg"
 
-   - name: Nicholyn
-     source: "/img/members/nicholyn.jpg"
+   - name: Ankur
+     source: "/img/members/ankur.jpg"
 
    - name: Will
      source: "/img/members/will.jpg"
 
-   - name: Matias
-     source: "/img/members/matias.jpg"
+   - name: Brian
+     source: "/img/members/brian.jpg"
 
-   - name: Zechariah
-     source: "/img/members/zechariah.jpg"
+   - name: Sam
+     source: "/img/members/sam.jpg"
 
-   - name: Marc
-     source: "/img/members/marc.jpg"
+   - name: Martin
+     source: "/img/members/neel.jpg"
 
-   - name: Calvin
-     source: "/img/members/calvin.jpg"
+   - name: Natalie
+     source: "/img/members/neel.jpg"
 
-   - name: Adena
-     source: "/img/members/adena.jpg"
+   - name: Melisa
+     source: "/img/members/neel.jpg"
 
   bottom_images:
    - "/img/events/scf/scf_2.jpg"
@@ -335,58 +381,268 @@ scf:
    - "LINKLINKLINKLINK"
   _content: false
 
-techla:
-  order: 6
-  _url: "/events/techla.html"
-  name: "TechLA Internships"
+itp499:
+  order: 5
+  _url: "/events/itp-499.html"
+  name: "ITP 499: From Idea to Impact"
   width: 6
-  card_url: "/img/events/techla/techla_2.jpg"
-  cover_url: "/img/events/techla/techla_1.jpg"
-  logo_url: "/img/logos/techla_logo.png"
-  date: "All year round"
-  attendance: "2500 Students. 300 Companies. 1 Platform."
-  goal: "TechLA Internships is a platform managed Spark SC that allows students to  browse and apply to LA tech companies."
-  one_liner: "We host an internship platform that helps students find jobs with small companies in the Greater Los Angeles area."
+  card_url: "/img/events/itp/itp_card.jpg"
+  cover_url: "/img/events/itp/itp_cover.jpg"
+  logo_url: "/img/logos/scf_blue.png"
+  date: "February 19, 2015"
+  attendance: "800 Students. 25 Companies. 1 Drone."
+  goal: "The Startup Career Fair connects Los Angeles based startup companies to Trojans looking for internships and full time positions in engineering, design and business."
+  one_liner: "Helping connect USC's top talent to LA's fastest growing companies."
   description:
-   - "TechLA is an online platform that showcases innovative tech companies in Los Angeles hiring for internship and full time positions in various fields. LA job seekers can create a profile with a resume, and apply to select companies by filtering through specific positions, LA regions, and/or company types."
-   - "With TechLA, Spark SC is trying to achieve more than just happy employees and employers. Our goal is to match companies whose initiatives contribute to Los Angeles as a growing center for innovation to individuals who are passionate about technology and its effect on the area. Currently, the TechLA platform has 2500 students and 300 companies!"
+   - "The startup scene in Los Angeles is burgeoning. One of our goals at Spark SC is to help fuel this growth. By connecting top LA startup companies to USC’s pool of talented engineers, designers and business students, we believe we can make a positive impact on LA innovation. "
+   - "The Startup Career Fair, organized exclusively by Spark SC, invites over 25 LA based startup companies to the USC campus to network with potential intern and full time hires. All day, the Quad is lined with companies hiring for a myriad of positions. This past spring, 800 students packed into the quad to speak to recruiters and find more information about their company culture and positions. "
+   - "Spark SC sees a shift in students’ preference from working at large corporations to working at startups. We view this positively because we believe that the quick-to-prototype nature of startups provides a beneficial learning experience for Trojans."
 
   partners:
-   - id: "upfront"
+   - id: "snapchat"
 
   members:
-   - name: "Stephen"
-     source: "/img/members/stephen.jpg"
+   - name: Irfan
+     source: "/img/members/irfan.jpg"
 
-   - name: "Soham"
-     source: "/img/members/soham.jpg"
+   - name: Neel
+     source: "/img/members/neel.jpg"
 
-   - name: "Ben"
-     source: "/img/members/bens.jpg"
+   - name: Adena
+     source: "/img/members/adena.jpg"
 
-   - name: "Matias"
-     source: "/img/members/matias.jpg"
-
-   - name: "Rachit"
-     source: "/img/members/rachit.jpg"
-
-   - name: "Nicholyn"
-     source: "/img/members/nicholyn.jpg"
-
-   - name: "William"
-     source: "/img/members/will.jpg"
+   - name: Landon
+     source: "/img/members/landon.jpg"
 
   bottom_images:
-   - "/img/events/techla/techla_1.png"
-   - "/img/events/techla/techla_3.png"
+   - "/img/events/itp/itp1.jpg"
+   - "/img/events/itp/itp2.jpg"
 
   press:
    - "LINKLINKLINKLINK"
    - "LINKLINKLINKLINK"
   _content: false
 
-usch:
+studios:
+  order: 6
+  _url: "/events/venture-studios.html"
+  name: "Ventures Studios"
+  width: 3
+  card_url: "/img/events/scf/scf_card.jpg"
+  cover_url: "/img/events/scf/scf_1.jpg"
+  logo_url: "/img/logos/scf_blue.png"
+  date: "February 19, 2015"
+  attendance: "800 Students. 25 Companies. 1 Drone."
+  goal: "The Startup Career Fair connects Los Angeles based startup companies to Trojans looking for internships and full time positions in engineering, design and business."
+  one_liner: "Helping connect USC's top talent to LA's fastest growing companies."
+  description:
+   - "The startup scene in Los Angeles is burgeoning. One of our goals at Spark SC is to help fuel this growth. By connecting top LA startup companies to USC’s pool of talented engineers, designers and business students, we believe we can make a positive impact on LA innovation. "
+   - "The Startup Career Fair, organized exclusively by Spark SC, invites over 25 LA based startup companies to the USC campus to network with potential intern and full time hires. All day, the Quad is lined with companies hiring for a myriad of positions. This past spring, 800 students packed into the quad to speak to recruiters and find more information about their company culture and positions. "
+   - "Spark SC sees a shift in students’ preference from working at large corporations to working at startups. We view this positively because we believe that the quick-to-prototype nature of startups provides a beneficial learning experience for Trojans."
+
+  partners:
+   - id: "snapchat"
+   - id: "daqri"
+   - id: "tinder"
+   - id: "styku"
+   - id: "fastpay"
+   - id: "zefr"
+   - id: "omaze"
+   - id: "rubicon"
+   - id: "tigertext"
+   - id: "colab"
+   - id: "soothe"
+   - id: "whisper"
+   - id: "stackcommerce"
+   - id: "washio"
+   - id: "crosscampus"
+   - id: "hawkemedia"
+   - id: "lloyd"
+   - id: "mayor"
+
+  members:
+   - name: Xavier
+     source: "/img/members/xavier.jpg"
+
+   - name: Irfan
+     source: "/img/members/irfan.jpg"
+
+   - name: Suveena
+     source: "/img/members/suveena.jpg"
+
+   - name: Brian
+     source: "/img/members/brian.jpg"
+
+  bottom_images:
+   - "/img/events/scf/scf_2.jpg"
+   - "/img/events/scf/scf_11.jpg"
+
+  press:
+   - "LINKLINKLINKLINK"
+   - "LINKLINKLINKLINK"
+  _content: false
+
+jams:
   order: 7
+  _url: "/events/design-jams.html"
+  name: "Design Jams"
+  width: 3
+  card_url: "/img/events/scf/scf_card.jpg"
+  cover_url: "/img/events/scf/scf_1.jpg"
+  logo_url: "/img/logos/scf_blue.png"
+  date: "February 19, 2015"
+  attendance: "800 Students. 25 Companies. 1 Drone."
+  goal: "The Startup Career Fair connects Los Angeles based startup companies to Trojans looking for internships and full time positions in engineering, design and business."
+  one_liner: "Helping connect USC's top talent to LA's fastest growing companies."
+  description:
+   - "The startup scene in Los Angeles is burgeoning. One of our goals at Spark SC is to help fuel this growth. By connecting top LA startup companies to USC’s pool of talented engineers, designers and business students, we believe we can make a positive impact on LA innovation. "
+   - "The Startup Career Fair, organized exclusively by Spark SC, invites over 25 LA based startup companies to the USC campus to network with potential intern and full time hires. All day, the Quad is lined with companies hiring for a myriad of positions. This past spring, 800 students packed into the quad to speak to recruiters and find more information about their company culture and positions. "
+   - "Spark SC sees a shift in students’ preference from working at large corporations to working at startups. We view this positively because we believe that the quick-to-prototype nature of startups provides a beneficial learning experience for Trojans."
+
+  partners:
+   - id: "snapchat"
+   - id: "daqri"
+   - id: "tinder"
+   - id: "styku"
+   - id: "fastpay"
+   - id: "zefr"
+   - id: "omaze"
+   - id: "rubicon"
+   - id: "tigertext"
+   - id: "colab"
+   - id: "soothe"
+   - id: "whisper"
+   - id: "stackcommerce"
+   - id: "washio"
+   - id: "crosscampus"
+   - id: "hawkemedia"
+   - id: "lloyd"
+   - id: "mayor"
+
+  members:
+   - name: Landon
+     source: "/img/members/landon.jpg"
+
+   - name: Stephen
+     source: "/img/members/stephen.jpg"
+
+   - name: Jenny
+     source: "/img/members/jenny.jpg"
+
+   - name: DFA
+     source: "/img/members/neel.jpg"
+
+  bottom_images:
+   - "/img/events/scf/scf_2.jpg"
+   - "/img/events/scf/scf_11.jpg"
+
+  press:
+   - "LINKLINKLINKLINK"
+   - "LINKLINKLINKLINK"
+  _content: false
+
+fellows:
+  order: 8
+  _url: "/events/techla-fellows.html"
+  name: "TechLA Fellows"
+  width: 6
+  card_url: "/img/events/scf/scf_card.jpg"
+  cover_url: "/img/events/scf/scf_1.jpg"
+  logo_url: "/img/logos/scf_blue.png"
+  date: "February 19, 2015"
+  attendance: "800 Students. 25 Companies. 1 Drone."
+  goal: "The Startup Career Fair connects Los Angeles based startup companies to Trojans looking for internships and full time positions in engineering, design and business."
+  one_liner: "Helping connect USC's top talent to LA's fastest growing companies."
+  description:
+   - "The startup scene in Los Angeles is burgeoning. One of our goals at Spark SC is to help fuel this growth. By connecting top LA startup companies to USC’s pool of talented engineers, designers and business students, we believe we can make a positive impact on LA innovation. "
+   - "The Startup Career Fair, organized exclusively by Spark SC, invites over 25 LA based startup companies to the USC campus to network with potential intern and full time hires. All day, the Quad is lined with companies hiring for a myriad of positions. This past spring, 800 students packed into the quad to speak to recruiters and find more information about their company culture and positions. "
+   - "Spark SC sees a shift in students’ preference from working at large corporations to working at startups. We view this positively because we believe that the quick-to-prototype nature of startups provides a beneficial learning experience for Trojans."
+
+  partners:
+   - id: "snapchat"
+   - id: "daqri"
+   - id: "tinder"
+   - id: "styku"
+   - id: "fastpay"
+   - id: "zefr"
+   - id: "omaze"
+   - id: "rubicon"
+   - id: "tigertext"
+   - id: "colab"
+   - id: "soothe"
+   - id: "whisper"
+   - id: "stackcommerce"
+   - id: "washio"
+   - id: "crosscampus"
+   - id: "hawkemedia"
+   - id: "lloyd"
+   - id: "mayor"
+
+  members:
+   - name: Ankur
+     source: "/img/members/ankur.jpg"
+
+   - name: Will
+     source: "/img/members/will.jpg"
+
+   - name: Rachit
+     source: "/img/members/rachit.jpg"
+
+   - name: Mimi
+     source: "/img/members/mimi.jpg"
+
+   - name: Teresa
+     source: "/img/members/neel.jpg"
+
+   - name: Pratima
+     source: "/img/members/neel.jpg"
+
+   - name: Ananya
+     source: "/img/members/neel.jpg"
+
+  bottom_images:
+   - "/img/events/scf/scf_2.jpg"
+   - "/img/events/scf/scf_11.jpg"
+
+  press:
+   - "LINKLINKLINKLINK"
+   - "LINKLINKLINKLINK"
+  _content: false
+
+# techla:
+#   order: 6
+#   _url: "/events/techla.html"
+#   name: "TechLA Fellows"
+#   width: 6
+#   card_url: "/img/events/techla/techla_2.jpg"
+#   cover_url: "/img/events/techla/techla_1.jpg"
+#   logo_url: "/img/logos/techla_logo.png"
+#   date: "All year round"
+#   attendance: "2500 Students. 300 Companies. 1 Platform."
+#   goal: "TechLA Internships is a platform managed Spark SC that allows students to  browse and apply to LA tech companies."
+#   one_liner: "We host an internship platform that helps students find jobs with small companies in the Greater Los Angeles area."
+#   description:
+#    - "TechLA is an online platform that showcases innovative tech companies in Los Angeles hiring for internship and full time positions in various fields. LA job seekers can create a profile with a resume, and apply to select companies by filtering through specific positions, LA regions, and/or company types."
+#    - "With TechLA, Spark SC is trying to achieve more than just happy employees and employers. Our goal is to match companies whose initiatives contribute to Los Angeles as a growing center for innovation to individuals who are passionate about technology and its effect on the area. Currently, the TechLA platform has 2500 students and 300 companies!"
+
+  # partners:
+  #  - id: "upfront"
+
+  # members:
+  #  - name: "Stephen"
+  #    source: "/img/members/stephen.jpg"
+
+  # bottom_images:
+  #  - "/img/events/techla/techla_1.png"
+  #  - "/img/events/techla/techla_3.png"
+
+  # press:
+  #  - "LINKLINKLINKLINK"
+  #  - "LINKLINKLINKLINK"
+  # _content: false
+
+usch:
+  order: 9
   _url: "/events/usc-hackers.html"
   name: "USC Hackers"
   width: 6
@@ -405,38 +661,20 @@ usch:
    - id: "microsoft"
 
   members:
-   - name: "Irfan"
-     source: "/img/members/irfan.jpg"
+   - name: "Rachit"
+     source: "/img/members/rachit.jpg"
 
-   - name: "Calvin"
-     source: "/img/members/calvin.jpg"
+   - name: "Landon"
+     source: "/img/members/landon.jpg"
 
-   - name: "Adena"
-     source: "/img/members/adena.jpg"
+   - name: "Andrew"
+     source: "/img/members/andrew.jpg"
 
-   - name: "Maddie"
-     source: "/img/members/maddie.jpg"
+   - name: "Suvir"
+     source: "/img/members/neel.jpg"
 
-   - name: "Brian"
-     source: "/img/members/brian.jpg"
-
-   - name: "Jesse"
-     source: "/img/members/jesse.jpg"
-
-   - name: "Stephen"
-     source: "/img/members/stephen.jpg"
-
-   - name: "Riley"
-     source: "/img/members/riley.jpg"
-
-   - name: "Grant"
-     source: "/img/members/grant.jpg"
-
-   - name: "Hannah"
-     source: "/img/members/hannah.jpg"
-
-   - name: "Arush"
-     source: "/img/members/arush.jpg"
+   - name: "Ian"
+     source: "/img/members/neel.jpg"
 
   bottom_images:
    - "/img/events/usch/usch_11.jpg"

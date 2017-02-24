@@ -1,3 +1,38 @@
+buzzfeed:
+    name: "buzzfeed"
+    source: "/img/companies/buzzfeed.jpg"
+    link: "https://buzzfeed.com"
+
+google-e:
+    name: "google-e"
+    source: "/img/companies/google-e.png"
+    link: "https://www.googleforentrepreneurs.com/"
+
+khan:
+    name: "khan"
+    source: "/img/companies/khan.png"
+    link: "https://khanacademy.org"
+
+maker:
+    name: "maker"
+    source: "/img/companies/maker.jpg"
+    link: "http://www.makerstudios.com/"
+
+planet:
+    name: "planet"
+    source: "/img/companies/planet.png"
+    link: "https://www.planet.com/"
+
+salesforce:
+    name: "salesforce"
+    source: "/img/companies/salesforce.png"
+    link: "https://www.salesforce.com/"
+
+science:
+    name: "science"
+    source: "/img/companies/science.png"
+    link: "http://www.science-inc.com/"
+
 upfront:
     name: "upfrontventures"
     source: "/img/companies/upfront.png"
