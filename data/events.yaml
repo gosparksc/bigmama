@@ -11,9 +11,9 @@ pitches:
   goal: "1000 Pitches invites you to throw away your preconceptions of who can be an innovator and pitch your $1000 idea. "
   one_liner: "Our annual two-month long pitch competition that empowers students across campus to realize their innovative potential."
   description:
-   - "1000 Pitches is a two month long pitch competition where top pitchers in each of 12 categories win $1000. Participants submit short video recordings of themselves pitching any idea (yes, ANY idea!) to our pitch gallery, and winners are chosen by industry professionals. Spark SC started the USC branch of 1000 Pitches in Fall 2014, and collected 1015 pitches! The event was founded at the University of Michigan in 2007 and has since expanded to 5 universities across the US. "
-   - "The competition kicks off with an exciting opening ceremony to explain the game and showcase a few live examples. While we encourage students to pitch from home using our website, we also host Pitch Booths about two days a week throughout the course of the competition! Students can stop by these booths to submit pitches for treats and receive our (quite popular) 1000 Pitches TShirt! When the competition ends, we host a closing ceremony, where winning pitches are revealed and $1000 checks are distributed."
-   - "Spark SC believes amazing ideas are out there –– scribbled on post-its, typed up on Notes, or tucked away in minds. 1000 Pitches invites us to throw away our preconceptions of who can be an “innovator” and adopt the belief that everyone has a thousand dollar pitch."
+   - "1000 Pitches is a two month pitch competition that energizes entrepreneurial thinking at USC. Participants share any idea they might have—yes, any idea—in a short video pitch that’s shared to the USC community through the 1000 Pitches Facebook page. Unlike most pitch competitions, 1000 Pitches does not seek highly prepared presentations. Instead, students spontaneously share their pitch at a “pitch booth” set up somewhere on campus in exchange for a super-soft, super comfy T-Shirt. This approach lets us target the general USC student population, who may not already be familiar with entrepreneurial thinking, and make an impact that reaches all corners of campus."
+   - "Spark SC started the USC branch of 1000 Pitches in Fall 2014, and we’ve continued the tradition in the Fall of 2015 and 2016. Every year of the competition so far, we’ve exceeded our goal of collecting one thousand pitches."
+   - "We believe amazing ideas are out there—scribbled on a sticky note, typed up in a notes app, or incubating in a brain. 1000 Pitches invites students to discard their preconceptions of who can be an entrepreneur and believe that everyone has an idea worth sharing."
    - "Send us a note at hello@sparksc.org to find out how your organization can sponsor!"
 
   partners:
@@ -56,7 +56,7 @@ pitches:
 agf:
   order: 1
   _url: "/events/arts-grooves-foods.html"
-  name: "Arts Grooves & Foods"
+  name: "Arts, Grooves, and Foods"
   width: 3
   card_url: "/img/events/agf/agf_card.jpg"
   cover_url: "/img/events/agf/agf_11.jpg"
@@ -64,12 +64,11 @@ agf:
   date: "March 12, 2015"
   attendance: "400 Students, 80 Booths, 1 Festival"
   goal: "Arts, Grooves, & Foods is a celebration of student innovation in art, music, and food seeking to expand the perceived definition of entrepreneurship"
-  one_liner: "An art, music, and cullinary festival that celebrates entrepreneurs living off of their creative talents."
+  one_liner: "An art, music, and culinary festival that celebrates the intersection of entrepreneurship and creativity."
   description:
-   - "Arts, Grooves, & Foods is a music festival juxtaposed with a student talent exposition buzzing with an electric excitement."
-   - "The initiative was born from an urge to inform the masses that entrepreneurship is more than starting companies and the desire to unite the talented students of USC’s diverse disciplines. Seemingly disparate goals? Not upon further investigation."
-   - "By seeking out individuals working on creative and exciting projects in fields not traditionally linked to entrepreneurship, showcasing their brilliant work, and connecting the underlying entrepreneurial dots for participants and attendees alike, we were able to expose students of Viterbi, Annenberg, Dornsife, Roski, and others to the inspiring work of their Trojan peers and spread the message that the heart of entrepreneurship lies in creativity and self empowerment rather than LLCs and funding sprees."
-   - "Arts, Grooves, & Foods is an event, but more than that, it is a movement for which we foresee burgeoning growth and far reaching impact."
+   - "Arts, Grooves, and Foods is a fair that brings together USC’s creative community to showcase its work and help others jumpstart their artistic, musical, and culinary ventures."
+   - "The initiative was born from an urge to inform the masses that entrepreneurship is more than just launching startups."
+   - "We seek out individuals working on creative and exciting projects in fields not traditionally linked to entrepreneurship, showcase their brilliant work, and connect the underlying entrepreneurial dots for participants and attendees alike. By exposing students of engineering, communication, business, sciences, art and design, and others to the inspiring work of their Trojan peers, we can spread the message that the spirit of entrepreneurship lies in creativity and self empowerment, beyond simply starting a company."
 
   partners:
    - id: "iovine"
@@ -115,10 +114,11 @@ launch:
   date: "All year long"
   attendance: ""
   goal: "To support and inspire our surrounding community through service-oriented projects and initiatives within the lens of entrepreneurship."
-  one_liner: "Supporting USC's surrounding community."
+  one_liner: "Building local high school students into leaders of the future by connecting them with USC student mentors."
   description:
-   - "Against the backdrop of student entrepreneurship, creativity, and technology, Spark SC seeks to create impact beyond the USC campus. Each semester, Spark engages in various community-oriented projects, initiatives, and events within our goals of cultivating and inspiring entrepreneurship. From empowering girls in engineering to collaborating with local school programs, we continue to develop projects of different levels of social impact."
-   - "We strive to address communities and diverse opportunities and would love to hear about various ways we can offer our time, leadership, and hands. If you or your organization would like to build something together, please contact hello@sparksc.org with “Community Service Opportunity” in the email subject."
+   - "Project Launch connects USC student mentors with Rockets, which are high school student mentees. Through the program, Rockets learn important hard skills and soft skills, travel to tech and entrepreneurship hubs in Los Angeles, and gain access to tools and resources to facilitate their learning. Rockets are matched with relatable mentors who share their interests and passions, and each mentor also has professional experience in their mentee’s areas of interest."
+   - "We focus on practical skills that are relevant to science, technology, engineering, art, and math (STEAM), and take Rockets through a carefully constructed, hands-on curriculum to build these skills. We equip the Rockets with a variety of tools, from hard skills like coding, designing and video editing, to soft skills like working in teams, ideating and sending professional emails. We empower our mentees to be lifelong learners, and promote a growth mindset to help the Rockets learn new skills and tackle difficult challenges in the future."
+   - "Project Launch is supported and funded entirely through crowdfunding and corporate sponsors. If you are interested in learning more about this exceptional initiative, please send us an email at hello@sparksc.org."
 
   partners:
    - id: "hybrid"
@@ -221,16 +221,13 @@ podcast:
   date: "August 17, 2015"
   attendance: "300 Students. 5 Orgs. 1 Community."
   goal: "At the beginning of each semester, the Spark Fair showcases Spark SC’s member organizations to provide clear and meaningful introductions to students interested in joining."
-  one_liner: "A chance for students to casually meet the leaders of USC's leading entrepreneurial organizations."
+  one_liner: "Entrepreneurship, innovation, and taking the road less travelled in Silicon Beach."
   description:
-   - "The Spark Fair is a large-scale event at the beginning of each semester that showcases Spark SC’s member organizations and encourages students to join the Spark SC community."
-   - "The Spark Fair allows students to learn more about organizations in the tech, entrepreneurship, and design scene on campus.The event has the feel of a small involvement fair, with the added benefit of music, food, and more interaction between organization leaders and potential members. Students who attend are encouraged to mingle with like-minded individuals who may be future club-mates. "
+   - "Spark XM is the official podcast of Spark SC. We interview leaders of entrepreneurship and innovation in Silicon Beach, the Los Angeles tech and startup community. The podcast features prominent USC students, alumni, and LA entrepreneurs, who share stories that inspire and provide a deeper insight into the LA startup ecosystem."
+   - "To get it touch with Spark XM, email us at xm@sparksc.org."
 
   partners:
-   - id: lava
-   - id: dfa
-   - id: coca
-   - id: 3d4e
+   - id: "science"
 
   members:
    - name: "Josh"
@@ -262,8 +259,8 @@ podcast:
 
 safari:
   order: 4
-  _url: "/events/tech-tours.html"
-  name: "Tech Tours"
+  _url: "/events/safari.html"
+  name: "Safari"
   width: 3
   card_url: "/img/events/tours/tours_card.jpg"
   cover_url: "/img/events/tours/tours_3.jpg"
@@ -271,10 +268,12 @@ safari:
   date: "All year round"
   attendance: "25 Students. 20 Companies. 5 Tours."
   goal: "Tech Tours give Trojans the opportunity to tour the companies that shape the Los Angeles tech movement, ranging from small startups to well known corporations."
-  one_liner: "We organize monthly trips to local companies we think are awesome for our members."
+  one_liner: "Discovering awesome Los Angeles and San Francisco companies."
   description:
-   - "It’s difficult to get a feel for what it’s like to work at a tech company, so we’d rather show than tell. Tech Tours take USC students all over Los Angeles to tour the buildings, campuses, and basements that make up the LA tech scene."
-   - "Our 'tech tourists' get to see companies’ working environments, learn about their initiatives, and meet individuals who love and influence their missions. On a given Tech Tour, we will load up a few cars in the morning and see about 3 companies throughout the course of the day. Viewing multiple companies per trip lets us compare cultures and projects and helps us to better paint the picture of LA tech as a whole."
+   - "It’s difficult to get a feel for how high-octane startups, companies, and initiatives work, so we’d rather show than tell. Safaris take USC students all over Los Angeles and San Francisco to tour the buildings, campuses, and garages of the best organizations each city has to offer."
+   - "Our 'tourists' get to see companies’ working environments, learn about their initiatives, and meet the individuals who make it all work. On a given Safari in Los Angeles, we will load up a few cars in the morning and see one to three companies in a day. Viewing multiple companies per trip lets us compare cultures and projects and helps us to better paint the picture of LA tech as a whole."
+   - "Each semester, we also organize a trip from Los Angeles to the San Francisco Bay Area, where students tour startups and other organizations in the Silicon Valley."
+   - "To learn more about Safari, email us at hello@sparksc.org."
 
   partners:
    - id: "google"
@@ -321,11 +320,10 @@ scf:
   date: "February 19, 2015"
   attendance: "800 Students. 25 Companies. 1 Drone."
   goal: "The Startup Career Fair connects Los Angeles based startup companies to Trojans looking for internships and full time positions in engineering, design and business."
-  one_liner: "Helping connect USC's top talent to LA's fastest growing companies."
+  one_liner: "Connecting USC's top talent with LA's hottest startups."
   description:
-   - "The startup scene in Los Angeles is burgeoning. One of our goals at Spark SC is to help fuel this growth. By connecting top LA startup companies to USC’s pool of talented engineers, designers and business students, we believe we can make a positive impact on LA innovation. "
-   - "The Startup Career Fair, organized exclusively by Spark SC, invites over 25 LA based startup companies to the USC campus to network with potential intern and full time hires. All day, the Quad is lined with companies hiring for a myriad of positions. This past spring, 800 students packed into the quad to speak to recruiters and find more information about their company culture and positions. "
-   - "Spark SC sees a shift in students’ preference from working at large corporations to working at startups. We view this positively because we believe that the quick-to-prototype nature of startups provides a beneficial learning experience for Trojans."
+   - "The startup scene in Los Angeles is burgeoning, and we want to help fuel this growth. By connecting top LA startup companies to USC’s pool of talented engineers, designers and business students, we believe we can make a positive impact on innovation in LA."
+   - "The Startup Career Fair invites around 25 LA-based startup companies to the USC campus to network with potential intern and full time hires. Each semester, around 800 students head to the Engineering Quad to speak to recruiters and learn more about their company culture and open positions."
 
   partners:
    - id: "snapchat"
@@ -384,7 +382,7 @@ scf:
 itp499:
   order: 5
   _url: "/events/itp-499.html"
-  name: "ITP 499: From Idea to Impact"
+  name: "ITP 499: From Ideas to Impact"
   width: 6
   card_url: "/img/events/itp/itp_card.jpg"
   cover_url: "/img/events/itp/itp_cover.jpg"
@@ -392,11 +390,10 @@ itp499:
   date: "February 19, 2015"
   attendance: "800 Students. 25 Companies. 1 Drone."
   goal: "The Startup Career Fair connects Los Angeles based startup companies to Trojans looking for internships and full time positions in engineering, design and business."
-  one_liner: "Helping connect USC's top talent to LA's fastest growing companies."
+  one_liner: "The first student-led class at USC, focusing on learning how to make an impact in your community."
   description:
-   - "The startup scene in Los Angeles is burgeoning. One of our goals at Spark SC is to help fuel this growth. By connecting top LA startup companies to USC’s pool of talented engineers, designers and business students, we believe we can make a positive impact on LA innovation. "
-   - "The Startup Career Fair, organized exclusively by Spark SC, invites over 25 LA based startup companies to the USC campus to network with potential intern and full time hires. All day, the Quad is lined with companies hiring for a myriad of positions. This past spring, 800 students packed into the quad to speak to recruiters and find more information about their company culture and positions. "
-   - "Spark SC sees a shift in students’ preference from working at large corporations to working at startups. We view this positively because we believe that the quick-to-prototype nature of startups provides a beneficial learning experience for Trojans."
+   - "ITP 499 is an experimental, project-based class organized by Professor Mike Lee and the leaders of Spark SC. First and second year students at USC learn how to ideate and execute by working on high-impact, high-success projects that unite, inspire, and empower USC and its surrounding communities. The course teaches an engineering approach to making a measurable impact, provides mentors to students, and connects students with university administrators, faculty, students, and industry leaders that are paving the way in making meaningful impact at USC and beyond."
+   - "This class represents a concrete approach to inspiring a culture of innovation at USC. Our hope is that alumni of ITP 499 become active contributors to the entrepreneurship and innovation community at USC, and move the needle at USC towards entrepreneurial action."
 
   partners:
    - id: "snapchat"
@@ -426,7 +423,7 @@ itp499:
 studios:
   order: 6
   _url: "/events/venture-studios.html"
-  name: "Ventures Studios"
+  name: "Venture Studios"
   width: 3
   card_url: "/img/events/scf/scf_card.jpg"
   cover_url: "/img/events/scf/scf_1.jpg"
@@ -434,31 +431,12 @@ studios:
   date: "February 19, 2015"
   attendance: "800 Students. 25 Companies. 1 Drone."
   goal: "The Startup Career Fair connects Los Angeles based startup companies to Trojans looking for internships and full time positions in engineering, design and business."
-  one_liner: "Helping connect USC's top talent to LA's fastest growing companies."
+  one_liner: "Guiding early stage startups through their infancy with pro bono consulting."
   description:
-   - "The startup scene in Los Angeles is burgeoning. One of our goals at Spark SC is to help fuel this growth. By connecting top LA startup companies to USC’s pool of talented engineers, designers and business students, we believe we can make a positive impact on LA innovation. "
-   - "The Startup Career Fair, organized exclusively by Spark SC, invites over 25 LA based startup companies to the USC campus to network with potential intern and full time hires. All day, the Quad is lined with companies hiring for a myriad of positions. This past spring, 800 students packed into the quad to speak to recruiters and find more information about their company culture and positions. "
-   - "Spark SC sees a shift in students’ preference from working at large corporations to working at startups. We view this positively because we believe that the quick-to-prototype nature of startups provides a beneficial learning experience for Trojans."
+   - "The Venture Studios program helps budding startups at USC take their first steps in developing a product. The Venture Studios team meets in-person with startup teams on a monthly basis to discuss application development, graphic design, user testing, and more. By providing assistance directly to startups, we seek to directly impact the success of startups in our community."
 
   partners:
    - id: "snapchat"
-   - id: "daqri"
-   - id: "tinder"
-   - id: "styku"
-   - id: "fastpay"
-   - id: "zefr"
-   - id: "omaze"
-   - id: "rubicon"
-   - id: "tigertext"
-   - id: "colab"
-   - id: "soothe"
-   - id: "whisper"
-   - id: "stackcommerce"
-   - id: "washio"
-   - id: "crosscampus"
-   - id: "hawkemedia"
-   - id: "lloyd"
-   - id: "mayor"
 
   members:
    - name: Xavier
@@ -493,11 +471,9 @@ jams:
   date: "February 19, 2015"
   attendance: "800 Students. 25 Companies. 1 Drone."
   goal: "The Startup Career Fair connects Los Angeles based startup companies to Trojans looking for internships and full time positions in engineering, design and business."
-  one_liner: "Helping connect USC's top talent to LA's fastest growing companies."
+  one_liner: "Small-group design thinking exercises that promote entrepreneurial thinking."
   description:
-   - "The startup scene in Los Angeles is burgeoning. One of our goals at Spark SC is to help fuel this growth. By connecting top LA startup companies to USC’s pool of talented engineers, designers and business students, we believe we can make a positive impact on LA innovation. "
-   - "The Startup Career Fair, organized exclusively by Spark SC, invites over 25 LA based startup companies to the USC campus to network with potential intern and full time hires. All day, the Quad is lined with companies hiring for a myriad of positions. This past spring, 800 students packed into the quad to speak to recruiters and find more information about their company culture and positions. "
-   - "Spark SC sees a shift in students’ preference from working at large corporations to working at startups. We view this positively because we believe that the quick-to-prototype nature of startups provides a beneficial learning experience for Trojans."
+   - "Design Jams are events where a small group of students get together to perform a design thinking exercise centering on an issue or topic. In collaboration with USC’s Design For America, Spark SC hosts Design Jams with the goal of introducing students to design thinking and promoting exercise of ideation skills in a meaningful and important way."
 
   partners:
    - id: "snapchat"
@@ -551,12 +527,11 @@ fellows:
   logo_url: "/img/logos/scf_blue.png"
   date: "February 19, 2015"
   attendance: "800 Students. 25 Companies. 1 Drone."
-  goal: "The Startup Career Fair connects Los Angeles based startup companies to Trojans looking for internships and full time positions in engineering, design and business."
-  one_liner: "Helping connect USC's top talent to LA's fastest growing companies."
+  goal: "A one-of-a-kind fellowship program centered on the Los Angeles startup ecosystem."
+  one_liner: "A one-of-a-kind fellowship program centered on the Los Angeles startup ecosystem."
   description:
-   - "The startup scene in Los Angeles is burgeoning. One of our goals at Spark SC is to help fuel this growth. By connecting top LA startup companies to USC’s pool of talented engineers, designers and business students, we believe we can make a positive impact on LA innovation. "
-   - "The Startup Career Fair, organized exclusively by Spark SC, invites over 25 LA based startup companies to the USC campus to network with potential intern and full time hires. All day, the Quad is lined with companies hiring for a myriad of positions. This past spring, 800 students packed into the quad to speak to recruiters and find more information about their company culture and positions. "
-   - "Spark SC sees a shift in students’ preference from working at large corporations to working at startups. We view this positively because we believe that the quick-to-prototype nature of startups provides a beneficial learning experience for Trojans."
+   - "TechLA Fellows connects students with paid summer internships in Los Angeles through the TechLA Fellows program, and augments their summer experience with community-building events and a mentorship program. Los Angeles is at the intersection of arts, culture, and technology, which means that it has something special to bring to the table. Our fellows get the complete Los Angeles experience, on top of their career-defining internship at one of our partner startups."
+   - "Our mission is to expose students to the diverse technology scene in Los Angeles, connect companies to incredible talent, and build a family of engaged, forward-thinking leaders that will move the city forward."
 
   partners:
    - id: "snapchat"
@@ -652,7 +627,7 @@ usch:
   date: "All year round."
   attendance: "400 Shirts. 8 Hackathons. 1 Community."
   goal: "USC Hackers is an organized community of developers that encourages partnership and mentorship surrounding tech, hacking and prototyping."
-  one_liner: "Inspiring students to explore technology outside of the classroom."
+  one_liner: "Building the computer science community at USC."
   description:
    - "The hacker community at USC first formed in early 2014 with the creation of Hack Nights. Hack Nights were a place where anyone could come and work on projects with free drinks and pizza. They provided a coworking space where hackers could meet up, hear about eachothers ideas and start on new projects together."
    - "Now, we have adopted a new idea of a USC Hackers community, where hack nights and shared projects are an implication of the community we are trying to form, rather than an end result. We kick off the year with a USC Hackers Orientation event, where freshman learning computer science, or anyone else who is new to developing can mingle, view projects made at past hackathons, and hear about the hacker events, workshops and mentorship opportunities.Then, throughout the year, members of the community are encouraged to attend hackathons and other tech events together and rep the USC Hacker’s swag! We are proud to be trojan hackers and so excited to get building together!"

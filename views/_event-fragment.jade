@@ -18,19 +18,6 @@ div.event-container
             div.row
                 div.col-md-7
                     div.row
-                        p(style="font-weight:700; font-style:italic;") DATE: #{data.events[locals.post.id].date}
-                        p #{data.events[locals.post.id].attendance}
-
-                div.col-md-1
-
-                div.col-md-4
-                    div.row.goals
-                        p.yellow GOAL
-                        p #{data.events[locals.post.id].goal}
-
-            div.row
-                div.col-md-7
-                    div.row
                         p(style="font-weight:700; font-style:italic;") EVENT DESCRIPTION
 
                         for d in data.events[locals.post.id].description
@@ -72,7 +59,7 @@ div.event-container
             for url in data.events[locals.post.id].bottom_images
                 div.col-sm-6(style="padding:0px")
                     div.bottom-image(style='background-image:url(#{url})')
-        
+
         div.row(style="background-color:black")
             div.col-xs-6
                 div.letterhead
