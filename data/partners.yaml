@@ -104,7 +104,7 @@ lava:
 dfa:
     name: "dfa"
     source: "/img/logos/dfa.png"
-    link: "http://www.designforamericausc.com/"
+    link: "http://www.uscdesignforamerica.xyz"
 
 coca:
     name: "coca"
@@ -285,3 +285,43 @@ stackcommerce:
     name: "stackcommerce"
     source: "/img/companies/stackcommerce.svg"
     link: "https://stackcommerce.com/"
+
+saucey:
+    name: "saucey"
+    source: "/img/companies/saucey.png"
+    link: "http://saucey.com"
+
+lavisual:
+    name: "lavisual"
+    source: "/img/companies/lavisual.png"
+    link: "http://lavisual.com"
+
+healthvana:
+    name: "healthvana"
+    source: "/img/companies/healthvana.png"
+    link: "http://healthvana.com"
+
+faemap:
+     name: "faemap"
+     source: "/img/companies/faemap.png"
+     link: "http://faemaps.com"
+
+float:
+      name: "float"
+      source: "/img/companies/float.png"
+      link: "http://hellofloat.com"
+
+speakr:
+      name: "speakr"
+      source: "/img/companies/speakr.png"
+      link: "http://speakr.com"
+
+synkio:
+      name: "synkio"
+      source: "/img/companies/synkio.png"
+      link: "http://synk.io"
+
+fluxla:
+      name: "fluxla"
+      source: "/img/companies/fluxla.png"
+      link: "http://flux.la"

@@ -10,7 +10,7 @@ module.exports =
   ignores: ['README.md', '**/layout.*', '**/_*', '.gitignore', 'ship.*conf']
 
   locals:
-    title: 'Spark SC \&middot; Student Innovation at USC',
+    title: 'Spark SC',
     description: 'Innovators and entrepreneurs at the University of Southern California.'
 
   extensions: [

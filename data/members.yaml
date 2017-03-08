@@ -300,3 +300,53 @@ jenny:
   lower: "jenny"
   id: "jenny"
   source: "/img/members/jenny.jpg"
+
+ananya:
+  lower: "ananya"
+  id: "ananya"
+  source: "/img/members/ananya.jpg"
+
+ian:
+  lower: "ian"
+  id: "ian"
+  source: "/img/members/ian.jpg"
+
+jules:
+  lower: "jules"
+  id: "jules"
+  source: "/img/members/jules.jpg"
+
+kayla:
+  lower: "kayla"
+  id: "kayla"
+  source: "/img/members/kayla.jpg"
+
+martin:
+  lower: "martin"
+  id: "martin"
+  source: "/img/members/martin.jpg"
+
+melisa:
+  lower: "melisa"
+  id: "melisa"
+  source: "/img/members/melisa.jpg"
+
+mimi:
+  lower: "mimi"
+  id: "mimi"
+  source: "/img/members/mimi.jpg"
+
+nat:
+  lower: "nat"
+  id: "nat"
+  source: "/img/members/nat.jpg"
+
+suvir:
+  lower: "suvir"
+  id: "suvir"
+  source: "/img/members/suvir.jpg"
+
+teresa:
+  lower: "teresa"
+  id: "teresa"
+  source: "/img/members/teresa.jpg"

@@ -34,17 +34,18 @@ div.event-container
                             for member in data.events[locals.post.id].members
                                 div.col-xs-3.member-photo(style="background-image: url(#{member.source});")
 
-            div.row(style = "padding-bottom: 40px")
-                //- div.col-md-7
-                div.row
-                    p.yellow Our Partners and Sponsors
 
-                div.row
-                    div.partners
-                        for partner in data.events[locals.post.id].partners
-                            if partner.id
-                                a(href="#{data.partners[partner.id].link}")
-                                    img.partner-logo(class="#{data.partners[partner.id].name}" id="#{data.partners[partner.id].name}" src="#{data.partners[partner.id].source}")
+            div.row(style = "padding-bottom: 40px")
+                if data.events[locals.post.id].partners
+                    div.row
+                        p.yellow Our Partners and Sponsors
+
+                    div.row
+                        div.partners
+                            for partner in data.events[locals.post.id].partners
+                                if partner.id
+                                    a(href="#{data.partners[partner.id].link}")
+                                        img.partner-logo(class="#{data.partners[partner.id].name}" id="#{data.partners[partner.id].name}" src="#{data.partners[partner.id].source}")
 
                 //- div.col-md-1
 
@@ -56,6 +57,7 @@ div.event-container
 
 
         div.row
+          if data.events[locals.post.id].bottom_images
             for url in data.events[locals.post.id].bottom_images
                 div.col-sm-6(style="padding:0px")
                     div.bottom-image(style='background-image:url(#{url})')

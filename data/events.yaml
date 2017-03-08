@@ -5,7 +5,7 @@ pitches:
   width: 6
   card_url: "/img/events/1kp/1kp_card.jpg"
   cover_url: "/img/events/1kp/1kp_cover3.jpg"
-  logo_url: "/img/logos/1kp_logo_drop.png"
+  logo_url: "/img/logos/1kp_logo.png"
   date: "September 21st - November 16th, 2015"
   attendance: "$12,000. 1000 Pitches. Your Ideas."
   goal: "1000 Pitches invites you to throw away your preconceptions of who can be an innovator and pitch your $1000 idea. "
@@ -84,16 +84,16 @@ agf:
      source: "/img/members/neel.jpg"
 
    - name: Natalie
-     source: "/img/members/neel.jpg"
+     source: "/img/members/nat.jpg"
 
    - name: Ananya
-     source: "/img/members/neel.jpg"
+     source: "/img/members/ananya.jpg"
 
    - name: Jules
-     source: "/img/members/neel.jpg"
+     source: "/img/members/jules.jpg"
 
    - name: Martin
-     source: "/img/members/neel.jpg"
+     source: "/img/members/martin.jpg"
 
   bottom_images:
    - "/img/events/agf/agf_15.jpg"
@@ -108,8 +108,8 @@ launch:
   _url: "/events/project-launch.html"
   name: "Project Launch"
   width: 3
-  card_url: "/img/events/serv/serv_card.jpg"
-  cover_url: "/img/events/serv/serv_1.jpg"
+  card_url: "/img/events/launch/card_1.jpg"
+  cover_url: "/img/events/launch/cover_1.jpg"
   logo_url: "/img/logos/spark_letterhead.png"
   date: "All year long"
   attendance: ""
@@ -146,7 +146,7 @@ launch:
      source: "/img/members/will.jpg"
 
    - name: "Kayla"
-     source: "/img/members/neel.jpg"
+     source: "/img/members/kayla.jpg"
 
   bottom_images:
    - "/img/events/launch/launch1.jpg"
@@ -215,7 +215,7 @@ podcast:
   _url: "/events/podcast.html"
   name: "Podcast"
   width: 3
-  card_url: "/img/events/mnm/mnm_1.jpg"
+  card_url: "/img/events/pod/card_1.jpg"
   cover_url: "/img/events/mnm/mnm_2.jpg"
   logo_url: "/img/logos/spark_letterhead.png"
   date: "August 17, 2015"
@@ -240,17 +240,13 @@ podcast:
      source: "/img/members/marc.jpg"
 
    - name: "Teresa"
-     source: "/img/members/neel.jpg"
+     source: "/img/members/teresa.jpg"
 
    - name: "Kayla"
-     source: "/img/members/neel.jpg"
+     source: "/img/members/kayla.jpg"
 
    - name: "Ian"
-     source: "/img/members/neel.jpg"
-
-  bottom_images:
-   - "/img/events/mnm/mnm_card2.jpg"
-   - "/img/events/mnm/mnm_card1.jpg"
+     source: "/img/members/ian.jpg"
 
   press:
    - "LINKLINKLINKLINK"
@@ -362,13 +358,13 @@ scf:
      source: "/img/members/sam.jpg"
 
    - name: Martin
-     source: "/img/members/neel.jpg"
+     source: "/img/members/martin.jpg"
 
    - name: Natalie
-     source: "/img/members/neel.jpg"
+     source: "/img/members/nat.jpg"
 
    - name: Melisa
-     source: "/img/members/neel.jpg"
+     source: "/img/members/melisa.jpg"
 
   bottom_images:
    - "/img/events/scf/scf_2.jpg"
@@ -386,7 +382,7 @@ itp499:
   width: 6
   card_url: "/img/events/itp/itp_card.jpg"
   cover_url: "/img/events/itp/itp_cover.jpg"
-  logo_url: "/img/logos/scf_blue.png"
+  logo_url: "/img/logos/spark_letterhead.png"
   date: "February 19, 2015"
   attendance: "800 Students. 25 Companies. 1 Drone."
   goal: "The Startup Career Fair connects Los Angeles based startup companies to Trojans looking for internships and full time positions in engineering, design and business."
@@ -394,9 +390,6 @@ itp499:
   description:
    - "ITP 499 is an experimental, project-based class organized by Professor Mike Lee and the leaders of Spark SC. First and second year students at USC learn how to ideate and execute by working on high-impact, high-success projects that unite, inspire, and empower USC and its surrounding communities. The course teaches an engineering approach to making a measurable impact, provides mentors to students, and connects students with university administrators, faculty, students, and industry leaders that are paving the way in making meaningful impact at USC and beyond."
    - "This class represents a concrete approach to inspiring a culture of innovation at USC. Our hope is that alumni of ITP 499 become active contributors to the entrepreneurship and innovation community at USC, and move the needle at USC towards entrepreneurial action."
-
-  partners:
-   - id: "snapchat"
 
   members:
    - name: Irfan
@@ -425,18 +418,15 @@ studios:
   _url: "/events/venture-studios.html"
   name: "Venture Studios"
   width: 3
-  card_url: "/img/events/scf/scf_card.jpg"
-  cover_url: "/img/events/scf/scf_1.jpg"
-  logo_url: "/img/logos/scf_blue.png"
+  card_url: "/img/events/vs/vs_card.jpg"
+  cover_url: "/img/events/mnm/mnm_2.jpg"
+  logo_url: "/img/logos/spark_letterhead.png"
   date: "February 19, 2015"
   attendance: "800 Students. 25 Companies. 1 Drone."
   goal: "The Startup Career Fair connects Los Angeles based startup companies to Trojans looking for internships and full time positions in engineering, design and business."
   one_liner: "Guiding early stage startups through their infancy with pro bono consulting."
   description:
    - "The Venture Studios program helps budding startups at USC take their first steps in developing a product. The Venture Studios team meets in-person with startup teams on a monthly basis to discuss application development, graphic design, user testing, and more. By providing assistance directly to startups, we seek to directly impact the success of startups in our community."
-
-  partners:
-   - id: "snapchat"
 
   members:
    - name: Xavier
@@ -451,10 +441,6 @@ studios:
    - name: Brian
      source: "/img/members/brian.jpg"
 
-  bottom_images:
-   - "/img/events/scf/scf_2.jpg"
-   - "/img/events/scf/scf_11.jpg"
-
   press:
    - "LINKLINKLINKLINK"
    - "LINKLINKLINKLINK"
@@ -465,9 +451,9 @@ jams:
   _url: "/events/design-jams.html"
   name: "Design Jams"
   width: 3
-  card_url: "/img/events/scf/scf_card.jpg"
-  cover_url: "/img/events/scf/scf_1.jpg"
-  logo_url: "/img/logos/scf_blue.png"
+  card_url: "/img/events/jams/jam_card.jpg"
+  cover_url: "/img/events/jams/jam_cover.jpg"
+  logo_url: "/img/logos/spark_letterhead.png"
   date: "February 19, 2015"
   attendance: "800 Students. 25 Companies. 1 Drone."
   goal: "The Startup Career Fair connects Los Angeles based startup companies to Trojans looking for internships and full time positions in engineering, design and business."
@@ -476,24 +462,7 @@ jams:
    - "Design Jams are events where a small group of students get together to perform a design thinking exercise centering on an issue or topic. In collaboration with USC’s Design For America, Spark SC hosts Design Jams with the goal of introducing students to design thinking and promoting exercise of ideation skills in a meaningful and important way."
 
   partners:
-   - id: "snapchat"
-   - id: "daqri"
-   - id: "tinder"
-   - id: "styku"
-   - id: "fastpay"
-   - id: "zefr"
-   - id: "omaze"
-   - id: "rubicon"
-   - id: "tigertext"
-   - id: "colab"
-   - id: "soothe"
-   - id: "whisper"
-   - id: "stackcommerce"
-   - id: "washio"
-   - id: "crosscampus"
-   - id: "hawkemedia"
-   - id: "lloyd"
-   - id: "mayor"
+   - id: "dfa"
 
   members:
    - name: Landon
@@ -505,12 +474,9 @@ jams:
    - name: Jenny
      source: "/img/members/jenny.jpg"
 
-   - name: DFA
-     source: "/img/members/neel.jpg"
-
   bottom_images:
-   - "/img/events/scf/scf_2.jpg"
-   - "/img/events/scf/scf_11.jpg"
+   - "/img/events/jams/jam1.jpg"
+   - "/img/events/jams/jam2.jpg"
 
   press:
    - "LINKLINKLINKLINK"
@@ -522,9 +488,9 @@ fellows:
   _url: "/events/techla-fellows.html"
   name: "TechLA Fellows"
   width: 6
-  card_url: "/img/events/scf/scf_card.jpg"
-  cover_url: "/img/events/scf/scf_1.jpg"
-  logo_url: "/img/logos/scf_blue.png"
+  card_url: "/img/events/fellows/fellows_card.jpg"
+  cover_url: "/img/events/fellows/fellows_cover.jpg"
+  logo_url: "/img/logos/techla_fellows_logo.png"
   date: "February 19, 2015"
   attendance: "800 Students. 25 Companies. 1 Drone."
   goal: "A one-of-a-kind fellowship program centered on the Los Angeles startup ecosystem."
@@ -534,24 +500,15 @@ fellows:
    - "Our mission is to expose students to the diverse technology scene in Los Angeles, connect companies to incredible talent, and build a family of engaged, forward-thinking leaders that will move the city forward."
 
   partners:
-   - id: "snapchat"
-   - id: "daqri"
-   - id: "tinder"
-   - id: "styku"
-   - id: "fastpay"
-   - id: "zefr"
+   - id: "saucey"
+   - id: "lavisual"
+   - id: "healthvana"
+   - id: "faemap"
+   - id: "float"
+   - id: "speakr"
    - id: "omaze"
-   - id: "rubicon"
-   - id: "tigertext"
-   - id: "colab"
-   - id: "soothe"
-   - id: "whisper"
-   - id: "stackcommerce"
-   - id: "washio"
-   - id: "crosscampus"
-   - id: "hawkemedia"
-   - id: "lloyd"
-   - id: "mayor"
+   - id: "fluxla"
+   - id: "synkio"
 
   members:
    - name: Ankur
@@ -567,17 +524,13 @@ fellows:
      source: "/img/members/mimi.jpg"
 
    - name: Teresa
-     source: "/img/members/neel.jpg"
+     source: "/img/members/teresa.jpg"
 
    - name: Pratima
-     source: "/img/members/neel.jpg"
+     source: "/img/members/pratima.jpg"
 
    - name: Ananya
-     source: "/img/members/neel.jpg"
-
-  bottom_images:
-   - "/img/events/scf/scf_2.jpg"
-   - "/img/events/scf/scf_11.jpg"
+     source: "/img/members/ananya.jpg"
 
   press:
    - "LINKLINKLINKLINK"
@@ -646,10 +599,10 @@ usch:
      source: "/img/members/andrew.jpg"
 
    - name: "Suvir"
-     source: "/img/members/neel.jpg"
+     source: "/img/members/suvir.jpg"
 
    - name: "Ian"
-     source: "/img/members/neel.jpg"
+     source: "/img/members/ian.jpg"
 
   bottom_images:
    - "/img/events/usch/usch_11.jpg"
