@@ -17,7 +17,7 @@ body
     font-family: $font-stack
     font-size: $font-size
     min-height: $desktop-min-height
-    line-height: $font-size * 1.4
+    line-height: 1.4
 
     ::selection
         background: $highlight-color
@@ -29,9 +29,11 @@ body
 /* menu */
 
 .menu-icon
-    width 50px; height 50px
+    width 50px
+    height 50px
     position fixed
-    top 20px; left 20px
+    top 20px
+    left 20px
     background $spark-yellow
     border-radius 1px
     box-shadow 3px 3px 5px 0px rgba(0,0,0,0.30)
@@ -45,7 +47,7 @@ body
         &:before
             content '\2630'
             position absolute
-            top 0; right 0; bottom 0; left 0
+            top 4px; right 0; bottom 0; left 0
             color: white
             font-size: 34px
             text-align: center
